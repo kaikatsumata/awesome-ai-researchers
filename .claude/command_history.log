@@ -1,0 +1,196 @@
+[2026-06-05 16:17:00] git init -q 2>/dev/null; mkdir -p docs/design docs/research data; ls -la
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:24:37] timeout 180 codex exec "次の設計ドキュメントをレビューしてください。これはAI研究者のawesome list(キュレーション)リポジトリの設計です。データ駆動パイプライン(researchers.json→gen.py→README/notes)で構築します。設計上の問題点・改善提案を簡潔に箇条書きで指摘してください。特に(1)データスキーマの妥当性(2)分野分類の網羅性(3)重複排除と多様性担保の方法 を中心に。長文不要。$(cat docs/design/initial-design.md)" 2>&1 | tail -60
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:31:31] python3 -c "import json; d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave1/ml-theory.json')); print(len(d['researchers']))"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:31:36] python3 -c "
+import json
+d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave1/ml-theory.json'))
+rs=d['researchers']
+print('total:',len(rs))
+for i,r in enumerate(rs):
+    print(i+1, r['name'])
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:31:50] python3 -c "
+import json
+p='/Users/s25705/awesome-ai-researchers/data/wave1/ml-theory.json'
+d=json.load(open(p))
+remove={'Marc\'Aurelio Ranzato','Robert Nowak','Michael Bronstein','Andrew Ng','Jure Leskovec'}
+d['researchers']=[r for r in d['researchers'] if r['name'] not in remove]
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=2)
+print('new total:',len(d['researchers']))
+from collections import Counter
+print('countries:',dict(Counter(r['country'] for r in d['researchers'])))
+print('primary:',dict(Counter(r['primary_field'] for r in d['researchers'])))
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:32:14] python3 -c "import json; d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave1/tcs.json')); print('count:', len(d['researchers'])); print('keys ok:', all(set(r.keys())=={'name','primary_field','fields','topics','affiliation','country','origin','venues','key_contributions','awards','metrics','inclusion_reason','homepage','scholar','dblp','sources'} for r in d['researchers']))"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:32:21] python3 -c "
+import json
+p='/Users/s25705/awesome-ai-researchers/data/wave1/tcs.json'
+d=json.load(open(p))
+from collections import Counter
+print('country:', Counter(r['country'] for r in d['researchers']))
+print('origin:', Counter(r['origin'] for r in d['researchers']))
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:32:29] python3 -c "
+import json
+p='/Users/s25705/awesome-ai-researchers/data/wave1/tcs.json'
+d=json.load(open(p))
+remove={'Dana Moshkovitz','Salil Vadhan','Toniann Pitassi'}
+d['researchers']=[r for r in d['researchers'] if r['name'] not in remove]
+json.dump(d, open(p,'w'), ensure_ascii=False, indent=2)
+from collections import Counter
+print('count:', len(d['researchers']))
+print('origin:', Counter(r['origin'] for r in d['researchers']))
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:33:05] python3 -c "import json; d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave1/ai-nn.json')); rs=d['researchers']; from collections import Counter; print('total', len(rs)); print(dict(Counter(r['primary_field'] for r in rs))); print(dict(Counter(r['country'] for r in rs))); print('bad', [r['name'] for r in rs if '/' in r['name'] or not r['name'].strip()])"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:33:12] python3 -c "
+import json
+from collections import Counter
+d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave1/ai-nn.json'))
+names=[r['name'] for r in d['researchers']]
+print('n',len(names))
+dups=[k for k,v in Counter(names).items() if v>1]
+print('dups',dups)
+for n in names: print(n)
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:33:14] python3 -c "
+import json
+d=json.load(open('data/wave1/dm-db.json'))
+r=d['researchers']
+print('total:', len(r))
+from collections import Counter
+print('field:', dict(Counter(x['primary_field'] for x in r)))
+print('countries:', dict(Counter(x['country'] for x in r)))
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:33:18] python3 -c "import json; d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave1/hci-web.json')); rs=d['researchers']; from collections import Counter; print('total:',len(rs)); print('primary_field:',dict(Counter(r['primary_field'] for r in rs))); print('origins:',dict(Counter(r['origin'] for r in rs))); req=['name','primary_field','fields','topics','affiliation','country','origin','venues','key_contributions','awards','metrics','inclusion_reason','homepage','scholar','dblp','sources']; [print('MISS',r['name'],[k for k in req if k not in r]) for r in rs if [k for k in req if k not in r]]; print('schema OK')"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:33:21] python3 -c "
+import json
+d=json.load(open('data/wave1/dm-db.json'))
+r=d['researchers']
+names=[x['name'] for x in r]
+from collections import Counter
+dups={k:v for k,v in Counter(names).items() if v>1}
+print('dups:', dups)
+print('count:', len(names))
+for i,n in enumerate(names): print(i+1, n)
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:33:25] python3 -c "
+import json
+p='/Users/s25705/awesome-ai-researchers/data/wave1/ai-nn.json'
+d=json.load(open(p))
+remove={'Henry Kautz','Sharad Malik','Daniel Weld','Carmel Domshlak','Gerald Tesauro','Pascal Van Hentenryck','Sheila McIlraith','Craig Boutilier','Sebastian Thrun','Maria Fox'}
+d['researchers']=[r for r in d['researchers'] if r['name'] not in remove]
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=2)
+from collections import Counter
+rs=d['researchers']
+print('total',len(rs))
+print(dict(Counter(r['primary_field'] for r in rs)))
+print(dict(Counter(r['country'] for r in rs)))
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:33:32] python3 -c "
+import json
+d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave1/nlp.json'))
+rs=d['researchers']
+print('total:',len(rs))
+from collections import Counter
+print('country:',Counter(r['country'] for r in rs))
+print('origin:',Counter(r['origin'] for r in rs))
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:33:36] python3 -c "
+import json
+path='data/wave1/dm-db.json'
+d=json.load(open(path))
+drop={'Michael Carey','David Maier','Padhraic Smyth','Stefano Ceri','Mohammed J. Zaki','Wei Wang','Jiliang Tang','Jimeng Sun'}
+d['researchers']=[x for x in d['researchers'] if x['name'] not in drop]
+json.dump(d, open(path,'w'), ensure_ascii=False, indent=2)
+from collections import Counter
+r=d['researchers']
+print('total:', len(r))
+print('field:', dict(Counter(x['primary_field'] for x in r)))
+asia=[x['name'] for x in r if x['country'] in ('Japan','China','South Korea','Singapore','UK/China')]
+print('asia-affiliated:', len(asia), asia)
+origin_asia=[x['name'] for x in r if x['origin'] in ('China','Japan','South Korea','Singapore','Taiwan','India','Malaysia')]
+print('asia-origin count:', len(origin_asia))
+women={'Lise Getoor','Jennifer Widom','Anastasia Ailamaki','Laura Haas','Tova Milo','Yizhou Sun'}
+print('women:', len([x for x in r if x['name'] in women]))
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:33:46] python3 -c "import json; d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave1/hci-web.json')); rs=d['researchers']; from collections import Counter; print('total:',len(rs)); print('primary_field:',dict(Counter(r['primary_field'] for r in rs))); print('origins:',dict(Counter(r['origin'] for r in rs))); print('valid JSON')"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:33:59] python3 -c "
+import json
+d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave1/nlp.json'))
+rs=d['researchers']
+print('total:',len(rs))
+from collections import Counter
+c=Counter(r['country'] for r in rs)
+print('countries:',dict(c))
+asia=[r['name'] for r in rs if r['country'] in ('China','Japan','South Korea','India','Singapore','Hong Kong','UAE')]
+print('asia/MEAA count:',len(asia))
+women=['Yejin Choi','Hanna Hajishirzi','Kathleen McKeown','Martha Palmer','Bonnie Webber','Barbara Grosz','Xuanjing Huang','Heng Ji','Danqi Chen','Iryna Gurevych','Mirella Lapata','Regina Barzilay','Rada Mihalcea','Sanja Fidler','Emily M. Bender','Barbara Plank']
+print('women approx:',sum(1 for r in rs if r['name'] in women))
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:34:22] python3 -c "
+import json
+d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave1/nlp.json'))
+rs=d['researchers']
+print('total:',len(rs))
+from collections import Counter
+print('countries:',dict(Counter(r['country'] for r in rs)))
+asia=[r['name'] for r in rs if r['country'] in ('China','Japan','South Korea','India','Singapore','Hong Kong','UAE')]
+print('asia/MEAA:',len(asia))
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
