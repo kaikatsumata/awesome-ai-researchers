@@ -37827,5 +37827,1261 @@
     "sources": [
       "https://wyss.harvard.edu/news/radhika-nagpal-expert-on-swarm-robotics-celebrated-among-natures-10/"
     ]
+  },
+  {
+    "name": "Jason Wei",
+    "primary_field": "nlp",
+    "fields": [
+      "natural language processing",
+      "machine learning"
+    ],
+    "topics": [
+      "連鎖思考プロンプティング",
+      "創発能力",
+      "指示チューニング",
+      "大規模言語モデルの推論",
+      "推論モデル(o1)"
+    ],
+    "affiliation": "OpenAI (旧 Google Brain)",
+    "country": "United States",
+    "origin": "United States",
+    "venues": [
+      "NeurIPS",
+      "ICLR",
+      "TMLR",
+      "ACL",
+      "EMNLP"
+    ],
+    "key_contributions": "Chain-of-Thought(連鎖思考)プロンプティング、Instruction Tuning(FLAN)、LLMの創発能力(Emergent Abilities)を提唱・主導。OpenAI o1推論モデルの中心メンバー。",
+    "awards": [],
+    "metrics": {
+      "citations": "約131,000 (Google Scholar)"
+    },
+    "inclusion_reason": "連鎖思考・創発能力・指示チューニングというLLM推論の核心概念を主導したファーストオーサ級の若手リーダーで被引用約13万。未収録。",
+    "homepage": "https://www.jasonwei.net/",
+    "scholar": "https://scholar.google.com/citations?user=wA5TK_0AAAAJ&hl=en",
+    "dblp": "",
+    "sources": [
+      "https://www.jasonwei.net/",
+      "https://scholar.google.com/citations?user=wA5TK_0AAAAJ&hl=en",
+      "https://arxiv.org/abs/2201.11903"
+    ]
+  },
+  {
+    "name": "Denny Zhou",
+    "primary_field": "nlp",
+    "fields": [
+      "natural language processing",
+      "machine learning"
+    ],
+    "topics": [
+      "LLMの推論",
+      "自己整合性(Self-Consistency)",
+      "Least-to-Mostプロンプティング",
+      "汎化",
+      "Geminiの推論"
+    ],
+    "affiliation": "Google DeepMind",
+    "country": "United States",
+    "origin": "China",
+    "venues": [
+      "NeurIPS",
+      "ICLR",
+      "ICML",
+      "WSDM"
+    ],
+    "key_contributions": "Google Brainの推論チームを創設。連鎖思考・自己整合性・Least-to-Mostなど一連のLLM推論手法を主導し、Geminiの推論能力構築に貢献。",
+    "awards": [
+      "WSDM Test of Time Award (2022)",
+      "Google Research Tech Impact Award (2022)"
+    ],
+    "metrics": {
+      "citations": "約120,000 (Google Scholar)"
+    },
+    "inclusion_reason": "LLM推論研究の中核を主導し被引用約12万。Google推論チーム創設者だが未収録。",
+    "homepage": "https://dennyzhou.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=UwLsYw8AAAAJ&hl=en",
+    "dblp": "",
+    "sources": [
+      "https://dennyzhou.github.io/",
+      "https://scholar.google.com/citations?user=UwLsYw8AAAAJ&hl=en"
+    ]
+  },
+  {
+    "name": "Shunyu Yao",
+    "primary_field": "agents",
+    "fields": [
+      "natural language processing",
+      "machine learning"
+    ],
+    "topics": [
+      "言語エージェント",
+      "ReAct",
+      "Tree of Thoughts",
+      "SWE-bench",
+      "推論と行動の統合"
+    ],
+    "affiliation": "(旧 OpenAI / Princeton University)",
+    "country": "United States",
+    "origin": "China",
+    "venues": [
+      "NeurIPS",
+      "ICLR",
+      "ICML"
+    ],
+    "key_contributions": "ReAct(推論と行動の統合)、Tree of Thoughts、SWE-bench、CoALAなど言語エージェントの基盤手法を主導。OpenAIのDeep Research/Operatorの中核貢献者。",
+    "awards": [],
+    "metrics": {
+      "citations": "約25,000 (Google Scholar)"
+    },
+    "inclusion_reason": "LLMエージェント分野の基礎(ReAct/ToT/SWE-bench)をファーストオーサとして確立し被引用約2.5万。未収録。",
+    "homepage": "https://ysymyth.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=i4kyLbwAAAAJ&hl=en",
+    "dblp": "",
+    "sources": [
+      "https://ysymyth.github.io/",
+      "https://scholar.google.com/citations?user=i4kyLbwAAAAJ&hl=en"
+    ]
+  },
+  {
+    "name": "Dan Hendrycks",
+    "primary_field": "ml",
+    "fields": [
+      "machine learning",
+      "natural language processing",
+      "ai safety"
+    ],
+    "topics": [
+      "AI安全性",
+      "ベンチマーク(MMLU)",
+      "頑健性",
+      "GELU活性化関数",
+      "OOD検出"
+    ],
+    "affiliation": "Center for AI Safety (CAIS)",
+    "country": "United States",
+    "origin": "United States",
+    "venues": [
+      "ICLR",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "MMLU・MATHなど主要LLMベンチマークを主導。GELU活性化関数、OOD/頑健性評価、AI安全性研究を牽引。Center for AI Safetyを設立・主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "約60,000 (Google Scholar)"
+    },
+    "inclusion_reason": "MMLU等の標準ベンチマークとGELUを生み出した評価・安全性分野の中心人物。被引用極めて多く未収録。",
+    "homepage": "https://danhendrycks.com/",
+    "scholar": "https://scholar.google.com/citations?user=czyretsAAAAJ&hl=en",
+    "dblp": "",
+    "sources": [
+      "https://danhendrycks.com/",
+      "https://github.com/hendrycks/test",
+      "https://en.wikipedia.org/wiki/MMLU"
+    ]
+  },
+  {
+    "name": "Jacob Steinhardt",
+    "primary_field": "ml",
+    "fields": [
+      "machine learning",
+      "ai safety",
+      "statistics"
+    ],
+    "topics": [
+      "AIアラインメント",
+      "モデル評価・測定",
+      "頑健性",
+      "解釈可能性",
+      "報酬ハッキング"
+    ],
+    "affiliation": "UC Berkeley",
+    "country": "United States",
+    "origin": "United States",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "ICLR"
+    ],
+    "key_contributions": "MLの頑健性・報酬指定・スケーラブルなアラインメント、創発的挙動の予測・測定を主導。MMLU等にも貢献。AI2050 Early Career Fellow。",
+    "awards": [
+      "AI2050 Early Career Fellow (Schmidt Sciences)"
+    ],
+    "metrics": {
+      "citations": "約49,000 (Google Scholar)"
+    },
+    "inclusion_reason": "AIアラインメント・評価・頑健性分野のトップ研究者で被引用約4.9万。未収録。",
+    "homepage": "https://jsteinhardt.stat.berkeley.edu/",
+    "scholar": "https://scholar.google.com/citations?user=LKv32bgAAAAJ&hl=en",
+    "dblp": "https://dblp.org/pid/35/10625.html",
+    "sources": [
+      "https://jsteinhardt.stat.berkeley.edu/",
+      "https://scholar.google.com/citations?user=LKv32bgAAAAJ&hl=en"
+    ]
+  },
+  {
+    "name": "Guillaume Lample",
+    "primary_field": "nlp",
+    "fields": [
+      "natural language processing",
+      "machine learning"
+    ],
+    "topics": [
+      "オープンLLM(Mistral/Mixtral)",
+      "教師なし機械翻訳",
+      "クロスリンガル事前学習(XLM)",
+      "数式の記号的推論",
+      "Mixture-of-Experts"
+    ],
+    "affiliation": "Mistral AI",
+    "country": "France",
+    "origin": "France",
+    "venues": [
+      "NeurIPS",
+      "ICLR",
+      "ACL",
+      "EMNLP"
+    ],
+    "key_contributions": "Mistral AIの共同創業者兼Chief Scientist。Mistral 7B/Mixtralを主導。FAIRでXLM・教師なし翻訳・記号数学・LLaMAを主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "約66,000 (Google Scholar)"
+    },
+    "inclusion_reason": "欧州最有力オープンモデルMistralの技術リーダーで、XLM/LLaMA系も主導。被引用約6.6万。フランス代表で未収録。",
+    "homepage": "https://scholar.google.com/citations?user=H7sVDmIAAAAJ&hl=en",
+    "scholar": "https://scholar.google.com/citations?user=H7sVDmIAAAAJ&hl=en",
+    "dblp": "https://dblp.org/pid/169/3307.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=H7sVDmIAAAAJ&hl=en",
+      "https://arxiv.org/abs/2310.06825"
+    ]
+  },
+  {
+    "name": "Tim Dettmers",
+    "primary_field": "ml",
+    "fields": [
+      "machine learning",
+      "natural language processing"
+    ],
+    "topics": [
+      "量子化(8bit/4bit)",
+      "効率的ファインチューニング(QLoRA)",
+      "bitsandbytes",
+      "k-bit推論スケーリング則",
+      "アクセシブルなAI"
+    ],
+    "affiliation": "Carnegie Mellon University / Allen Institute for AI (Ai2)",
+    "country": "United States",
+    "origin": "Germany",
+    "venues": [
+      "NeurIPS",
+      "ICLR",
+      "ICML"
+    ],
+    "key_contributions": "QLoRA、LLM.int8()、8-bit optimizer、bitsandbytesを開発。LLMの量子化・効率的ファインチューニングの第一人者。",
+    "awards": [],
+    "metrics": {
+      "citations": "約30,000 (Google Scholar)"
+    },
+    "inclusion_reason": "LLM効率化(量子化・QLoRA)分野を牽引するファーストオーサ級研究者でbitsandbytes作者。被引用多く未収録。",
+    "homepage": "https://timdettmers.com/",
+    "scholar": "https://scholar.google.com/citations?user=lHI3w5kAAAAJ&hl=en",
+    "dblp": "",
+    "sources": [
+      "https://timdettmers.com/about/",
+      "https://arxiv.org/pdf/2305.14314"
+    ]
+  },
+  {
+    "name": "Edward J. Hu",
+    "primary_field": "ml",
+    "fields": [
+      "machine learning",
+      "natural language processing"
+    ],
+    "topics": [
+      "低ランク適応(LoRA)",
+      "パラメータ効率的ファインチューニング",
+      "muP(maximal update parametrization)",
+      "推論",
+      "生成フローネットワーク"
+    ],
+    "affiliation": "(Mila / 起業)",
+    "country": "Canada",
+    "origin": "China",
+    "venues": [
+      "ICLR",
+      "NeurIPS"
+    ],
+    "key_contributions": "LoRA(Low-Rank Adaptation)のファーストオーサ。muPによるハイパーパラメータ転移にも貢献。LLM軽量適応の標準を確立。",
+    "awards": [],
+    "metrics": {
+      "citations": "約25,000 (Google Scholar)"
+    },
+    "inclusion_reason": "LoRA(被引用1.5万超の単一論文)で効率的ファインチューニングの標準を作ったファーストオーサ。未収録。",
+    "homepage": "https://edwardjhu.com/",
+    "scholar": "https://scholar.google.com/citations?user=A8AZBYsAAAAJ&hl=en",
+    "dblp": "",
+    "sources": [
+      "https://arxiv.org/abs/2106.09685",
+      "https://github.com/microsoft/LoRA"
+    ]
+  },
+  {
+    "name": "Hao Zhang",
+    "primary_field": "ml",
+    "fields": [
+      "machine learning",
+      "systems",
+      "natural language processing"
+    ],
+    "topics": [
+      "MLシステム",
+      "LLMサービング(vLLM/DistServe)",
+      "LLM評価(Chatbot Arena)",
+      "Vicuna",
+      "分散学習(Alpa)"
+    ],
+    "affiliation": "UC San Diego (Hao AI Lab)",
+    "country": "United States",
+    "origin": "China",
+    "venues": [
+      "OSDI",
+      "NeurIPS",
+      "ICML",
+      "ICLR",
+      "MLSys"
+    ],
+    "key_contributions": "LMSYS共同創設者。Vicuna、Chatbot Arena(LMArena)、vLLM、DistServe、Alpaを主導。LLMサービングと人手評価基盤を牽引。",
+    "awards": [
+      "Sloan Research Fellow (2026)",
+      "OSDI Best Paper Award (2021)",
+      "Google ML and Systems Award (2025)"
+    ],
+    "metrics": {
+      "citations": "約32,000 (Google Scholar)"
+    },
+    "inclusion_reason": "Chatbot Arena/vLLM/Vicunaを主導するMLシステム・LLM評価のリーダーで被引用約3.2万。未収録。",
+    "homepage": "https://haozhang.ai/",
+    "scholar": "https://scholar.google.com/citations?user=H1d4BS8AAAAJ&hl=en",
+    "dblp": "",
+    "sources": [
+      "https://haozhang.ai/",
+      "https://scholar.google.com/citations?user=H1d4BS8AAAAJ&hl=en"
+    ]
+  },
+  {
+    "name": "Lianmin Zheng",
+    "primary_field": "ml",
+    "fields": [
+      "machine learning",
+      "systems",
+      "natural language processing"
+    ],
+    "topics": [
+      "LLMサービング(SGLang)",
+      "LLM評価(Chatbot Arena)",
+      "FastChat/Vicuna",
+      "深層学習コンパイラ(Ansor)",
+      "並列化(Alpa)"
+    ],
+    "affiliation": "xAI (旧 UC Berkeley / LMSYS)",
+    "country": "United States",
+    "origin": "China",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "OSDI",
+      "MLSys"
+    ],
+    "key_contributions": "LMSYS共同創設者。SGLang、FastChat/Vicuna、Chatbot Arena、Ansor、Alpaを主導。構造化LLM実行と評価基盤を牽引。",
+    "awards": [],
+    "metrics": {
+      "citations": "約25,000 (Google Scholar)"
+    },
+    "inclusion_reason": "SGLang/Chatbot Arena/Vicunaを主導したMLシステム・LLM評価のファーストオーサ級リーダー。未収録。",
+    "homepage": "https://lmzheng.net/",
+    "scholar": "https://scholar.google.com/citations?user=_7M1zU0AAAAJ&hl=en",
+    "dblp": "https://dblp.org/pid/211/7027.html",
+    "sources": [
+      "https://lmzheng.net/publications/",
+      "https://dblp.org/pid/211/7027.html"
+    ]
+  },
+  {
+    "name": "Songlin Yang",
+    "primary_field": "ml",
+    "fields": [
+      "machine learning",
+      "natural language processing"
+    ],
+    "topics": [
+      "線形アテンション",
+      "効率的系列モデリング",
+      "ハードウェア対応アルゴリズム設計",
+      "Gated Linear Attention",
+      "DeltaNet/Flash Linear Attention"
+    ],
+    "affiliation": "MIT CSAIL",
+    "country": "United States",
+    "origin": "China",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "ICLR",
+      "COLM"
+    ],
+    "key_contributions": "Gated Linear Attention、DeltaNetの並列化、Flash Linear Attentionライブラリを主導。線形アテンション系の効率学習を牽引。",
+    "awards": [],
+    "metrics": {
+      "citations": "約4,000 (Google Scholar)"
+    },
+    "inclusion_reason": "線形アテンション/効率的系列モデリングを主導する新進ファーストオーサで、Flash Linear Attention作者。トップ会議で継続発表だが未収録。",
+    "homepage": "https://sustcsonglin.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=1chlis0AAAAJ&hl=en",
+    "dblp": "",
+    "sources": [
+      "https://sustcsonglin.github.io/",
+      "https://arxiv.org/abs/2312.06635"
+    ]
+  },
+  {
+    "name": "Lvmin Zhang",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "computer graphics",
+      "machine learning"
+    ],
+    "topics": [
+      "条件付き画像生成制御(ControlNet)",
+      "拡散モデルの制御",
+      "計算芸術",
+      "線画着色(Style2Paint)",
+      "動画生成"
+    ],
+    "affiliation": "Stanford University",
+    "country": "United States",
+    "origin": "China",
+    "venues": [
+      "ICCV",
+      "CVPR",
+      "ICLR",
+      "SIGGRAPH"
+    ],
+    "key_contributions": "ControlNet(拡散モデルへの条件制御)のファーストオーサ。Fooocus、Style2Paint等の生成AIツールも開発。",
+    "awards": [
+      "ICCV Best Paper Award (Marr Prize, 2023)"
+    ],
+    "metrics": {
+      "citations": "約15,000 (Google Scholar)"
+    },
+    "inclusion_reason": "ControlNet(ICCV 2023最優秀論文)で拡散モデル制御の標準を作ったファーストオーサ。未収録。",
+    "homepage": "https://lllyasviel.github.io/lvmin_zhang/",
+    "scholar": "https://scholar.google.com/citations?user=DBHKwfYAAAAJ&hl=en",
+    "dblp": "",
+    "sources": [
+      "https://lllyasviel.github.io/lvmin_zhang/",
+      "https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_Adding_Conditional_Control_to_Text-to-Image_Diffusion_Models_ICCV_2023_paper.pdf"
+    ]
+  },
+  {
+    "name": "Rémi Lam",
+    "primary_field": "ml",
+    "fields": [
+      "machine learning",
+      "ai for science"
+    ],
+    "topics": [
+      "AI×気象予報",
+      "GraphCast",
+      "グラフニューラルネットワーク",
+      "中期全球予報",
+      "地球システムモデリング"
+    ],
+    "affiliation": "Google DeepMind",
+    "country": "United Kingdom",
+    "origin": "France",
+    "venues": [
+      "Science",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "GraphCast(GNNによる中期全球気象予報)のリードリサーチャー。ECMWFを上回る精度と速度を実現しScience誌に発表。",
+    "awards": [
+      "Nature's 10 (2024)"
+    ],
+    "metrics": {
+      "citations": "約6,000 (Google Scholar)"
+    },
+    "inclusion_reason": "AI×気象のブレークスルーGraphCastを主導しNature's 10(2024)に選出。AI for Science代表で未収録。",
+    "homepage": "https://www.linkedin.com/in/remi-lam/",
+    "scholar": "",
+    "dblp": "",
+    "sources": [
+      "https://arxiv.org/abs/2212.12794",
+      "https://deepmind.google/blog/graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting/"
+    ]
+  },
+  {
+    "name": "Tian Xie",
+    "primary_field": "ml",
+    "fields": [
+      "machine learning",
+      "ai for science",
+      "materials science"
+    ],
+    "topics": [
+      "AI×材料設計",
+      "生成モデル(MatterGen/CDVAE)",
+      "グラフニューラルネットワーク(CGCNN)",
+      "結晶構造生成",
+      "材料シミュレーション(MatterSim)"
+    ],
+    "affiliation": "Microsoft Research AI4Science",
+    "country": "United Kingdom",
+    "origin": "China",
+    "venues": [
+      "Nature",
+      "NeurIPS",
+      "ICLR"
+    ],
+    "key_contributions": "CGCNN(材料向け初のGNN)、CDVAE、MatterGen(無機材料の生成モデル)を主導。AI駆動の材料発見を牽引。",
+    "awards": [],
+    "metrics": {
+      "citations": "約7,300 (Google Scholar)"
+    },
+    "inclusion_reason": "AI×材料科学を主導するファーストオーサ(CGCNN/CDVAE/MatterGen)でNature発表。未収録。",
+    "homepage": "https://txie.me/",
+    "scholar": "https://scholar.google.com/citations?user=xFbOAf8AAAAJ&hl=en",
+    "dblp": "",
+    "sources": [
+      "https://txie.me/",
+      "https://scholar.google.com/citations?user=xFbOAf8AAAAJ&hl=en",
+      "https://arxiv.org/pdf/2312.03687"
+    ]
+  },
+  {
+    "name": "Brian Hie",
+    "primary_field": "ml",
+    "fields": [
+      "machine learning",
+      "ai for science",
+      "computational biology"
+    ],
+    "topics": [
+      "タンパク質言語モデル",
+      "AI×生物学",
+      "進化的設計",
+      "ゲノム基盤モデル(Evo)",
+      "抗体・タンパク質設計"
+    ],
+    "affiliation": "Stanford University / Arc Institute",
+    "country": "United States",
+    "origin": "United States",
+    "venues": [
+      "Science",
+      "Nature",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "タンパク質言語モデルによる進化予測・新規タンパク質設計、ゲノム基盤モデルEvoを主導。ML×生物学の境界領域を牽引。",
+    "awards": [],
+    "metrics": {
+      "citations": "約5,000 (Google Scholar)"
+    },
+    "inclusion_reason": "タンパク質言語モデル・Evoを主導するAI×生物のファーストオーサでScience/Nature発表。未収録。",
+    "homepage": "https://profiles.stanford.edu/brian-hie",
+    "scholar": "https://scholar.google.com/citations?user=qT3feHIAAAAJ&hl=en",
+    "dblp": "",
+    "sources": [
+      "https://arcinstitute.org/labs/hielab",
+      "https://scholar.google.com/citations?user=qT3feHIAAAAJ&hl=en"
+    ]
+  },
+  {
+    "name": "Wei Lu",
+    "primary_field": "nlp",
+    "fields": [
+      "natural language processing",
+      "machine learning"
+    ],
+    "topics": [
+      "構造化予測",
+      "東南アジア言語LLM(Sailor)",
+      "情報抽出",
+      "意味解析",
+      "効率的事前学習"
+    ],
+    "affiliation": "Singapore University of Technology and Design (SUTD), StatNLP",
+    "country": "Singapore",
+    "origin": "China",
+    "venues": [
+      "ACL",
+      "EMNLP",
+      "NAACL",
+      "CIKM"
+    ],
+    "key_contributions": "StatNLP研究グループを主導。構造化予測・情報抽出・意味解析を牽引し、東南アジア言語向けオープンLLM Sailor/Sailor2を主導。",
+    "awards": [
+      "EMNLP Best Paper Award (2011)"
+    ],
+    "metrics": {
+      "citations": "約14,000 (Google Scholar)"
+    },
+    "inclusion_reason": "東南アジア言語LLM(Sailor)を主導しNLP構造化予測で実績豊富(被引用約1.4万)。東南アジア地域代表で未収録。",
+    "homepage": "https://istd.sutd.edu.sg/people/faculty/lu-wei",
+    "scholar": "https://scholar.google.com/citations?user=n41KN9AAAAAJ&hl=en",
+    "dblp": "",
+    "sources": [
+      "https://statnlp.com/people/luwei/",
+      "https://scholar.google.com/citations?user=n41KN9AAAAAJ&hl=en",
+      "https://arxiv.org/abs/2404.03608"
+    ]
+  },
+  {
+    "name": "Danish Pruthi",
+    "primary_field": "nlp",
+    "fields": [
+      "natural language processing",
+      "machine learning"
+    ],
+    "topics": [
+      "説明可能性・解釈可能性",
+      "AIモデルの包摂的評価",
+      "敵対的ロバストネス",
+      "低資源言語",
+      "信頼できるNLP"
+    ],
+    "affiliation": "Indian Institute of Science (IISc), Bangalore",
+    "country": "India",
+    "origin": "India",
+    "venues": [
+      "ACL",
+      "EMNLP",
+      "NAACL",
+      "NeurIPS"
+    ],
+    "key_contributions": "NLPモデルの説明・評価・頑健性、低資源・包摂的評価を研究。インド発の信頼できるNLP研究を牽引。",
+    "awards": [
+      "AI2050 Early Career Fellow (Schmidt Sciences)"
+    ],
+    "metrics": {
+      "citations": "約2,000 (Google Scholar)"
+    },
+    "inclusion_reason": "インド第二期AI2050唯一のEarly Career Fellow。IISc発のNLP評価・解釈研究の代表で、インド現地拠点の若手リーダーとして未収録。",
+    "homepage": "https://danishpruthi.com/",
+    "scholar": "https://scholar.google.com/citations?user=JpSx3EMAAAAJ&hl=en",
+    "dblp": "",
+    "sources": [
+      "https://danishpruthi.com/",
+      "https://ai2050.schmidtsciences.org/fellow/danish-pruthi/",
+      "https://scholar.google.com/citations?user=JpSx3EMAAAAJ&hl=en"
+    ]
+  },
+  {
+    "name": "Jimmy Ba",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nn"
+    ],
+    "topics": [
+      "最適化アルゴリズム",
+      "深層学習",
+      "注意機構",
+      "Layer Normalization"
+    ],
+    "affiliation": "University of Toronto / Vector Institute",
+    "country": "Canada",
+    "origin": "Canada",
+    "venues": [
+      "ICLR",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "Adam最適化アルゴリズム（Kingmaと共著）の考案者。Layer Normalizationの提案者でもあり、深層学習の標準的な学習手法の基盤を築いた。",
+    "awards": [
+      "Sloan Research Fellowship"
+    ],
+    "metrics": {
+      "citations_approx": 320000
+    },
+    "inclusion_reason": "Adam最適化器という深層学習の事実上の標準ツールの共同考案者で被引用30万超。Layer Normalizationも提案しており基盤技術の作者として明確に基準を満たす。未収録。",
+    "homepage": "https://jimmylba.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=ymzxRhAAAAAJ",
+    "dblp": "https://dblp.org/pid/85/8941.html",
+    "sources": [
+      "https://jimmylba.github.io/",
+      "https://scholar.google.com/citations?user=ymzxRhAAAAAJ"
+    ]
+  },
+  {
+    "name": "Karen Simonyan",
+    "primary_field": "cv",
+    "fields": [
+      "cv",
+      "nn",
+      "rl",
+      "ml"
+    ],
+    "topics": [
+      "畳み込みニューラルネットワーク",
+      "VGGNet",
+      "深層強化学習",
+      "生成モデル"
+    ],
+    "affiliation": "Microsoft AI (Chief Scientist) / 元DeepMind",
+    "country": "United Kingdom",
+    "origin": "Armenia",
+    "venues": [
+      "ICLR",
+      "NeurIPS",
+      "CVPR",
+      "Nature"
+    ],
+    "key_contributions": "VGGNet（Very Deep Convolutional Networks）の筆頭著者。AlphaZero・WaveNet・BigGANなどDeepMindの主要研究にも貢献した深層学習の中心人物。Inflection AI共同創業者。",
+    "awards": [],
+    "metrics": {
+      "citations_approx": 306000
+    },
+    "inclusion_reason": "VGGという最も影響力あるCNNアーキテクチャの筆頭著者で被引用30万超。AlphaZero等にも貢献。基盤技術の作者として明確に未収録の大物。",
+    "homepage": "",
+    "scholar": "https://scholar.google.com/citations?user=L7lMQkQAAAAJ",
+    "dblp": "https://dblp.org/pid/29/9012.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=L7lMQkQAAAAJ"
+    ]
+  },
+  {
+    "name": "Richard Socher",
+    "primary_field": "nlp",
+    "fields": [
+      "nlp",
+      "ml",
+      "nn"
+    ],
+    "topics": [
+      "再帰ニューラルネットワーク",
+      "単語埋め込み",
+      "感情分析",
+      "質問応答"
+    ],
+    "affiliation": "you.com (CEO) / 元Salesforce Chief Scientist",
+    "country": "United States",
+    "origin": "Germany",
+    "venues": [
+      "EMNLP",
+      "ACL",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "GloVe（共著）と再帰ニューラルネットワークによる構成的意味表現・感情分析の先駆者。NLPの深層学習化に大きく寄与。",
+    "awards": [],
+    "metrics": {
+      "citations_approx": 185000
+    },
+    "inclusion_reason": "GloVe共著者かつ再帰NNによる構成的意味論の代表的研究者で被引用18万超。NLPの基盤研究者として明確に未収録。",
+    "homepage": "https://www.socher.org/",
+    "scholar": "https://scholar.google.com/citations?user=FaOcyfMAAAAJ",
+    "dblp": "https://dblp.org/pid/93/6209.html",
+    "sources": [
+      "https://www.socher.org/",
+      "https://scholar.google.com/citations?user=FaOcyfMAAAAJ"
+    ]
+  },
+  {
+    "name": "Jeffrey Pennington",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "theory-ml",
+      "nlp"
+    ],
+    "topics": [
+      "単語埋め込み",
+      "ニューラルネットワーク理論",
+      "ニューラルタンジェントカーネル",
+      "ランダム行列理論"
+    ],
+    "affiliation": "Google DeepMind",
+    "country": "United States",
+    "origin": "United States",
+    "venues": [
+      "EMNLP",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "GloVe（Global Vectors for Word Representation）筆頭著者。広幅ニューラルネットワークの理論（NTK・ランダム行列によるスペクトル解析）でも主要な貢献。",
+    "awards": [],
+    "metrics": {
+      "citations_approx": 64000
+    },
+    "inclusion_reason": "GloVe筆頭著者かつ深層学習理論（無限幅ネットワーク・NTK）の中心的研究者で被引用6万超。基盤技術の作者として未収録。",
+    "homepage": "https://nlp.stanford.edu/~jpennin/",
+    "scholar": "https://scholar.google.com/citations?user=cn_FoswAAAAJ",
+    "dblp": "https://dblp.org/pid/49/8741.html",
+    "sources": [
+      "https://nlp.stanford.edu/~jpennin/",
+      "https://scholar.google.com/citations?user=cn_FoswAAAAJ"
+    ]
+  },
+  {
+    "name": "Dan Klein",
+    "primary_field": "nlp",
+    "fields": [
+      "nlp",
+      "ml"
+    ],
+    "topics": [
+      "構文解析",
+      "教師なし学習",
+      "情報抽出",
+      "機械翻訳"
+    ],
+    "affiliation": "UC Berkeley",
+    "country": "United States",
+    "origin": "United States",
+    "venues": [
+      "ACL",
+      "EMNLP",
+      "NAACL"
+    ],
+    "key_contributions": "統計的自然言語処理、特に教師なし構文解析・unlexicalized parsing・座標解決の代表的研究者。多数のトップ会議ベストペーパー受賞。",
+    "awards": [
+      "ACL Fellow",
+      "Sloan Fellowship",
+      "複数のACL/NAACL/EMNLP Best Paper"
+    ],
+    "metrics": {
+      "citations_approx": 47000
+    },
+    "inclusion_reason": "Berkeley NLPの主導者で構文解析の代表的研究者。ACL Fellow、多数のトップ会議ベストペーパー、被引用4万超。継続的なトップ会議発表という基準を満たし未収録。",
+    "homepage": "https://people.eecs.berkeley.edu/~klein/",
+    "scholar": "https://scholar.google.com/citations?user=jJRiZR8AAAAJ",
+    "dblp": "https://dblp.org/pid/66/4276.html",
+    "sources": [
+      "https://people.eecs.berkeley.edu/~klein/",
+      "https://scholar.google.com/citations?user=jJRiZR8AAAAJ"
+    ]
+  },
+  {
+    "name": "Georgia Gkioxari",
+    "primary_field": "cv",
+    "fields": [
+      "cv",
+      "ml"
+    ],
+    "topics": [
+      "インスタンスセグメンテーション",
+      "物体検出",
+      "3D認識",
+      "人物-物体相互作用"
+    ],
+    "affiliation": "Caltech / 元Meta FAIR",
+    "country": "United States",
+    "origin": "Greece",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS"
+    ],
+    "key_contributions": "Mask R-CNNの共著者（ICCV 2017 Marr Prize受賞）。Detectron・Mesh R-CNN・PyTorch3Dなど物体検出・3D認識の主要研究に貢献。",
+    "awards": [
+      "Marr Prize (ICCV 2017 Best Paper)",
+      "PAMI Young Researcher Award"
+    ],
+    "metrics": {
+      "citations_approx": 63000
+    },
+    "inclusion_reason": "Mask R-CNNの共著者でMarr Prize受賞、被引用6万超。物体検出・インスタンスセグメンテーションの基盤技術の作者として明確に未収録。",
+    "homepage": "https://georgiagkioxari.com/",
+    "scholar": "https://scholar.google.com/citations?user=kQisE-gAAAAJ",
+    "dblp": "https://dblp.org/pid/49/10579.html",
+    "sources": [
+      "https://georgiagkioxari.com/",
+      "https://scholar.google.com/citations?user=kQisE-gAAAAJ"
+    ]
+  },
+  {
+    "name": "Naftali Tishby",
+    "primary_field": "theory-ml",
+    "fields": [
+      "theory-ml",
+      "ml",
+      "nn"
+    ],
+    "topics": [
+      "情報ボトルネック法",
+      "情報理論",
+      "学習理論",
+      "計算神経科学"
+    ],
+    "affiliation": "Hebrew University of Jerusalem（故人、2021年没）",
+    "country": "Israel",
+    "origin": "Israel",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "COLT"
+    ],
+    "key_contributions": "情報ボトルネック法（Tishby-Pereira-Bialek）の考案者。深層学習の情報理論的解析の枠組みを提唱し、イスラエルの機械学習研究の創始者の一人。",
+    "awards": [],
+    "metrics": {
+      "citations_approx": 33000
+    },
+    "inclusion_reason": "情報ボトルネック法という基盤理論の考案者で被引用3万超。学習理論・情報理論分野の代表的研究者として明確に未収録（故人だが歴史的重要性が高い）。",
+    "homepage": "https://elsc.huji.ac.il/people/naftali-tishby",
+    "scholar": "https://scholar.google.com/citations?user=HBd7HIcAAAAJ",
+    "dblp": "https://dblp.org/pid/82/2790.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=HBd7HIcAAAAJ",
+      "https://en.wikipedia.org/wiki/Naftali_Tishby"
+    ]
+  },
+  {
+    "name": "Lukasz Kaiser",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nlp",
+      "nn"
+    ],
+    "topics": [
+      "Transformer",
+      "系列モデリング",
+      "Tensor2Tensor",
+      "大規模言語モデルの推論"
+    ],
+    "affiliation": "OpenAI / 元Google Brain",
+    "country": "United States",
+    "origin": "Poland",
+    "venues": [
+      "NeurIPS",
+      "ICLR",
+      "ICML"
+    ],
+    "key_contributions": "Transformer（Attention Is All You Need）の共著者。Tensor2Tensorライブラリの主要開発者。OpenAIでo1系の推論モデル研究に従事。",
+    "awards": [],
+    "metrics": {
+      "citations_approx": 395000
+    },
+    "inclusion_reason": "Transformerの8人の共著者の一人で被引用39万超。基盤技術の作者として明確に未収録。",
+    "homepage": "",
+    "scholar": "https://scholar.google.com/citations?user=JWmiQR0AAAAJ",
+    "dblp": "https://dblp.org/pid/39/1762.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=JWmiQR0AAAAJ",
+      "https://arxiv.org/abs/1706.03762"
+    ]
+  },
+  {
+    "name": "Jakob Uszkoreit",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nlp",
+      "nn"
+    ],
+    "topics": [
+      "Transformer",
+      "注意機構",
+      "系列モデリング",
+      "RNA設計"
+    ],
+    "affiliation": "Inceptive (CEO, 共同創業) / 元Google Brain",
+    "country": "United States",
+    "origin": "Germany",
+    "venues": [
+      "NeurIPS",
+      "ACL",
+      "ICLR"
+    ],
+    "key_contributions": "Transformer（Attention Is All You Need）の共著者で、自己注意アーキテクチャの初期提唱者の一人。退職後Inceptiveを創業しAIによるRNA医薬設計に従事。",
+    "awards": [],
+    "metrics": {
+      "citations_approx": 397000
+    },
+    "inclusion_reason": "Transformerの共著者・初期発案者の一人で被引用39万超。基盤技術の作者として明確に未収録。",
+    "homepage": "",
+    "scholar": "https://scholar.google.com/citations?user=mOG0bwsAAAAJ",
+    "dblp": "https://dblp.org/pid/13/5455.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=mOG0bwsAAAAJ",
+      "https://arxiv.org/abs/1706.03762"
+    ]
+  },
+  {
+    "name": "Soumith Chintala",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nn",
+      "cv"
+    ],
+    "topics": [
+      "深層学習フレームワーク",
+      "PyTorch",
+      "敵対的生成ネットワーク",
+      "DCGAN"
+    ],
+    "affiliation": "Meta AI (FAIR)",
+    "country": "United States",
+    "origin": "India",
+    "venues": [
+      "NeurIPS",
+      "ICLR",
+      "ICML"
+    ],
+    "key_contributions": "PyTorchの共同創設者・主要開発者。DCGAN・LAPGAN・Wasserstein GANなど敵対的生成ネットワークの代表的研究にも貢献。",
+    "awards": [],
+    "metrics": {
+      "citations_approx": 23000
+    },
+    "inclusion_reason": "PyTorchという深層学習研究の事実上の標準フレームワークの共同創設者であり、DCGANの共著者。基盤技術の作者として明確に未収録。",
+    "homepage": "https://soumith.ch/",
+    "scholar": "https://scholar.google.com/citations?user=36ofBJgAAAAJ",
+    "dblp": "https://dblp.org/pid/30/9979.html",
+    "sources": [
+      "https://soumith.ch/",
+      "https://scholar.google.com/citations?user=36ofBJgAAAAJ"
+    ]
+  },
+  {
+    "name": "Jared Kaplan",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nlp"
+    ],
+    "topics": [
+      "スケーリング則",
+      "大規模言語モデル",
+      "AI安全性",
+      "Constitutional AI"
+    ],
+    "affiliation": "Anthropic (Chief Science Officer, 共同創業) / Johns Hopkins University",
+    "country": "United States",
+    "origin": "United States",
+    "venues": [
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "ニューラル言語モデルのスケーリング則（Scaling Laws for Neural Language Models）の筆頭研究者。大規模言語モデル開発の指針を確立し、Anthropicを共同創業。",
+    "awards": [],
+    "metrics": {
+      "citations_approx": 60000
+    },
+    "inclusion_reason": "LLMスケーリング則という基盤的発見の中心研究者でAnthropic CSO。LLM時代の指針を作った代表的研究者として明確に未収録。",
+    "homepage": "https://sites.krieger.jhu.edu/jared-kaplan/",
+    "scholar": "https://scholar.google.com/citations?user=KNr3vb4AAAAJ",
+    "dblp": "https://dblp.org/pid/261/9295.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jared_Kaplan",
+      "https://scholar.google.com/citations?user=KNr3vb4AAAAJ"
+    ]
+  },
+  {
+    "name": "William L. Hamilton",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "dm",
+      "nn"
+    ],
+    "topics": [
+      "グラフ表現学習",
+      "グラフニューラルネットワーク",
+      "GraphSAGE",
+      "ネットワーク科学"
+    ],
+    "affiliation": "McGill University / Mila",
+    "country": "Canada",
+    "origin": "Canada",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "ICLR",
+      "KDD"
+    ],
+    "key_contributions": "GraphSAGE（帰納的グラフ表現学習）の筆頭著者。教科書『Graph Representation Learning』の著者でGNN分野の中心的研究者。",
+    "awards": [
+      "Canada CIFAR AI Chair",
+      "Cozzarelli Prize (PNAS Best Paper)"
+    ],
+    "metrics": {
+      "citations_approx": 59000
+    },
+    "inclusion_reason": "GraphSAGEの筆頭著者でGRL教科書の著者、被引用5.9万超。グラフ表現学習の基盤技術の作者として明確に未収録。",
+    "homepage": "https://williamleif.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=T5tm9eQAAAAJ",
+    "dblp": "https://dblp.org/pid/64/10094.html",
+    "sources": [
+      "https://williamleif.github.io/",
+      "https://scholar.google.com/citations?user=T5tm9eQAAAAJ"
+    ]
+  },
+  {
+    "name": "Monika Henzinger",
+    "primary_field": "tcs",
+    "fields": [
+      "tcs",
+      "ir",
+      "db"
+    ],
+    "topics": [
+      "動的グラフアルゴリズム",
+      "Webアルゴリズム",
+      "差分プライバシー",
+      "情報検索"
+    ],
+    "affiliation": "Institute of Science and Technology Austria (ISTA)",
+    "country": "Austria",
+    "origin": "Germany",
+    "venues": [
+      "STOC",
+      "FOCS",
+      "SODA",
+      "WWW"
+    ],
+    "key_contributions": "動的グラフアルゴリズムとWeb検索アルゴリズム（HITS関連・近接重複検出）の主要研究者。元Google研究ディレクター。",
+    "awards": [
+      "Wittgenstein Prize",
+      "ERC Advanced Grant (x2)",
+      "SIGIR Test of Time Award",
+      "Carus Medal"
+    ],
+    "metrics": {
+      "citations_approx": 25000,
+      "h_index_approx": 65
+    },
+    "inclusion_reason": "理論計算機科学（動的アルゴリズム）とWeb/IR双方の代表的研究者。Wittgenstein賞・ERC Advanced Grant 2件など主要賞多数で明確に未収録。",
+    "homepage": "https://pub.ista.ac.at/~mh/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/h/MonikaHenzinger.html",
+    "sources": [
+      "https://ist.ac.at/en/research/henzinger_monika-group/",
+      "https://www.fwf.ac.at/en/discover/awards/fwf-wittgenstein-awards/2021-monika-henzinger"
+    ]
+  },
+  {
+    "name": "Prabhakar Raghavan",
+    "primary_field": "ir",
+    "fields": [
+      "ir",
+      "tcs",
+      "db",
+      "web"
+    ],
+    "topics": [
+      "情報検索",
+      "ランダム化アルゴリズム",
+      "Web検索",
+      "データマイニング"
+    ],
+    "affiliation": "Google (元検索担当上級副社長) / 元Yahoo Labs",
+    "country": "United States",
+    "origin": "India",
+    "venues": [
+      "STOC",
+      "FOCS",
+      "SIGIR",
+      "WWW",
+      "KDD"
+    ],
+    "key_contributions": "教科書『Introduction to Information Retrieval』（Manning・Schützeと共著）および『Randomized Algorithms』（Motwaniと共著）の著者。Web検索・アルゴリズムの基盤研究者。",
+    "awards": [
+      "ACM Fellow",
+      "IEEE Fellow",
+      "National Academy of Engineering"
+    ],
+    "metrics": {
+      "citations_approx": 90000
+    },
+    "inclusion_reason": "情報検索とランダム化アルゴリズムの定番教科書の著者で被引用9万超、NAE会員・ACM/IEEE Fellow。分野代表として明確に未収録。",
+    "homepage": "https://research.google/people/prabhakarraghavan/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/r/PrabhakarRaghavan.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Prabhakar_Raghavan",
+      "https://research.google/people/prabhakarraghavan/"
+    ]
+  },
+  {
+    "name": "Bhuvana Ramabhadran",
+    "primary_field": "speech",
+    "fields": [
+      "speech",
+      "ml"
+    ],
+    "topics": [
+      "音声認識",
+      "多言語音声処理",
+      "半教師あり学習",
+      "音声合成"
+    ],
+    "affiliation": "Google / 元IBM Research",
+    "country": "United States",
+    "origin": "India",
+    "venues": [
+      "ICASSP",
+      "Interspeech",
+      "ASRU"
+    ],
+    "key_contributions": "音声認識・多言語音声処理の長年の主導的研究者。IBM・Googleで音声認識システム開発を率い、ISCA・IEEE双方のフェロー。",
+    "awards": [
+      "IEEE Fellow",
+      "ISCA Fellow"
+    ],
+    "metrics": {
+      "citations_approx": 21000
+    },
+    "inclusion_reason": "音声認識分野の代表的研究者でICASSP/Interspeechで継続的に発表、IEEE/ISCA双方のフェロー。分野代表・主要フェローとして明確に未収録。",
+    "homepage": "https://sites.google.com/view/bhuvana-ramabhadran/home",
+    "scholar": "https://scholar.google.com/citations?user=jecEO0EAAAAJ",
+    "dblp": "https://dblp.org/pid/95/3030.html",
+    "sources": [
+      "https://sites.google.com/view/bhuvana-ramabhadran/home",
+      "https://scholar.google.com/citations?user=jecEO0EAAAAJ"
+    ]
+  },
+  {
+    "name": "Tom Schaul",
+    "primary_field": "rl",
+    "fields": [
+      "rl",
+      "ml",
+      "nn"
+    ],
+    "topics": [
+      "強化学習",
+      "優先度付き経験再生",
+      "探索",
+      "汎用価値関数"
+    ],
+    "affiliation": "Google DeepMind",
+    "country": "United Kingdom",
+    "origin": "Luxembourg",
+    "venues": [
+      "ICLR",
+      "NeurIPS",
+      "ICML",
+      "Nature"
+    ],
+    "key_contributions": "優先度付き経験再生（Prioritized Experience Replay）やUniversal Value Function Approximatorsなど深層強化学習の主要手法を提案。Atari・AlphaStar系研究にも貢献。",
+    "awards": [],
+    "metrics": {
+      "citations_approx": 49000
+    },
+    "inclusion_reason": "優先度付き経験再生など深層RLの広く使われる基盤手法の作者で被引用4.9万超。継続的なトップ会議発表という基準を満たし未収録。",
+    "homepage": "https://schaul.site44.com/",
+    "scholar": "https://scholar.google.com/citations?user=vDimc-4AAAAJ",
+    "dblp": "https://dblp.org/pid/64/7484.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=vDimc-4AAAAJ",
+      "https://www.linkedin.com/in/schaul/"
+    ]
   }
 ]
