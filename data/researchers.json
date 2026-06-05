@@ -33206,5 +33206,4626 @@
       "https://scholar.google.com/citations?user=guG9lxgAAAAJ",
       "https://audiocc.sjtu.edu.cn/en/members/yanmin.qian/publication.pdf"
     ]
+  },
+  {
+    "name": "Christian Theobalt",
+    "primary_field": "cg",
+    "fields": [
+      "computer graphics",
+      "computer vision",
+      "machine learning"
+    ],
+    "topics": [
+      "ニューラルレンダリング",
+      "ニューラルシーン表現",
+      "3D再構成",
+      "マーカーレスモーションキャプチャ",
+      "バーチャルヒューマン"
+    ],
+    "affiliation": "Max Planck Institute for Informatics / Saarland University",
+    "country": "Germany",
+    "origin": "Germany",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "SIGGRAPH",
+      "TOG"
+    ],
+    "key_contributions": "ニューラルレンダリングとニューラル暗黙的表面(NeuS)、非剛体NeRF、人体パフォーマンスキャプチャ(DeepCap等)を主導。動的3Dシーン再構成の第一人者。",
+    "awards": [
+      "EUROGRAPHICS Young Researcher Award (2009)",
+      "Karl Heinz Beckurts Award (2017)",
+      "EUROGRAPHICS Outstanding Technical Contributions Award (2020)"
+    ],
+    "metrics": {
+      "citations": "約59,000 (Google Scholar)"
+    },
+    "inclusion_reason": "ニューラルレンダリングと人体キャプチャ分野の世界的リーダーで、被引用数約5.9万。CVPR/SIGGRAPHでの実績が極めて豊富だが未収録。",
+    "homepage": "https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence",
+    "scholar": "https://scholar.google.com/citations?user=eIWg8NMAAAAJ",
+    "dblp": "https://dblp.org/pid/79/3793.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=eIWg8NMAAAAJ",
+      "https://research.com/u/christian-theobalt"
+    ]
+  },
+  {
+    "name": "Ziwei Liu",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning",
+      "computer graphics"
+    ],
+    "topics": [
+      "生成AI",
+      "大規模マルチモーダルモデル",
+      "3Dコンテンツ生成",
+      "シーン理解",
+      "表現学習"
+    ],
+    "affiliation": "Nanyang Technological University (MMLab@NTU)",
+    "country": "Singapore",
+    "origin": "China",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS",
+      "ICLR"
+    ],
+    "key_contributions": "DeepFashion、CelebA-HQ、生成画像・動画モデル、3D生成を主導。CVPR 2026プログラム共同委員長。",
+    "awards": [
+      "Singapore President's Science and Technology Award - Young Scientist Award (2025)"
+    ],
+    "metrics": {
+      "citations": "約105,000 (Google Scholar)"
+    },
+    "inclusion_reason": "生成AI・マルチモーダル分野で被引用数約10.5万のトップ研究者。CVPR/ICCVで圧倒的実績だが未収録。",
+    "homepage": "https://liuziwei7.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=lc45xlcAAAAJ",
+    "dblp": "https://dblp.org/pid/05/6300-2.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=lc45xlcAAAAJ",
+      "https://www.mmlab-ntu.com/"
+    ]
+  },
+  {
+    "name": "Chen Change Loy",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning",
+      "computer graphics"
+    ],
+    "topics": [
+      "画像超解像",
+      "顔復元",
+      "動画復元",
+      "生成AI",
+      "表現学習"
+    ],
+    "affiliation": "Nanyang Technological University (MMLab@NTU, S-Lab)",
+    "country": "Singapore",
+    "origin": "Malaysia",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS",
+      "TPAMI"
+    ],
+    "key_contributions": "SRCNN、ESRGAN、CodeFormer、BasicVSRシリーズなど超解像・復元の基盤手法を確立。",
+    "awards": [
+      "100 Most Influential Scholars in Computer Vision (AMiner, 2020-2025)"
+    ],
+    "metrics": {
+      "citations": "約128,000 (Google Scholar)",
+      "h_index": 141
+    },
+    "inclusion_reason": "低レベルビジョン・画像復元の世界的権威で被引用数約12.8万。CVPR/ICCVで極めて高い影響力だが未収録。",
+    "homepage": "https://www.mmlab-ntu.com/person/ccloy/",
+    "scholar": "https://scholar.google.com/citations?user=559LF80AAAAJ",
+    "dblp": "https://dblp.org/pid/01/5855.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=559LF80AAAAJ",
+      "https://www.mmlab-ntu.com/person/ccloy/profile.html"
+    ]
+  },
+  {
+    "name": "Hao Su",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "3D vision",
+      "embodied AI"
+    ],
+    "topics": [
+      "点群深層学習",
+      "3D形状解析",
+      "3Dデータセット",
+      "身体性AI",
+      "シミュレーション"
+    ],
+    "affiliation": "Fudan University (formerly UC San Diego)",
+    "country": "China",
+    "origin": "China",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS",
+      "SIGGRAPH"
+    ],
+    "key_contributions": "PointNet/PointNet++、ShapeNet、PartNet、SAPIEN、ManiSkillなど3D深層学習の基盤を構築。ImageNet構築にも貢献。",
+    "awards": [
+      "CVPR Young Researcher Award"
+    ],
+    "metrics": {
+      "citations": "約145,000 (Google Scholar)"
+    },
+    "inclusion_reason": "点群深層学習(PointNet)で3Dビジョン分野を変革。被引用数約14.5万でCVPR実績は突出するが未収録。",
+    "homepage": "https://cseweb.ucsd.edu/~haosu/",
+    "scholar": "https://scholar.google.com/citations?user=1P8Zu04AAAAJ",
+    "dblp": "https://dblp.org/pid/09/4945-1.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=1P8Zu04AAAAJ",
+      "https://cseweb.ucsd.edu/~haosu/index.html"
+    ]
+  },
+  {
+    "name": "Saining Xie",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning",
+      "representation learning"
+    ],
+    "topics": [
+      "CNNアーキテクチャ",
+      "自己教師あり学習",
+      "ビジョントランスフォーマー",
+      "マルチモーダル",
+      "拡散モデル"
+    ],
+    "affiliation": "New York University / AMI Labs",
+    "country": "USA",
+    "origin": "China",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS",
+      "ICLR"
+    ],
+    "key_contributions": "ResNeXt、ConvNeXt、Masked Autoencoders(MAE)共著、DiT(拡散トランスフォーマー)など基盤アーキテクチャを多数開発。",
+    "awards": [
+      "Marr Prize Honorable Mention"
+    ],
+    "metrics": {
+      "citations": "約107,000 (Google Scholar)"
+    },
+    "inclusion_reason": "ConvNeXt/DiTなど画像認識・生成の基盤アーキテクチャを設計。被引用数約10.7万でCVPR実績豊富だが未収録。",
+    "homepage": "https://www.sainingxie.com/",
+    "scholar": "https://scholar.google.com/citations?user=Y2GtJkAAAAAJ",
+    "dblp": "https://dblp.org/pid/126/0960.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=Y2GtJkAAAAAJ",
+      "https://www.sainingxie.com/"
+    ]
+  },
+  {
+    "name": "Xingang Pan",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "computer graphics",
+      "generative AI"
+    ],
+    "topics": [
+      "画像編集",
+      "GAN",
+      "3D生成",
+      "生成的世界モデル",
+      "ニューラルレンダリング"
+    ],
+    "affiliation": "Nanyang Technological University (MMLab@NTU)",
+    "country": "Singapore",
+    "origin": "China",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "SIGGRAPH",
+      "NeurIPS"
+    ],
+    "key_contributions": "DragGAN(インタラクティブ点ベース画像操作)を主導。2D GANからの3D形状復元など生成モデル研究。",
+    "awards": [
+      "Most Influential SIGGRAPH Papers (DragGAN)"
+    ],
+    "metrics": {
+      "citations": "約6,600 (Google Scholar)"
+    },
+    "inclusion_reason": "DragGANで画像編集分野に大きな影響を与えた新進気鋭の研究者。SIGGRAPH/CVPR実績があり未収録。",
+    "homepage": "https://xingangpan.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=uo0q9WgAAAAJ",
+    "dblp": "https://dblp.org/pid/200/8842.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=uo0q9WgAAAAJ",
+      "https://xingangpan.github.io/"
+    ]
+  },
+  {
+    "name": "Yebin Liu",
+    "primary_field": "cg",
+    "fields": [
+      "computer graphics",
+      "3D vision",
+      "computational photography"
+    ],
+    "topics": [
+      "人体ボリュメトリックキャプチャ",
+      "パフォーマンスキャプチャ",
+      "デジタルヒューマン",
+      "3D再構成"
+    ],
+    "affiliation": "Tsinghua University",
+    "country": "China",
+    "origin": "China",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "SIGGRAPH",
+      "TOG",
+      "TPAMI"
+    ],
+    "key_contributions": "DoubleFusion、人体パフォーマンスキャプチャ、単眼からの人体再構成、デジタルヒューマン研究を主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "約16,000 (Google Scholar)"
+    },
+    "inclusion_reason": "人体3D再構成・キャプチャ分野の有力研究者で被引用数約1.6万。CVPR/SIGGRAPH実績があり未収録。",
+    "homepage": "https://www.liuyebin.com/",
+    "scholar": "https://scholar.google.com/citations?user=ogXIdlYAAAAJ",
+    "dblp": "https://dblp.org/pid/45/4360-1.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=ogXIdlYAAAAJ",
+      "https://www.liuyebin.com/"
+    ]
+  },
+  {
+    "name": "Lingjie Liu",
+    "primary_field": "cg",
+    "fields": [
+      "computer graphics",
+      "computer vision",
+      "AI"
+    ],
+    "topics": [
+      "ニューラルシーン表現",
+      "ニューラルレンダリング",
+      "人体モデリング・キャプチャ",
+      "3D再構成"
+    ],
+    "affiliation": "University of Pennsylvania",
+    "country": "USA",
+    "origin": "China",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "SIGGRAPH",
+      "TOG",
+      "NeurIPS"
+    ],
+    "key_contributions": "ニューラルアクター映像レンダリング、NeRO(反射物体の幾何・BRDF再構成)、ニューラル人体パフォーマンスモデリングを主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "1万超 (Google Scholar)"
+    },
+    "inclusion_reason": "ニューラルレンダリング・神経シーン表現の有力女性研究者。CVPR/SIGGRAPH実績があり未収録。",
+    "homepage": "https://lingjie0206.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=HZP3xWoAAAAJ",
+    "dblp": "https://dblp.org/pid/61/9039-1.html",
+    "sources": [
+      "https://lingjie0206.github.io/",
+      "https://www.grasp.upenn.edu/people/lingjie-liu/"
+    ]
+  },
+  {
+    "name": "Alexander Kirillov",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning",
+      "multimodal"
+    ],
+    "topics": [
+      "セグメンテーション基盤モデル",
+      "汎光学的セグメンテーション",
+      "プロンプタブルセグメンテーション",
+      "マルチモーダル"
+    ],
+    "affiliation": "OpenAI (formerly Meta AI / FAIR)",
+    "country": "USA",
+    "origin": "Russia",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS"
+    ],
+    "key_contributions": "Segment Anything Model(SAM)を主導。Panoptic Segmentation、Pointly-Supervised手法などセグメンテーション基盤を確立。",
+    "awards": [],
+    "metrics": {
+      "citations": "約8万 (Google Scholar)"
+    },
+    "inclusion_reason": "SAMでセグメンテーション基盤モデルの時代を切り開いた研究者。ICCV/CVPR実績豊富だが未収録。",
+    "homepage": "https://alexander-kirillov.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=8oANXHsAAAAJ",
+    "dblp": "https://dblp.org/pid/06/10485.html",
+    "sources": [
+      "https://alexander-kirillov.github.io/",
+      "https://ai.meta.com/research/publications/segment-anything/"
+    ]
+  },
+  {
+    "name": "Bharath Hariharan",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning"
+    ],
+    "topics": [
+      "セグメンテーション",
+      "少数データ学習",
+      "4D再構成",
+      "衛星画像認識",
+      "表現学習"
+    ],
+    "affiliation": "Cornell University",
+    "country": "USA",
+    "origin": "India",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS"
+    ],
+    "key_contributions": "Simultaneous Detection and Segmentation、Hypercolumns、少数ショット学習など物体認識・セグメンテーションの基盤研究。",
+    "awards": [],
+    "metrics": {
+      "citations": "約68,000 (Google Scholar)"
+    },
+    "inclusion_reason": "セグメンテーション・少数データ学習の有力研究者で被引用数約6.8万。CVPR/ICCV実績豊富だが未収録。",
+    "homepage": "http://home.bharathh.info/",
+    "scholar": "https://scholar.google.com/citations?user=TpglobcAAAAJ",
+    "dblp": "https://dblp.org/pid/05/8412.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=TpglobcAAAAJ",
+      "https://www.cs.cornell.edu/~bharathh/"
+    ]
+  },
+  {
+    "name": "Holger Caesar",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "autonomous driving"
+    ],
+    "topics": [
+      "自動運転知覚",
+      "マルチモーダルデータセット",
+      "3D物体検出",
+      "LiDAR",
+      "セグメンテーション"
+    ],
+    "affiliation": "TU Delft",
+    "country": "Netherlands",
+    "origin": "Germany",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "IROS"
+    ],
+    "key_contributions": "nuScenes(自動運転マルチモーダルデータセット)を主導。COCO-Stuff、自動運転知覚ベンチマークを構築。",
+    "awards": [],
+    "metrics": {
+      "citations": "1.1万超 (Google Scholar)"
+    },
+    "inclusion_reason": "nuScenesで自動運転知覚研究の標準ベンチマークを確立。CVPR実績があり未収録。",
+    "homepage": "https://sites.google.com/it-caesar.de/homepage/",
+    "scholar": "https://scholar.google.com/citations?user=373LKEYAAAAJ",
+    "dblp": "https://dblp.org/pid/151/6845.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=373LKEYAAAAJ",
+      "https://arxiv.org/abs/1903.11027"
+    ]
+  },
+  {
+    "name": "Xiaolong Wang",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning",
+      "robotics"
+    ],
+    "topics": [
+      "動画表現学習",
+      "自己教師あり学習",
+      "時空間構造",
+      "3D・ダイナミクス表現",
+      "身体性学習"
+    ],
+    "affiliation": "UC San Diego",
+    "country": "USA",
+    "origin": "China",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS"
+    ],
+    "key_contributions": "Non-local Neural Networks、動画からの自己教師あり表現学習、サイクル一貫性による対応学習を主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "数万 (Google Scholar)"
+    },
+    "inclusion_reason": "動画理解・自己教師あり学習(Non-local Networks)の有力研究者。CVPR/ICCV実績豊富だが未収録。",
+    "homepage": "https://xiaolonw.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=Y8O9N_0AAAAJ",
+    "dblp": "https://dblp.org/pid/91/6841-4.html",
+    "sources": [
+      "https://xiaolonw.github.io/",
+      "https://jacobsschool.ucsd.edu/faculty/profile?id=531"
+    ]
+  },
+  {
+    "name": "Varun Jampani",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning",
+      "computer graphics"
+    ],
+    "topics": [
+      "3D生成",
+      "テキストから3D/画像",
+      "ニューラルレンダリング",
+      "微分可能レンダリング"
+    ],
+    "affiliation": "Arcade AI (formerly Stability AI / Google)",
+    "country": "USA",
+    "origin": "India",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS",
+      "SIGGRAPH"
+    ],
+    "key_contributions": "Bilateral solver、SAMURAI、Stable 3D・Zero-1-to-3関連、NVIDIAのテキストから3D基盤モデルなど3D生成を主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "約24,000 (Google Scholar)"
+    },
+    "inclusion_reason": "3D生成・ニューラルレンダリング分野の有力産業研究者で被引用数約2.4万。CVPR実績豊富だが未収録。",
+    "homepage": "https://varunjampani.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=1Cv6Sf4AAAAJ",
+    "dblp": "https://dblp.org/pid/124/2785.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=1Cv6Sf4AAAAJ",
+      "https://varunjampani.github.io/"
+    ]
+  },
+  {
+    "name": "Justin Johnson",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning",
+      "graphics"
+    ],
+    "topics": [
+      "スタイル変換",
+      "視覚推論",
+      "画像生成",
+      "ビジョン言語",
+      "3D推論"
+    ],
+    "affiliation": "University of Michigan / Meta AI",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS"
+    ],
+    "key_contributions": "知覚損失によるリアルタイムスタイル変換・超解像、CLEVR(視覚推論)、PyTorch3Dなど多数の基盤研究。",
+    "awards": [],
+    "metrics": {
+      "citations": "約47,000 (Google Scholar)"
+    },
+    "inclusion_reason": "スタイル変換・視覚推論・3D深層学習の基盤研究者で被引用数約4.7万。CVPR実績豊富だが未収録。",
+    "homepage": "https://web.eecs.umich.edu/~justincj/",
+    "scholar": "https://scholar.google.com/citations?user=mS5k4CYAAAAJ",
+    "dblp": "https://dblp.org/pid/03/8332.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=mS5k4CYAAAAJ",
+      "https://web.eecs.umich.edu/~justincj/"
+    ]
+  },
+  {
+    "name": "Jiaya Jia",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning",
+      "computational imaging"
+    ],
+    "topics": [
+      "画像・動画理解",
+      "計算撮影",
+      "超解像・デブラー",
+      "マルチモーダルAI",
+      "生成AI"
+    ],
+    "affiliation": "HKUST (formerly CUHK)",
+    "country": "Hong Kong",
+    "origin": "China",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "SIGGRAPH",
+      "TPAMI"
+    ],
+    "key_contributions": "超解像・デブラー・マッティング・パノラマ・画像合成など低レベルビジョンの多数の基盤手法。LISA等のマルチモーダル研究も主導。",
+    "awards": [
+      "IEEE Fellow",
+      "SIGGRAPH Asia Test-of-Time Award (2023)",
+      "CVPR Best Paper Finalist (2022)"
+    ],
+    "metrics": {
+      "citations": "約112,000 (Google Scholar)",
+      "h_index": "110+"
+    },
+    "inclusion_reason": "計算撮影・低レベルビジョンの世界的権威で被引用数約11.2万、IEEE Fellow。実績突出するが未収録。",
+    "homepage": "https://jiaya.me/",
+    "scholar": "https://scholar.google.com/citations?user=XPAkzTEAAAAJ",
+    "dblp": "https://dblp.org/pid/93/4067.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=XPAkzTEAAAAJ",
+      "https://en.wikipedia.org/wiki/Jiaya_Jia"
+    ]
+  },
+  {
+    "name": "Kate Saenko",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning",
+      "AI"
+    ],
+    "topics": [
+      "ドメイン適応",
+      "ビジョン言語",
+      "分布外学習",
+      "データセットバイアス",
+      "深層学習"
+    ],
+    "affiliation": "Boston University / Meta",
+    "country": "USA",
+    "origin": "Russia",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS"
+    ],
+    "key_contributions": "ドメイン適応(Deep CORAL等)、ビジョン言語理解、視覚的説明可能性の基盤研究を主導。",
+    "awards": [
+      "ECCV TASK-CV Honorable Mention (2016)"
+    ],
+    "metrics": {
+      "citations": "約79,000 (Google Scholar)"
+    },
+    "inclusion_reason": "ドメイン適応・ビジョン言語の有力女性研究者で被引用数約7.9万。CVPR/ICCV実績豊富だが未収録。",
+    "homepage": "https://ai.bu.edu/ksaenko.html",
+    "scholar": "https://scholar.google.com/citations?user=9xDADY4AAAAJ",
+    "dblp": "https://dblp.org/pid/88/2754.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=9xDADY4AAAAJ",
+      "https://ai.bu.edu/"
+    ]
+  },
+  {
+    "name": "Tero Karras",
+    "primary_field": "cg",
+    "fields": [
+      "computer graphics",
+      "machine learning",
+      "generative models"
+    ],
+    "topics": [
+      "生成画像モデル",
+      "GAN",
+      "拡散モデル",
+      "ニューラルレンダリング"
+    ],
+    "affiliation": "NVIDIA Research",
+    "country": "Finland",
+    "origin": "Finland",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "NeurIPS",
+      "SIGGRAPH",
+      "TOG"
+    ],
+    "key_contributions": "StyleGANシリーズ(StyleGAN/2/3)、Progressive Growing of GANs、EDM(拡散モデル設計)など生成モデルの基盤を確立。",
+    "awards": [
+      "NVIDIA Senior Distinguished Research Scientist"
+    ],
+    "metrics": {
+      "citations": "約9万 (Google Scholar)"
+    },
+    "inclusion_reason": "StyleGAN等で生成画像モデルの基盤を築いた研究者。CVPR/SIGGRAPH実績突出するが未収録。",
+    "homepage": "https://research.nvidia.com/person/tero-karras",
+    "scholar": "https://scholar.google.com/citations?user=-50qJW8AAAAJ",
+    "dblp": "https://dblp.org/pid/74/3019.html",
+    "sources": [
+      "https://research.nvidia.com/person/tero-karras",
+      "https://github.com/NVlabs/stylegan"
+    ]
+  },
+  {
+    "name": "Ming C. Lin",
+    "primary_field": "cg",
+    "fields": [
+      "computer graphics",
+      "physical simulation",
+      "robotics"
+    ],
+    "topics": [
+      "衝突検出",
+      "物理ベースシミュレーション",
+      "ハプティクス",
+      "群衆シミュレーション",
+      "音響シミュレーション"
+    ],
+    "affiliation": "University of Maryland, College Park",
+    "country": "USA",
+    "origin": "Taiwan",
+    "venues": [
+      "SIGGRAPH",
+      "TOG",
+      "CVPR",
+      "I3D"
+    ],
+    "key_contributions": "Lin-Cannyアルゴリズム(衝突検出)、GPU衝突検出、布・流体・群衆シミュレーションなど物理ベースグラフィックスを主導。",
+    "awards": [
+      "ACM SIGGRAPH Computer Graphics Achievement Award",
+      "IEEE Fellow",
+      "ACM Fellow"
+    ],
+    "metrics": {
+      "citations": "数万 (Google Scholar)"
+    },
+    "inclusion_reason": "衝突検出・物理シミュレーションの世界的権威でACM/IEEE Fellow、SIGGRAPH実績突出するが未収録。",
+    "homepage": "https://www.cs.umd.edu/~lin/",
+    "scholar": "https://scholar.google.com/citations?user=NbHv6CMAAAAJ",
+    "dblp": "https://dblp.org/pid/57/2542.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ming_C._Lin",
+      "https://www.cs.umd.edu/~lin/"
+    ]
+  },
+  {
+    "name": "Ming-Yu Liu",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "computer graphics",
+      "generative models"
+    ],
+    "topics": [
+      "画像・動画生成",
+      "画像間変換",
+      "条件付きGAN",
+      "世界モデル",
+      "コンテンツ生成"
+    ],
+    "affiliation": "NVIDIA Research",
+    "country": "USA",
+    "origin": "Taiwan",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS",
+      "SIGGRAPH"
+    ],
+    "key_contributions": "pix2pixHD、SPADE/GauGAN、UNIT/MUNIT、FUNIT、Cosmos世界基盤モデルなど生成モデル・画像変換を主導。",
+    "awards": [
+      "IEEE Fellow",
+      "NVIDIA VP of Research"
+    ],
+    "metrics": {
+      "citations": "約5万 (Google Scholar)"
+    },
+    "inclusion_reason": "画像生成・画像間変換の世界的リーダーでIEEE Fellow、NVIDIA研究担当VP。CVPR/SIGGRAPH実績突出するが未収録。",
+    "homepage": "https://mingyuliu.net/",
+    "scholar": "https://scholar.google.com/citations?user=y-f-MZgAAAAJ",
+    "dblp": "https://dblp.org/pid/13/3499-1.html",
+    "sources": [
+      "https://research.nvidia.com/person/ming-yu-liu",
+      "https://scholar.google.com/citations?user=y-f-MZgAAAAJ"
+    ]
+  },
+  {
+    "name": "Jia-Bin Huang",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "computational photography",
+      "machine learning"
+    ],
+    "topics": [
+      "計算撮影",
+      "動画処理",
+      "視点合成",
+      "NeRF",
+      "画像補完"
+    ],
+    "affiliation": "University of Maryland, College Park",
+    "country": "USA",
+    "origin": "Taiwan",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "SIGGRAPH"
+    ],
+    "key_contributions": "単一画像超解像、画像補完、3D Photo Inpainting、動的NeRF、視点合成など計算撮影・ニューラルレンダリングを主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "約36,000 (Google Scholar)"
+    },
+    "inclusion_reason": "計算撮影・視点合成・NeRFの有力研究者で被引用数約3.6万。CVPR/SIGGRAPH実績豊富だが未収録。",
+    "homepage": "https://jbhuang0604.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=pp848fYAAAAJ",
+    "dblp": "https://dblp.org/pid/30/3934-1.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=pp848fYAAAAJ",
+      "https://www.umiacs.umd.edu/our-experts/faculty/jia-bin-huang"
+    ]
+  },
+  {
+    "name": "Angjoo Kanazawa",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "computer graphics",
+      "machine learning"
+    ],
+    "topics": [
+      "人体形状・姿勢復元",
+      "3D再構成",
+      "ニューラルレンダリング",
+      "動的シーン",
+      "NeRF"
+    ],
+    "affiliation": "UC Berkeley",
+    "country": "USA",
+    "origin": "Japan",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "SIGGRAPH",
+      "NeurIPS"
+    ],
+    "key_contributions": "HMR(人体形状・姿勢のエンドツーエンド復元)、Plenoxels、Nerfstudioなど人体・3D・ニューラルレンダリング研究を主導。",
+    "awards": [
+      "PAMI Young Researcher Award"
+    ],
+    "metrics": {
+      "citations": "約3万 (Google Scholar)"
+    },
+    "inclusion_reason": "人体3D復元(HMR)・ニューラルレンダリングの有力女性研究者で被引用数約3万。CVPR実績豊富だが未収録。",
+    "homepage": "https://people.eecs.berkeley.edu/~kanazawa/",
+    "scholar": "https://scholar.google.com/citations?user=Ci-_QYIAAAAJ",
+    "dblp": "https://dblp.org/pid/63/10047.html",
+    "sources": [
+      "https://akanazawa.github.io/hmr/",
+      "https://people.eecs.berkeley.edu/~kanazawa/"
+    ]
+  },
+  {
+    "name": "Gül Varol",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning"
+    ],
+    "topics": [
+      "人体姿勢・動き理解",
+      "行動認識",
+      "手話認識",
+      "動画理解",
+      "合成データ"
+    ],
+    "affiliation": "École des Ponts ParisTech",
+    "country": "France",
+    "origin": "Turkey",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS"
+    ],
+    "key_contributions": "SURREAL(合成人体データ)、人体形状・姿勢推定、手話認識、テキストから動き生成(TEMOS等)を主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "1万超 (Google Scholar)"
+    },
+    "inclusion_reason": "人体動き理解・手話認識の有力女性研究者。CVPR/ICCV実績豊富だが未収録。",
+    "homepage": "https://www.robots.ox.ac.uk/~gul/",
+    "scholar": "https://scholar.google.com/citations?user=ggn4PXkAAAAJ",
+    "dblp": "https://dblp.org/pid/177/9846.html",
+    "sources": [
+      "https://www.robots.ox.ac.uk/~gul/",
+      "https://arxiv.org/abs/1701.01370"
+    ]
+  },
+  {
+    "name": "Olga Russakovsky",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning",
+      "fairness"
+    ],
+    "topics": [
+      "物体認識",
+      "公平性・バイアス",
+      "データセット",
+      "ビジュアル認識",
+      "AI倫理"
+    ],
+    "affiliation": "Princeton University",
+    "country": "USA",
+    "origin": "Russia",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "IJCV"
+    ],
+    "key_contributions": "ImageNet Large Scale Visual Recognition Challenge(ILSVRC)を主導。視覚認識の公平性・バイアス緩和研究。AI4ALL共同創設。",
+    "awards": [
+      "PAMI Young Researcher Award",
+      "MIT TR35"
+    ],
+    "metrics": {
+      "citations": "約66,000 (Google Scholar)"
+    },
+    "inclusion_reason": "ImageNetチャレンジ主導・公平性研究の有力女性研究者で被引用数約6.6万。CVPR実績突出するが未収録。",
+    "homepage": "https://www.cs.princeton.edu/~olgarus/",
+    "scholar": "https://scholar.google.com/citations?user=TB5OwW8AAAAJ",
+    "dblp": "https://dblp.org/pid/27/9988.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=TB5OwW8AAAAJ",
+      "https://en.wikipedia.org/wiki/Olga_Russakovsky"
+    ]
+  },
+  {
+    "name": "Ender Konukoglu",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "medical image analysis",
+      "machine learning"
+    ],
+    "topics": [
+      "医用画像解析",
+      "画像セグメンテーション",
+      "生体物理モデリング",
+      "教師なし学習",
+      "MRI解析"
+    ],
+    "affiliation": "ETH Zurich",
+    "country": "Switzerland",
+    "origin": "Turkey",
+    "venues": [
+      "MICCAI",
+      "CVPR",
+      "IPMI",
+      "MedIA"
+    ],
+    "key_contributions": "医用画像セグメンテーション、腫瘍成長モデリング、半教師あり・教師なし医用画像解析手法を主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "約24,700 (Google Scholar)"
+    },
+    "inclusion_reason": "医用画像解析の有力研究者で被引用数約2.5万。CVPR/MICCAI実績豊富だが未収録。",
+    "homepage": "https://bmic.ee.ethz.ch/",
+    "scholar": "https://scholar.google.com/citations?user=OeEMrhQAAAAJ",
+    "dblp": "https://dblp.org/pid/05/8131.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=OeEMrhQAAAAJ"
+    ]
+  },
+  {
+    "name": "Devi Parikh",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning",
+      "vision-language"
+    ],
+    "topics": [
+      "視覚的質問応答",
+      "ビジョン言語",
+      "生成AI",
+      "AIによる創造性",
+      "マルチモーダル"
+    ],
+    "affiliation": "Yutori (formerly Georgia Tech / Meta)",
+    "country": "USA",
+    "origin": "India",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS"
+    ],
+    "key_contributions": "VQA(Visual Question Answering)を共同提唱、Make-A-Video等の生成AI、ビジョン言語の基盤研究を主導。",
+    "awards": [
+      "IJCAI Computers and Thought Award (2017)"
+    ],
+    "metrics": {
+      "citations": "約134,000 (Google Scholar)"
+    },
+    "inclusion_reason": "VQAを切り開いたビジョン言語の有力女性研究者で被引用数約13.4万。CVPR実績突出するが未収録。",
+    "homepage": "https://faculty.cc.gatech.edu/~parikh/",
+    "scholar": "https://scholar.google.com/citations?user=ijpYJQwAAAAJ",
+    "dblp": "https://dblp.org/pid/01/8132.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=ijpYJQwAAAAJ"
+    ]
+  },
+  {
+    "name": "Carl Vondrick",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning"
+    ],
+    "topics": [
+      "動画理解",
+      "動画生成",
+      "自己教師あり学習",
+      "マルチモーダル",
+      "視覚推論"
+    ],
+    "affiliation": "Columbia University",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS"
+    ],
+    "key_contributions": "動画によるシーンダイナミクス生成、未来予測、自己教師あり動画表現学習、マルチモーダル知覚を主導。",
+    "awards": [
+      "NSF CAREER Award",
+      "Toyota Young Faculty Award"
+    ],
+    "metrics": {
+      "citations": "約22,000 (Google Scholar)"
+    },
+    "inclusion_reason": "動画理解・動画生成の有力研究者で被引用数約2.2万。CVPR/ICCV実績豊富だが未収録。",
+    "homepage": "http://www.cs.columbia.edu/~vondrick/",
+    "scholar": "https://scholar.google.com/citations?user=3MzhkFIAAAAJ",
+    "dblp": "https://dblp.org/pid/63/9576.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=3MzhkFIAAAAJ",
+      "https://www.engineering.columbia.edu/faculty-staff/directory/carl-vondrick"
+    ]
+  },
+  {
+    "name": "Saurabh Gupta",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "robotics",
+      "machine learning"
+    ],
+    "topics": [
+      "3Dシーン理解",
+      "RGB-D認識",
+      "視覚ナビゲーション",
+      "動画からの学習",
+      "身体性知覚"
+    ],
+    "affiliation": "University of Illinois Urbana-Champaign",
+    "country": "USA",
+    "origin": "India",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "CoRL"
+    ],
+    "key_contributions": "RGB-Dからの物体検出・セグメンテーション、認知マッピングとプランニング、視覚ナビゲーションの基盤研究を主導。",
+    "awards": [
+      "NSF CAREER Award"
+    ],
+    "metrics": {
+      "citations": "約3万 (Google Scholar)"
+    },
+    "inclusion_reason": "3Dシーン理解・RGB-D認識・身体性知覚の有力研究者で被引用数約3万。CVPR実績豊富だが未収録。",
+    "homepage": "https://saurabhg.web.illinois.edu/",
+    "scholar": "https://scholar.google.com/citations?user=1HO5UacAAAAJ",
+    "dblp": "https://dblp.org/pid/06/5843-1.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=1HO5UacAAAAJ",
+      "https://saurabhg.web.illinois.edu/"
+    ]
+  },
+  {
+    "name": "Abhinav Gupta",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "robotics",
+      "machine learning"
+    ],
+    "topics": [
+      "自己教師あり学習",
+      "視覚表現学習",
+      "ロボット学習",
+      "シーン理解",
+      "大規模学習"
+    ],
+    "affiliation": "Carnegie Mellon University",
+    "country": "USA",
+    "origin": "India",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS"
+    ],
+    "key_contributions": "自己教師あり視覚表現学習、関係ネットワーク、大規模ロボット学習、シーングラフ・文脈推論を主導。",
+    "awards": [
+      "PAMI Young Researcher Award",
+      "IAPR JK Aggarwal Prize"
+    ],
+    "metrics": {
+      "citations": "約97,000 (Google Scholar)"
+    },
+    "inclusion_reason": "自己教師あり学習・視覚表現学習の世界的研究者で被引用数約9.7万。CVPR実績突出するが未収録。",
+    "homepage": "https://www.cs.cmu.edu/~abhinavg/",
+    "scholar": "https://scholar.google.com/citations?user=bqL73OkAAAAJ",
+    "dblp": "https://dblp.org/pid/36/7024-1.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=bqL73OkAAAAJ",
+      "https://www.ri.cmu.edu/ri-faculty/abhinav-gupta/"
+    ]
+  },
+  {
+    "name": "Vittorio Ferrari",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning",
+      "multimodal"
+    ],
+    "topics": [
+      "物体検出・認識",
+      "弱教師あり学習",
+      "データセット",
+      "3D知覚",
+      "マルチモーダル"
+    ],
+    "affiliation": "Synthesia (formerly Google / University of Edinburgh)",
+    "country": "UK",
+    "origin": "Italy",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "TPAMI"
+    ],
+    "key_contributions": "Open Images Dataset、弱教師あり物体検出、人間中心アノテーション、3D知覚研究を主導。",
+    "awards": [
+      "ERC Starting Grant"
+    ],
+    "metrics": {
+      "citations": "約31,000 (Google Scholar)"
+    },
+    "inclusion_reason": "物体検出・弱教師あり学習・大規模データセット(Open Images)の有力研究者で被引用数約3.1万。CVPR実績豊富だが未収録。",
+    "homepage": "https://sites.google.com/view/vittoferrari",
+    "scholar": "https://scholar.google.com/citations?user=4QvYJ00AAAAJ",
+    "dblp": "https://dblp.org/pid/49/3530.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=4QvYJ00AAAAJ"
+    ]
+  },
+  {
+    "name": "Siyu Tang",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "computer graphics",
+      "machine learning"
+    ],
+    "topics": [
+      "人体動き・姿勢",
+      "3D人体モデリング",
+      "人物追跡",
+      "シーン内人体動作",
+      "ニューラル表現"
+    ],
+    "affiliation": "ETH Zurich",
+    "country": "Switzerland",
+    "origin": "China",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "SIGGRAPH"
+    ],
+    "key_contributions": "シーン内人体動作生成、4D人体キャプチャ、多人物追跡、人体形状回帰の基盤研究を主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "約12,000 (Google Scholar)"
+    },
+    "inclusion_reason": "人体動き・3D人体モデリングの有力女性研究者で被引用数約1.2万。CVPR/ICCV実績豊富だが未収録。",
+    "homepage": "https://vlg.inf.ethz.ch/",
+    "scholar": "https://scholar.google.com/citations?user=BUDh_4wAAAAJ",
+    "dblp": "https://dblp.org/pid/26/6741-1.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=BUDh_4wAAAAJ",
+      "https://research.com/u/siyu-tang"
+    ]
+  },
+  {
+    "name": "Michael Zollhöfer",
+    "primary_field": "cg",
+    "fields": [
+      "computer graphics",
+      "computer vision",
+      "AR/VR"
+    ],
+    "topics": [
+      "人体パフォーマンスキャプチャ",
+      "顔再構成・リエンアクトメント",
+      "ニューラルレンダリング",
+      "コーデックアバター"
+    ],
+    "affiliation": "Reality Labs Research, Meta",
+    "country": "USA",
+    "origin": "Germany",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "SIGGRAPH",
+      "TOG"
+    ],
+    "key_contributions": "リアルタイム顔キャプチャ・リエンアクトメント(Face2Face)、Deferred Neural Rendering、コーデックアバターを主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "数万 (Google Scholar)"
+    },
+    "inclusion_reason": "顔再構成・ニューラルレンダリング・アバターの有力産業研究者。CVPR/SIGGRAPH実績豊富だが未収録。",
+    "homepage": "https://zollhoefer.com/",
+    "scholar": "https://scholar.google.com/citations?user=Aw_GHEYAAAAJ",
+    "dblp": "https://dblp.org/pid/05/9051.html",
+    "sources": [
+      "https://zollhoefer.com/"
+    ]
+  },
+  {
+    "name": "Federico Tombari",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "machine learning",
+      "3D perception"
+    ],
+    "topics": [
+      "3D知覚",
+      "SLAM",
+      "深度推定",
+      "ニューラルレンダリング",
+      "物体姿勢推定"
+    ],
+    "affiliation": "Google / Technical University of Munich",
+    "country": "Germany",
+    "origin": "Italy",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "3DV"
+    ],
+    "key_contributions": "3D記述子・点群マッチング、深度推定、6D物体姿勢推定、ニューラルレンダリング研究を主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "約33,500 (Google Scholar)"
+    },
+    "inclusion_reason": "3D知覚・SLAM・物体姿勢推定の有力研究者で被引用数約3.4万。CVPR/ICCV実績豊富だが未収録。",
+    "homepage": "https://federicotombari.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=TFsE4BIAAAAJ",
+    "dblp": "https://dblp.org/pid/16/3539.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=TFsE4BIAAAAJ"
+    ]
+  },
+  {
+    "name": "Keenan Crane",
+    "primary_field": "cg",
+    "fields": [
+      "computer graphics",
+      "geometry processing",
+      "applied mathematics"
+    ],
+    "topics": [
+      "離散微分幾何",
+      "幾何処理",
+      "形状解析",
+      "メッシュ処理",
+      "計算幾何"
+    ],
+    "affiliation": "Carnegie Mellon University",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "SIGGRAPH",
+      "TOG",
+      "SGP"
+    ],
+    "key_contributions": "Heat Method(測地距離計算)、ベクトル場設計、共形幾何、離散微分幾何の基盤手法を主導。",
+    "awards": [
+      "NSF CAREER Award",
+      "Packard Fellowship",
+      "SIGGRAPH Significant New Researcher Award"
+    ],
+    "metrics": {
+      "citations": "約6,700 (Google Scholar)"
+    },
+    "inclusion_reason": "離散微分幾何・幾何処理の世界的権威でSIGGRAPH New Researcher Award受賞。SIGGRAPH実績突出するが未収録。",
+    "homepage": "https://www.cs.cmu.edu/~kmcrane/",
+    "scholar": "https://scholar.google.com/citations?user=Qs9FzFUAAAAJ",
+    "dblp": "https://dblp.org/pid/47/8419.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=Qs9FzFUAAAAJ",
+      "https://www.cs.cmu.edu/~kmcrane/"
+    ]
+  },
+  {
+    "name": "Daniele Panozzo",
+    "primary_field": "cg",
+    "fields": [
+      "computer graphics",
+      "geometry processing",
+      "scientific computing"
+    ],
+    "topics": [
+      "幾何処理",
+      "メッシュ生成",
+      "有限要素法",
+      "デジタルファブリケーション",
+      "ジオメトリ最適化"
+    ],
+    "affiliation": "New York University (Courant Institute)",
+    "country": "USA",
+    "origin": "Italy",
+    "venues": [
+      "SIGGRAPH",
+      "TOG",
+      "SGP",
+      "Eurographics"
+    ],
+    "key_contributions": "libigl幾何処理ライブラリ、ロバストメッシュ生成(TetWild)、四角形メッシュ生成、シミュレーション基盤を主導。",
+    "awards": [
+      "NSF CAREER Award",
+      "Sloan Research Fellowship",
+      "Eurographics Young Researcher Award"
+    ],
+    "metrics": {
+      "citations": "約10,000 (Google Scholar)"
+    },
+    "inclusion_reason": "幾何処理・メッシュ生成の有力研究者で被引用数約1万、libigl開発者。SIGGRAPH実績豊富だが未収録。",
+    "homepage": "https://cims.nyu.edu/gcl/daniele.html",
+    "scholar": "https://scholar.google.com/citations?user=XUp6qhMAAAAJ",
+    "dblp": "https://dblp.org/pid/57/8569.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=XUp6qhMAAAAJ"
+    ]
+  },
+  {
+    "name": "Yaron Lipman",
+    "primary_field": "cg",
+    "fields": [
+      "computer graphics",
+      "geometry processing",
+      "machine learning"
+    ],
+    "topics": [
+      "幾何処理",
+      "形状解析",
+      "幾何深層学習",
+      "離散微分幾何",
+      "生成モデル"
+    ],
+    "affiliation": "Weizmann Institute of Science / Meta AI (FAIR)",
+    "country": "Israel",
+    "origin": "Israel",
+    "venues": [
+      "SIGGRAPH",
+      "TOG",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "境界保存写像、形状比較、Implicit Geometric Regularization、Flow Matching(生成モデル)など幾何処理と生成モデルを橋渡し。",
+    "awards": [
+      "ERC Grant",
+      "SIGGRAPH Significant New Researcher Award"
+    ],
+    "metrics": {
+      "citations": "数万 (Google Scholar)"
+    },
+    "inclusion_reason": "幾何処理と幾何深層学習・Flow Matchingの世界的研究者でSIGGRAPH New Researcher Award受賞。実績突出するが未収録。",
+    "homepage": "https://www.wisdom.weizmann.ac.il/~ylipman/",
+    "scholar": "https://scholar.google.com/citations?user=eNa2DkcAAAAJ",
+    "dblp": "https://dblp.org/pid/49/4844.html",
+    "sources": [
+      "https://www.wisdom.weizmann.ac.il/~ylipman/"
+    ]
+  },
+  {
+    "name": "Shenlong Wang",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "computer graphics",
+      "robotics"
+    ],
+    "topics": [
+      "3D再構成",
+      "自動運転知覚",
+      "ニューラルシミュレーション",
+      "LiDAR",
+      "生成的3D"
+    ],
+    "affiliation": "University of Illinois Urbana-Champaign",
+    "country": "USA",
+    "origin": "China",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS"
+    ],
+    "key_contributions": "自動運転向け3D知覚・地図、ニューラルシミュレーション、ステレオ・LiDAR再構成、生成的3Dシーン研究を主導。",
+    "awards": [
+      "NSF CAREER Award"
+    ],
+    "metrics": {
+      "citations": "約2万 (Google Scholar)"
+    },
+    "inclusion_reason": "3D再構成・自動運転知覚・ニューラルシミュレーションの有力研究者で被引用数約2万。CVPR実績豊富だが未収録。",
+    "homepage": "https://shenlong.web.illinois.edu/",
+    "scholar": "https://scholar.google.com/citations?user=XOMl0LMAAAAJ",
+    "dblp": "https://dblp.org/pid/142/2924.html",
+    "sources": [
+      "https://shenlong.web.illinois.edu/"
+    ]
+  },
+  {
+    "name": "Jingyi Yu",
+    "primary_field": "cg",
+    "fields": [
+      "computer graphics",
+      "computer vision",
+      "computational imaging"
+    ],
+    "topics": [
+      "ライトフィールド撮像",
+      "計算撮影",
+      "3D再構成",
+      "ニューラルレンダリング",
+      "デジタルヒューマン"
+    ],
+    "affiliation": "ShanghaiTech University",
+    "country": "China",
+    "origin": "China",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "SIGGRAPH",
+      "TPAMI"
+    ],
+    "key_contributions": "ライトフィールド撮像・計算撮影、多視点3D再構成、ニューラルレンダリング、デジタルヒューマン研究を主導。",
+    "awards": [
+      "Optica Fellow (2023)",
+      "IEEE Fellow"
+    ],
+    "metrics": {
+      "citations": "約22,000 (Google Scholar)"
+    },
+    "inclusion_reason": "計算撮影・ライトフィールドの世界的権威でIEEE/Optica Fellow、被引用数約2.2万。CVPR/SIGGRAPH実績突出するが未収録。",
+    "homepage": "https://www.yu-jingyi.com/",
+    "scholar": "https://scholar.google.com/citations?user=R9L_AfQAAAAJ",
+    "dblp": "https://dblp.org/pid/03/4112.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=R9L_AfQAAAAJ",
+      "https://faculty.sist.shanghaitech.edu.cn/yujingyi/"
+    ]
+  },
+  {
+    "name": "Hongyang Li",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "autonomous driving",
+      "robotics"
+    ],
+    "topics": [
+      "自動運転知覚",
+      "エンドツーエンド自動運転",
+      "BEV知覚",
+      "身体性AI",
+      "世界モデル"
+    ],
+    "affiliation": "University of Hong Kong (OpenDriveLab)",
+    "country": "Hong Kong",
+    "origin": "China",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "NeurIPS"
+    ],
+    "key_contributions": "UniAD(エンドツーエンド自動運転、CVPR 2023 Best Paper)、BEVFormer関連、自動運転知覚の基盤研究を主導。",
+    "awards": [
+      "CVPR Best Paper Award (2023)"
+    ],
+    "metrics": {
+      "citations": "約14,000 (Google Scholar)"
+    },
+    "inclusion_reason": "エンドツーエンド自動運転(UniAD)でCVPR Best Paper受賞、被引用数約1.4万。CVPR実績突出するが未収録。",
+    "homepage": "https://datascience.hku.hk/people/hongyang-li/",
+    "scholar": "https://scholar.google.com/citations?user=Hfrih1EAAAAJ",
+    "dblp": "https://dblp.org/pid/40/1402-2.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=Hfrih1EAAAAJ",
+      "https://opendrivelab.com/"
+    ]
+  },
+  {
+    "name": "Yu-Wing Tai",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "deep learning",
+      "generative AI"
+    ],
+    "topics": [
+      "低レベルビジョン",
+      "画像・動画編集",
+      "セグメンテーション",
+      "3D再構成",
+      "人体姿勢推定"
+    ],
+    "affiliation": "Dartmouth College",
+    "country": "USA",
+    "origin": "Hong Kong",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "TPAMI"
+    ],
+    "key_contributions": "デブラー・マッティング・超解像など低レベルビジョン、動画解析、3D再構成、生成AIへの応用研究を主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "約26,000 (Google Scholar)"
+    },
+    "inclusion_reason": "低レベルビジョン・画像動画編集・3D再構成の有力研究者で被引用数約2.6万。CVPR/ICCV実績豊富だが未収録。",
+    "homepage": "https://yuwingtai.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=nFhLmFkAAAAJ",
+    "dblp": "https://dblp.org/pid/01/5313.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=nFhLmFkAAAAJ",
+      "https://web.cs.dartmouth.edu/people/yu-wing-tai"
+    ]
+  },
+  {
+    "name": "Shunsuke Saito",
+    "primary_field": "cg",
+    "fields": [
+      "computer graphics",
+      "computer vision",
+      "AR/VR"
+    ],
+    "topics": [
+      "デジタルヒューマン",
+      "人体デジタル化",
+      "リライタブルアバター",
+      "ニューラル暗黙的表現",
+      "Gaussian Splatting"
+    ],
+    "affiliation": "Reality Labs Research, Meta (Codec Avatars Lab)",
+    "country": "USA",
+    "origin": "Japan",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "SIGGRAPH",
+      "TOG"
+    ],
+    "key_contributions": "PIFu/PIFuHD(単一画像からの高精細人体デジタル化)、Relightable Gaussian Codec Avatarsなど次世代デジタルヒューマンを主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "約9,000 (Google Scholar)"
+    },
+    "inclusion_reason": "PIFuやコーデックアバターなど人体デジタル化の有力日本人研究者。CVPR/SIGGRAPH実績豊富だが未収録。",
+    "homepage": "https://shunsukesaito.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=IolN_okAAAAJ",
+    "dblp": "https://dblp.org/pid/30/9989.html",
+    "sources": [
+      "https://shunsukesaito.github.io/",
+      "https://shunsukesaito.github.io/rgca/"
+    ]
+  },
+  {
+    "name": "Jaesik Park",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "computer graphics",
+      "machine learning"
+    ],
+    "topics": [
+      "3D再構成",
+      "点群処理",
+      "3Dシーン理解",
+      "RGB-D",
+      "生成的3D"
+    ],
+    "affiliation": "Seoul National University",
+    "country": "South Korea",
+    "origin": "South Korea",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "SIGGRAPH"
+    ],
+    "key_contributions": "Open3Dライブラリ、ロバストな点群レジストレーション、屋内シーン3D再構成、ColoredICPなどを主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "約18,000 (Google Scholar)"
+    },
+    "inclusion_reason": "3D再構成・点群処理(Open3D)の有力韓国人研究者で被引用数約1.8万。CVPR/ICCV実績豊富だが未収録。",
+    "homepage": "https://jaesik.info/",
+    "scholar": "https://scholar.google.com/citations?user=_3q6KBIAAAAJ",
+    "dblp": "https://dblp.org/pid/49/9024-1.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=_3q6KBIAAAAJ",
+      "https://jaesik.info/"
+    ]
+  },
+  {
+    "name": "Tali Dekel",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "computer graphics",
+      "machine learning"
+    ],
+    "topics": [
+      "動画編集・生成",
+      "動画拡散モデル",
+      "再ターゲティング",
+      "計算撮影",
+      "ニューラルレンダリング"
+    ],
+    "affiliation": "Weizmann Institute of Science / Google DeepMind",
+    "country": "Israel",
+    "origin": "Israel",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "SIGGRAPH"
+    ],
+    "key_contributions": "Mannequin Challengeによる深度学習、Text2Live・動画拡散編集、レイヤー化動画分解(Omnimatte)を主導。",
+    "awards": [
+      "CVPR Best Paper Honorable Mention"
+    ],
+    "metrics": {
+      "citations": "約12,000 (Google Scholar)"
+    },
+    "inclusion_reason": "動画編集・動画拡散モデルの有力女性研究者で被引用数約1.2万。CVPR/SIGGRAPH実績豊富だが未収録。",
+    "homepage": "https://www.weizmann.ac.il/math/dekel/",
+    "scholar": "https://scholar.google.com/citations?user=T0-Wo0EAAAAJ",
+    "dblp": "https://dblp.org/pid/57/8513.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=T0-Wo0EAAAAJ"
+    ]
+  },
+  {
+    "name": "Ira Kemelmacher-Shlizerman",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "computer graphics",
+      "machine learning"
+    ],
+    "topics": [
+      "顔モデリング・生成",
+      "アバター",
+      "動画生成",
+      "計算撮影",
+      "3D顔再構成"
+    ],
+    "affiliation": "University of Washington / Google",
+    "country": "USA",
+    "origin": "Israel",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "SIGGRAPH"
+    ],
+    "key_contributions": "顔の経年変化合成、MegaFace、Synthesizing Obama、動画生成・キーフレーム補間など顔・人体生成研究を主導。",
+    "awards": [
+      "NSF Faculty Award"
+    ],
+    "metrics": {
+      "citations": "約8,000 (Google Scholar)"
+    },
+    "inclusion_reason": "顔モデリング・生成・アバターの有力女性研究者。CVPR/SIGGRAPH実績豊富だが未収録。",
+    "homepage": "https://www.irakemelmacher.com/",
+    "scholar": "https://scholar.google.com/citations?user=P97vI1EAAAAJ",
+    "dblp": "https://dblp.org/pid/22/4862.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=P97vI1EAAAAJ",
+      "https://research.google/people/irakemelmachershlizerman/"
+    ]
+  },
+  {
+    "name": "Aleksander Holynski",
+    "primary_field": "cv",
+    "fields": [
+      "computer vision",
+      "computer graphics",
+      "generative models"
+    ],
+    "topics": [
+      "動画生成",
+      "画像編集",
+      "拡散モデル",
+      "ニューラルレンダリング",
+      "計算撮影"
+    ],
+    "affiliation": "Google DeepMind / UC Berkeley",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "SIGGRAPH"
+    ],
+    "key_contributions": "InstructPix2Pix(指示ベース画像編集)、Generative Powers of Ten、アニメ化動画生成、拡散ベース編集を主導。",
+    "awards": [
+      "CVPR Best Paper Honorable Mention"
+    ],
+    "metrics": {
+      "citations": "約8,500 (Google Scholar)"
+    },
+    "inclusion_reason": "拡散ベース画像・動画生成編集(InstructPix2Pix)の有力研究者。CVPR/SIGGRAPH実績豊富だが未収録。",
+    "homepage": "https://holynski.org/",
+    "scholar": "https://scholar.google.com/citations?user=ypBMJMgAAAAJ",
+    "dblp": "https://dblp.org/pid/232/1791.html",
+    "sources": [
+      "https://holynski.org/",
+      "https://scholar.google.com/citations?user=ypBMJMgAAAAJ"
+    ]
+  },
+  {
+    "name": "Demis Hassabis",
+    "primary_field": "ai",
+    "fields": [
+      "ai",
+      "rl",
+      "ml"
+    ],
+    "topics": [
+      "深層強化学習",
+      "AlphaGo/AlphaZero",
+      "AlphaFold",
+      "汎用人工知能"
+    ],
+    "affiliation": "Google DeepMind",
+    "country": "UK",
+    "origin": "UK",
+    "venues": [
+      "Nature",
+      "Science",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "DeepMind共同創業者兼CEO。AlphaGo、AlphaZero、AlphaFoldなど時代を画するシステムを主導。タンパク質構造予測AlphaFoldで2024年ノーベル化学賞を受賞。",
+    "awards": [
+      "Nobel Prize in Chemistry (2024)",
+      "Lasker Award (2023)",
+      "Breakthrough Prize",
+      "Knight Bachelor",
+      "FRS"
+    ],
+    "metrics": {
+      "citations": "概算 100,000+"
+    },
+    "inclusion_reason": "ノーベル化学賞受賞者(AlphaFold)でありDeepMindのCEO。AI分野で最も著名な人物の一人だが875名リストに未収録という明白な抜け。",
+    "homepage": "https://deepmind.google/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/95/6097.html",
+    "sources": [
+      "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+      "https://en.wikipedia.org/wiki/Demis_Hassabis"
+    ]
+  },
+  {
+    "name": "John Jumper",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "ai"
+    ],
+    "topics": [
+      "タンパク質構造予測",
+      "AlphaFold",
+      "計算生物学への深層学習応用"
+    ],
+    "affiliation": "Google DeepMind",
+    "country": "UK",
+    "origin": "USA",
+    "venues": [
+      "Nature",
+      "Science",
+      "NeurIPS"
+    ],
+    "key_contributions": "AlphaFold2の技術的リード。アミノ酸配列からタンパク質3D構造を高精度予測する深層学習システムを開発し、構造生物学を一変させた。",
+    "awards": [
+      "Nobel Prize in Chemistry (2024)",
+      "Lasker Award (2023)",
+      "Breakthrough Prize"
+    ],
+    "metrics": {
+      "citations": "概算 60,000+"
+    },
+    "inclusion_reason": "AlphaFold2のリード開発者でノーベル化学賞共同受賞者。Hassabisと並ぶ明白な未収録。",
+    "homepage": "https://deepmind.google/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/295/8862.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/John_M._Jumper",
+      "https://www.nobelprize.org/prizes/chemistry/2024/jumper/facts/"
+    ]
+  },
+  {
+    "name": "Ashish Vaswani",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nlp",
+      "nn"
+    ],
+    "topics": [
+      "Transformer",
+      "自己注意機構",
+      "系列モデリング"
+    ],
+    "affiliation": "Essential AI (共同創業)",
+    "country": "USA",
+    "origin": "India",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "ICLR"
+    ],
+    "key_contributions": "「Attention Is All You Need」(2017)の筆頭著者でTransformerアーキテクチャの中心設計者。現代の大規模言語モデルの基盤を築いた。",
+    "awards": [
+      "NeurIPS Test of Time候補級の影響"
+    ],
+    "metrics": {
+      "citations": "概算 170,000+ (主論文)"
+    },
+    "inclusion_reason": "Transformer論文の筆頭著者。現代AIで最も影響力の大きい論文の中心人物だが未収録。",
+    "homepage": "",
+    "scholar": "https://scholar.google.com/citations?user=oR9sCGYAAAAJ",
+    "dblp": "https://dblp.org/pid/30/9988.html",
+    "sources": [
+      "https://arxiv.org/abs/1706.03762",
+      "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need"
+    ]
+  },
+  {
+    "name": "Noam Shazeer",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nlp",
+      "nn"
+    ],
+    "topics": [
+      "Transformer",
+      "Mixture-of-Experts",
+      "大規模言語モデル",
+      "Mesh-TensorFlow"
+    ],
+    "affiliation": "Google DeepMind (Gemini共同リード)",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "NeurIPS",
+      "ICLR",
+      "ICML",
+      "JMLR"
+    ],
+    "key_contributions": "Transformerの共著者(scaled dot-product/multi-head attention等)。Sparsely-Gated Mixture-of-Experts、Mesh-TensorFlow、T5に貢献。Character.AI共同創業者でGemini共同リード。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 200,000+"
+    },
+    "inclusion_reason": "Transformer/MoE等、現代LLMの主要技術の中心的発明者。未収録。",
+    "homepage": "",
+    "scholar": "https://scholar.google.com/citations?user=wsGvgA8AAAAJ",
+    "dblp": "https://dblp.org/pid/01/10560.html",
+    "sources": [
+      "https://arxiv.org/abs/1706.03762",
+      "https://en.wikipedia.org/wiki/Noam_Shazeer"
+    ]
+  },
+  {
+    "name": "Alec Radford",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nlp",
+      "cv"
+    ],
+    "topics": [
+      "GPT/GPT-2",
+      "DCGAN",
+      "CLIP",
+      "Whisper"
+    ],
+    "affiliation": "独立研究者 (元OpenAI)",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "ICLR"
+    ],
+    "key_contributions": "GPT・GPT-2の筆頭著者で生成的事前学習の確立者。DCGAN、CLIP、Whisperの主要著者。生成AIの実証的基盤を築いた。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 370,000+"
+    },
+    "inclusion_reason": "GPT/CLIP/Whisper等を主導した極めて高被引用の研究者。未収録の明白な抜け。",
+    "homepage": "",
+    "scholar": "https://scholar.google.com/citations?user=dOad5HoAAAAJ",
+    "dblp": "https://dblp.org/pid/142/2722.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alec_Radford",
+      "https://scholar.google.com/citations?user=dOad5HoAAAAJ"
+    ]
+  },
+  {
+    "name": "Dario Amodei",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nlp",
+      "agents"
+    ],
+    "topics": [
+      "スケーリング則",
+      "RLHF",
+      "Constitutional AI",
+      "AI安全性"
+    ],
+    "affiliation": "Anthropic (共同創業・CEO)",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "arXiv"
+    ],
+    "key_contributions": "Anthropic共同創業者兼CEO。元OpenAI研究担当VPとしてGPT-2/GPT-3を主導。スケーリング則の定式化とRLHFの共同発明、Concrete Problems in AI Safetyの主著。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 60,000+"
+    },
+    "inclusion_reason": "スケーリング則・RLHFの中心人物でAnthropic CEO。Claudeの開発を率いる主要研究者だが未収録。",
+    "homepage": "https://www.darioamodei.com/",
+    "scholar": "https://scholar.google.com/citations?user=Gj0Qbm4AAAAJ",
+    "dblp": "https://dblp.org/pid/55/10800.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dario_Amodei",
+      "https://arxiv.org/abs/1606.06565"
+    ]
+  },
+  {
+    "name": "Tom B. Brown",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nlp"
+    ],
+    "topics": [
+      "GPT-3",
+      "Few-shot学習",
+      "大規模言語モデル"
+    ],
+    "affiliation": "Anthropic (共同創業)",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "NeurIPS",
+      "arXiv"
+    ],
+    "key_contributions": "「Language Models are Few-Shot Learners」(GPT-3, 2020)の筆頭著者。Anthropic共同創業者で大規模事前学習の中心人物。",
+    "awards": [
+      "NeurIPS 2020 Best Paper"
+    ],
+    "metrics": {
+      "citations": "概算 40,000+"
+    },
+    "inclusion_reason": "GPT-3論文の筆頭著者でAnthropic共同創業者。LLM時代を象徴する論文の中心だが未収録。",
+    "homepage": "",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/195/0223.html",
+    "sources": [
+      "https://arxiv.org/abs/2005.14165",
+      "https://openai.com/blog/authors/tom/"
+    ]
+  },
+  {
+    "name": "Sepp Hochreiter",
+    "primary_field": "nn",
+    "fields": [
+      "nn",
+      "ml"
+    ],
+    "topics": [
+      "LSTM",
+      "勾配消失問題",
+      "再帰型ニューラルネット"
+    ],
+    "affiliation": "Johannes Kepler University Linz",
+    "country": "Austria",
+    "origin": "Germany",
+    "venues": [
+      "Neural Computation",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "Long Short-Term Memory (LSTM)の共同発明者(1997, Schmidhuberと共著)。勾配消失問題を最初に分析。系列学習の基盤を築いた。",
+    "awards": [
+      "IEEE CIS Neural Networks Pioneer Award (2021)"
+    ],
+    "metrics": {
+      "citations": "概算 130,000+"
+    },
+    "inclusion_reason": "LSTMの共同発明者。Schmidhuberは収録済みだがHochreiterは未収録という明白な抜け。",
+    "homepage": "https://www.jku.at/en/institute-for-machine-learning/about-us/team/sepp-hochreiter/",
+    "scholar": "https://scholar.google.com/citations?user=tvUH3WMAAAAJ",
+    "dblp": "https://dblp.org/pid/h/SeppHochreiter.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Long_short-term_memory",
+      "https://www.jku.at/en/institute-for-machine-learning/"
+    ]
+  },
+  {
+    "name": "Ruslan Salakhutdinov",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nn",
+      "cv"
+    ],
+    "topics": [
+      "深層ボルツマンマシン",
+      "深層生成モデル",
+      "表現学習"
+    ],
+    "affiliation": "Carnegie Mellon University",
+    "country": "USA",
+    "origin": "Russia",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "ICLR"
+    ],
+    "key_contributions": "深層ボルツマンマシン、オートエンコーダによる次元削減(Hintonと共著)、深層生成モデルの先駆。Apple元AI研究ディレクター。",
+    "awards": [
+      "Sloan Fellowship",
+      "NSF CAREER",
+      "Canada Research Chair"
+    ],
+    "metrics": {
+      "citations": "概算 270,000+"
+    },
+    "inclusion_reason": "深層学習黎明期の中心人物で極めて高被引用。Hintonの主要共同研究者だが未収録。",
+    "homepage": "https://www.cs.cmu.edu/~rsalakhu/",
+    "scholar": "https://scholar.google.com/citations?user=ITZ1e7MAAAAJ",
+    "dblp": "https://dblp.org/pid/75/4661.html",
+    "sources": [
+      "https://www.cs.cmu.edu/~rsalakhu/",
+      "https://scholar.google.com/citations?user=ITZ1e7MAAAAJ"
+    ]
+  },
+  {
+    "name": "Jascha Sohl-Dickstein",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nn"
+    ],
+    "topics": [
+      "拡散モデル",
+      "深層学習理論",
+      "無限幅ネットワーク"
+    ],
+    "affiliation": "Anthropic (元Google Brain)",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "ICML",
+      "NeurIPS",
+      "ICLR"
+    ],
+    "key_contributions": "「Deep Unsupervised Learning using Nonequilibrium Thermodynamics」(2015)の筆頭著者で拡散モデルの原点を提示。神経正接核(NTK)・無限幅ネットの理論にも貢献。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 50,000+"
+    },
+    "inclusion_reason": "拡散モデルの理論的起源を作った研究者。生成AIの基盤だが未収録。",
+    "homepage": "http://www.sohldickstein.com/",
+    "scholar": "https://scholar.google.com/citations?user=-3zYIjQAAAAJ",
+    "dblp": "https://dblp.org/pid/77/9342.html",
+    "sources": [
+      "https://arxiv.org/abs/1503.03585",
+      "http://www.sohldickstein.com/"
+    ]
+  },
+  {
+    "name": "Koray Kavukcuoglu",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "rl",
+      "speech"
+    ],
+    "topics": [
+      "DQN",
+      "WaveNet",
+      "IMPALA",
+      "大規模生成モデル"
+    ],
+    "affiliation": "Google DeepMind (CTO)",
+    "country": "UK",
+    "origin": "Turkey",
+    "venues": [
+      "Nature",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "DeepMind CTO兼GoogleチーフAIアーキテクト。DQN、WaveNet、IMPALA等のアルゴリズム的ブレークスルーを主導。Geminiの開発を統括。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 130,000+"
+    },
+    "inclusion_reason": "DQN/WaveNet等を主導したDeepMindのシニア研究者で高被引用。未収録。",
+    "homepage": "https://koray.kavukcuoglu.org/",
+    "scholar": "https://scholar.google.com/citations?user=sGFyDIUAAAAJ",
+    "dblp": "https://dblp.org/pid/40/10770.html",
+    "sources": [
+      "https://www.nature.com/articles/nature14236",
+      "https://scholar.google.com/citations?user=sGFyDIUAAAAJ"
+    ]
+  },
+  {
+    "name": "Shane Legg",
+    "primary_field": "ai",
+    "fields": [
+      "ai",
+      "rl"
+    ],
+    "topics": [
+      "汎用人工知能",
+      "知能の数理的定義",
+      "AI安全性"
+    ],
+    "affiliation": "Google DeepMind (共同創業・チーフAGIサイエンティスト)",
+    "country": "UK",
+    "origin": "New Zealand",
+    "venues": [
+      "NeurIPS",
+      "AGI",
+      "Minds and Machines"
+    ],
+    "key_contributions": "DeepMind共同創業者でチーフAGIサイエンティスト。Hutterと共に知能の汎用的・数理的定義を提示。AGIという目標を学術的に明確化。",
+    "awards": [
+      "Canadian Singularity Prize"
+    ],
+    "metrics": {
+      "citations": "概算 30,000+"
+    },
+    "inclusion_reason": "DeepMind共同創業者でAGI理論の中心人物。共同研究者Hutterは収録済みだがLeggは未収録。",
+    "homepage": "http://www.vetta.org/",
+    "scholar": "https://scholar.google.com/citations?user=oXJDIckAAAAJ",
+    "dblp": "https://dblp.org/pid/79/6206.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Shane_Legg",
+      "http://www.vetta.org/"
+    ]
+  },
+  {
+    "name": "Chris Olah",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nn"
+    ],
+    "topics": [
+      "機構的解釈可能性",
+      "特徴可視化",
+      "ニューラルネット理解"
+    ],
+    "affiliation": "Anthropic (共同創業)",
+    "country": "USA",
+    "origin": "Canada",
+    "venues": [
+      "Distill",
+      "NeurIPS",
+      "ICLR"
+    ],
+    "key_contributions": "機構的解釈可能性(mechanistic interpretability)分野の創始者。特徴可視化やCircuitsの研究を主導。Distill誌共同創設者でAnthropic共同創業者。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 25,000+"
+    },
+    "inclusion_reason": "解釈可能性研究を切り拓いた中心人物でAnthropic共同創業者。未収録。",
+    "homepage": "https://colah.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=6dskOSUAAAAJ",
+    "dblp": "https://dblp.org/pid/200/8062.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Olah",
+      "https://colah.github.io/about.html"
+    ]
+  },
+  {
+    "name": "Paul Christiano",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "rl",
+      "agents"
+    ],
+    "topics": [
+      "RLHF",
+      "AI整合性",
+      "反復増幅",
+      "スケーラブル監督"
+    ],
+    "affiliation": "US AI Safety Institute (元OpenAI)",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "arXiv"
+    ],
+    "key_contributions": "人間のフィードバックからの強化学習(Deep RL from Human Preferences)の主著者でRLHFの中心的発明者。反復増幅(IDA)などAI整合性の理論を提唱。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 20,000+"
+    },
+    "inclusion_reason": "RLHFの基礎を築いた研究者でAI整合性研究の代表的人物。未収録。",
+    "homepage": "https://paulfchristiano.com/",
+    "scholar": "https://scholar.google.com/citations?user=AghdReUAAAAJ",
+    "dblp": "https://dblp.org/pid/151/3343.html",
+    "sources": [
+      "https://arxiv.org/abs/1706.03741",
+      "https://en.wikipedia.org/wiki/Paul_Christiano"
+    ]
+  },
+  {
+    "name": "Jan Leike",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "rl",
+      "agents"
+    ],
+    "topics": [
+      "RLHF",
+      "スケーラブル監督",
+      "AI整合性",
+      "InstructGPT"
+    ],
+    "affiliation": "Anthropic (元OpenAI Superalignment共同リード)",
+    "country": "USA",
+    "origin": "Germany",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "arXiv"
+    ],
+    "key_contributions": "Deep RL from Human Preferencesの共著者でInstructGPTのアライメントを主導。OpenAIのSuperalignmentチーム共同リードを経てAnthropicでアライメント研究を率いる。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 20,000+"
+    },
+    "inclusion_reason": "RLHF・スケーラブル監督の中心研究者でアライメント分野の代表。未収録。",
+    "homepage": "https://jan.leike.name/",
+    "scholar": "https://scholar.google.com/citations?user=beiWcokAAAAJ",
+    "dblp": "https://dblp.org/pid/14/10130.html",
+    "sources": [
+      "https://jan.leike.name/",
+      "https://arxiv.org/abs/1706.03741"
+    ]
+  },
+  {
+    "name": "Tri Dao",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nn"
+    ],
+    "topics": [
+      "FlashAttention",
+      "状態空間モデル(Mamba)",
+      "効率的な系列モデリング"
+    ],
+    "affiliation": "Princeton University / Together AI",
+    "country": "USA",
+    "origin": "Vietnam",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "ICLR",
+      "COLM"
+    ],
+    "key_contributions": "FlashAttention(GPU効率的な注意計算)の発明者でTransformer実装を一変させた。Albert Guと共にMamba(選択的状態空間モデル)を提案。",
+    "awards": [
+      "COLM Outstanding Paper (Mamba)"
+    ],
+    "metrics": {
+      "citations": "概算 25,000+"
+    },
+    "inclusion_reason": "FlashAttention/Mambaという主要システム・アーキテクチャの著者。未収録。",
+    "homepage": "https://tridao.me/",
+    "scholar": "https://scholar.google.com/citations?user=NQRw0bQAAAAJ",
+    "dblp": "https://dblp.org/pid/241/9407.html",
+    "sources": [
+      "https://tridao.me/",
+      "https://arxiv.org/abs/2312.00752"
+    ]
+  },
+  {
+    "name": "Albert Gu",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nn"
+    ],
+    "topics": [
+      "状態空間モデル",
+      "S4",
+      "Mamba",
+      "長系列モデリング"
+    ],
+    "affiliation": "Carnegie Mellon University / Cartesia AI",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "ICLR",
+      "COLM"
+    ],
+    "key_contributions": "構造化状態空間モデル(S4)とMamba(選択的SSM)の主導者。Transformerに代わる線形時間系列アーキテクチャを確立。",
+    "awards": [
+      "COLM Outstanding Paper (Mamba)",
+      "TIME100 AI"
+    ],
+    "metrics": {
+      "citations": "概算 15,000+"
+    },
+    "inclusion_reason": "S4/Mambaという新世代アーキテクチャの中心的発明者。未収録。",
+    "homepage": "https://goombalab.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=DVCHv1kAAAAJ",
+    "dblp": "https://dblp.org/pid/130/0612.html",
+    "sources": [
+      "https://github.com/state-spaces/mamba",
+      "https://goombalab.github.io/"
+    ]
+  },
+  {
+    "name": "Christopher Ré",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "db"
+    ],
+    "topics": [
+      "弱教師あり学習(Snorkel)",
+      "データ中心AI",
+      "効率的なML",
+      "FlashAttention"
+    ],
+    "affiliation": "Stanford University",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "VLDB",
+      "SIGMOD"
+    ],
+    "key_contributions": "Snorkel(弱教師あり学習)やData-centric AI、Hogwild!、FlashAttention/S4の共同提唱者。データベースとMLの橋渡しを主導。",
+    "awards": [
+      "MacArthur Fellowship (2015)",
+      "ACM Fellow",
+      "SIGMOD/PODS最優秀論文"
+    ],
+    "metrics": {
+      "citations": "概算 50,000+"
+    },
+    "inclusion_reason": "MacArthurフェローでSnorkel等の主要システムを生んだDB/ML横断の代表的研究者。未収録。",
+    "homepage": "https://cs.stanford.edu/~chrismre/",
+    "scholar": "https://scholar.google.com/citations?user=DnnEKjsAAAAJ",
+    "dblp": "https://dblp.org/pid/74/847.html",
+    "sources": [
+      "https://cs.stanford.edu/~chrismre/",
+      "https://dl.acm.org/doi/10.14778/3157794.3157797"
+    ]
+  },
+  {
+    "name": "Thomas Kipf",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nn"
+    ],
+    "topics": [
+      "グラフ畳み込みネットワーク(GCN)",
+      "グラフニューラルネット",
+      "オブジェクト中心学習"
+    ],
+    "affiliation": "Google DeepMind",
+    "country": "USA",
+    "origin": "Germany",
+    "venues": [
+      "ICLR",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "Graph Convolutional Networks (GCN)の提唱者(Wellingと共著)。変分グラフオートエンコーダやオブジェクト中心表現学習にも貢献。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 60,000+"
+    },
+    "inclusion_reason": "GCNという主要モデルの筆頭著者でGNN分野を代表。未収録。",
+    "homepage": "https://tkipf.github.io/",
+    "scholar": "https://scholar.google.com/citations?user=83HL5FwAAAAJ",
+    "dblp": "https://dblp.org/pid/153/9531.html",
+    "sources": [
+      "https://arxiv.org/abs/1609.02907",
+      "https://tkipf.github.io/"
+    ]
+  },
+  {
+    "name": "Petar Veličković",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "nn"
+    ],
+    "topics": [
+      "グラフ注意ネットワーク(GAT)",
+      "幾何学的深層学習",
+      "アルゴリズム的推論"
+    ],
+    "affiliation": "Google DeepMind",
+    "country": "UK",
+    "origin": "Serbia",
+    "venues": [
+      "ICLR",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "Graph Attention Networks (GAT)の筆頭著者。幾何学的深層学習(Geometric Deep Learning)の体系化とニューラルアルゴリズム推論の主導者。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 50,000+"
+    },
+    "inclusion_reason": "GATの筆頭著者で幾何学的DLの代表的研究者。未収録。",
+    "homepage": "https://petar-v.com/",
+    "scholar": "https://scholar.google.com/citations?user=kcTK_FAAAAAJ",
+    "dblp": "https://dblp.org/pid/184/4853.html",
+    "sources": [
+      "https://arxiv.org/abs/1710.10903",
+      "https://petar-v.com/"
+    ]
+  },
+  {
+    "name": "Michael Bronstein",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "cv",
+      "nn"
+    ],
+    "topics": [
+      "幾何学的深層学習",
+      "グラフニューラルネット",
+      "3D形状解析"
+    ],
+    "affiliation": "University of Oxford",
+    "country": "UK",
+    "origin": "Israel",
+    "venues": [
+      "ICLR",
+      "NeurIPS",
+      "CVPR",
+      "IEEE TPAMI"
+    ],
+    "key_contributions": "「幾何学的深層学習」という用語を提唱し、非ユークリッドデータへの深層学習を体系化。3D形状解析・GNNの代表的研究者。",
+    "awards": [
+      "ERC Grants",
+      "IEEE Fellow",
+      "Royal Society Wolfson Fellow"
+    ],
+    "metrics": {
+      "citations": "概算 60,000+"
+    },
+    "inclusion_reason": "幾何学的深層学習分野の創始的研究者で高被引用。未収録。",
+    "homepage": "https://www.cs.ox.ac.uk/people/michael.bronstein/",
+    "scholar": "https://scholar.google.com/citations?user=UU3N6-UAAAAJ",
+    "dblp": "https://dblp.org/pid/07/2668.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Bronstein",
+      "https://arxiv.org/abs/2104.13478"
+    ]
+  },
+  {
+    "name": "Joan Bruna",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "theory-ml",
+      "nn"
+    ],
+    "topics": [
+      "幾何学的深層学習",
+      "グラフニューラルネット",
+      "深層学習の数理"
+    ],
+    "affiliation": "New York University (Courant)",
+    "country": "USA",
+    "origin": "Spain",
+    "venues": [
+      "ICLR",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "スペクトルグラフ畳み込みネットの初期提唱者。散乱変換、幾何学的深層学習、深層ネットの数学的基盤を研究。",
+    "awards": [
+      "Sloan Fellowship",
+      "NSF CAREER"
+    ],
+    "metrics": {
+      "citations": "概算 30,000+"
+    },
+    "inclusion_reason": "グラフCNNと深層学習理論の主要研究者。未収録。",
+    "homepage": "https://cims.nyu.edu/~bruna/",
+    "scholar": "https://scholar.google.com/citations?user=L4bNmsMAAAAJ",
+    "dblp": "https://dblp.org/pid/30/8633.html",
+    "sources": [
+      "https://cims.nyu.edu/~bruna/",
+      "https://arxiv.org/abs/1312.6203"
+    ]
+  },
+  {
+    "name": "Surya Ganguli",
+    "primary_field": "theory-ml",
+    "fields": [
+      "theory-ml",
+      "nn"
+    ],
+    "topics": [
+      "深層学習理論",
+      "計算論的神経科学",
+      "学習力学"
+    ],
+    "affiliation": "Stanford University",
+    "country": "USA",
+    "origin": "India",
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "ICLR",
+      "Nature Neuroscience"
+    ],
+    "key_contributions": "深層線形ネットの学習力学、損失地形、表現学習の理論を物理学的視点から解析。深層学習と神経科学を架橋。",
+    "awards": [
+      "McKnight Scholar Award",
+      "Simons Investigator",
+      "Schmidt Science Polymath"
+    ],
+    "metrics": {
+      "citations": "概算 50,000+"
+    },
+    "inclusion_reason": "深層学習理論と計算論的神経科学の代表的研究者で高被引用。未収録。",
+    "homepage": "https://ganguli-gang.stanford.edu/",
+    "scholar": "https://scholar.google.com/citations?user=rF2VvOgAAAAJ",
+    "dblp": "https://dblp.org/pid/26/10503.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Surya_Ganguli",
+      "https://profiles.stanford.edu/surya-ganguli"
+    ]
+  },
+  {
+    "name": "Yi Ma",
+    "primary_field": "cv",
+    "fields": [
+      "cv",
+      "ml",
+      "theory-ml"
+    ],
+    "topics": [
+      "低次元モデル",
+      "スパース・低ランク表現",
+      "計算ビジョン",
+      "深層ネットの原理"
+    ],
+    "affiliation": "University of Hong Kong / UC Berkeley",
+    "country": "Hong Kong",
+    "origin": "China",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "NeurIPS",
+      "IEEE TPAMI"
+    ],
+    "key_contributions": "ロバスト主成分分析、低ランク・スパース表現、3D再構成の理論を確立。教科書『High-Dimensional Data Analysis with Low-Dimensional Models』を著す。",
+    "awards": [
+      "IEEE Fellow",
+      "ACM Fellow",
+      "SIAM Fellow"
+    ],
+    "metrics": {
+      "citations": "概算 100,000+"
+    },
+    "inclusion_reason": "CV・最適化の重鎮で三学会フェロー、影響力ある教科書の著者。未収録。",
+    "homepage": "https://people.eecs.berkeley.edu/~yima/",
+    "scholar": "https://scholar.google.com/citations?user=XqLiBQMAAAAJ",
+    "dblp": "https://dblp.org/pid/26/5582-1.html",
+    "sources": [
+      "https://people.eecs.berkeley.edu/~yima/",
+      "https://book-wright-ma.github.io/"
+    ]
+  },
+  {
+    "name": "Liang-Chieh Chen",
+    "primary_field": "cv",
+    "fields": [
+      "cv",
+      "ml"
+    ],
+    "topics": [
+      "セマンティックセグメンテーション",
+      "DeepLab",
+      "atrous畳み込み"
+    ],
+    "affiliation": "ByteDance (元Google)",
+    "country": "USA",
+    "origin": "Taiwan",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "IEEE TPAMI"
+    ],
+    "key_contributions": "DeepLabシリーズ(atrous畳み込み・ASPPによる高精度セマンティックセグメンテーション)の筆頭著者。画素単位認識のデファクト標準を確立。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 90,000+"
+    },
+    "inclusion_reason": "DeepLabという主要システムの筆頭著者で極めて高被引用。未収録。",
+    "homepage": "http://liangchiehchen.com/",
+    "scholar": "https://scholar.google.com/citations?user=ACjYGPUAAAAJ",
+    "dblp": "https://dblp.org/pid/02/6680.html",
+    "sources": [
+      "http://liangchiehchen.com/",
+      "https://arxiv.org/abs/1606.00915"
+    ]
+  },
+  {
+    "name": "Tom Griffiths",
+    "primary_field": "ai",
+    "fields": [
+      "ai",
+      "ml"
+    ],
+    "topics": [
+      "計算論的認知科学",
+      "ベイズ的認知モデル",
+      "人間と機械の学習"
+    ],
+    "affiliation": "Princeton University",
+    "country": "USA",
+    "origin": "Australia",
+    "venues": [
+      "NeurIPS",
+      "Cognitive Science",
+      "PNAS",
+      "Psychological Review"
+    ],
+    "key_contributions": "ベイズ的認知モデルの第一人者。トピックモデル(LDAの認知応用)、確率的プログラム、人間の帰納推論の計算理論を主導。教科書も執筆。",
+    "awards": [
+      "APS Fellow",
+      "Cognitive Science Society Fellow",
+      "Troland Award (NAS)"
+    ],
+    "metrics": {
+      "citations": "概算 90,000+"
+    },
+    "inclusion_reason": "計算論的認知科学とベイズ的モデリングの代表的研究者で高被引用。AIと認知の橋渡しの中心だが未収録。",
+    "homepage": "https://cocosci.princeton.edu/tom/",
+    "scholar": "https://scholar.google.com/citations?user=UAwYN7oAAAAJ",
+    "dblp": "https://dblp.org/pid/34/1067.html",
+    "sources": [
+      "https://cocosci.princeton.edu/tom/index.php",
+      "https://scholar.google.com/citations?user=UAwYN7oAAAAJ"
+    ]
+  },
+  {
+    "name": "Rodney Brooks",
+    "primary_field": "robotics",
+    "fields": [
+      "robotics",
+      "ai"
+    ],
+    "topics": [
+      "行動ベースロボティクス",
+      "包摂アーキテクチャ",
+      "身体性認知"
+    ],
+    "affiliation": "MIT (名誉教授) / Robust.AI",
+    "country": "USA",
+    "origin": "Australia",
+    "venues": [
+      "IJCAI",
+      "ICRA",
+      "AAAI",
+      "Artificial Intelligence"
+    ],
+    "key_contributions": "包摂アーキテクチャ(subsumption architecture)を提唱し行動ベースロボティクスを創始。iRobot・Rethink Robotics共同創業。身体性AI論で影響。",
+    "awards": [
+      "IJCAI Computers and Thought Award",
+      "IEEE Founders Medal",
+      "AAAI/IEEE Fellow"
+    ],
+    "metrics": {
+      "citations": "概算 80,000+"
+    },
+    "inclusion_reason": "ロボティクスとAIの巨人で包摂アーキテクチャの創始者。未収録。",
+    "homepage": "https://people.csail.mit.edu/brooks/",
+    "scholar": "https://scholar.google.com/citations?user=N-jdQDoAAAAJ",
+    "dblp": "https://dblp.org/pid/b/RodneyABrooks.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rodney_Brooks",
+      "https://people.csail.mit.edu/brooks/"
+    ]
+  },
+  {
+    "name": "Boaz Barak",
+    "primary_field": "tcs",
+    "fields": [
+      "tcs",
+      "theory-ml",
+      "ml"
+    ],
+    "topics": [
+      "計算複雑性",
+      "暗号理論",
+      "Sum-of-Squares",
+      "深層学習理論"
+    ],
+    "affiliation": "Harvard University / OpenAI",
+    "country": "USA",
+    "origin": "Israel",
+    "venues": [
+      "STOC",
+      "FOCS",
+      "CRYPTO",
+      "NeurIPS"
+    ],
+    "key_contributions": "計算複雑性・暗号の重鎮。Sum-of-Squares階層の理論、教科書『Computational Complexity: A Modern Approach』(Aroraと共著)。近年は深層学習理論・AI安全性も。",
+    "awards": [
+      "ACM Fellow",
+      "Simons Investigator",
+      "Gödel Prize候補級の影響"
+    ],
+    "metrics": {
+      "citations": "概算 25,000+"
+    },
+    "inclusion_reason": "TCSの代表的研究者で著名教科書の共著者。共著者Aroraは収録済みだがBarakは未収録。",
+    "homepage": "https://www.boazbarak.org/",
+    "scholar": "https://scholar.google.com/citations?user=BHb1xPoAAAAJ",
+    "dblp": "https://dblp.org/pid/b/BoazBarak.html",
+    "sources": [
+      "https://www.boazbarak.org/",
+      "https://theory.cs.princeton.edu/complexity/"
+    ]
+  },
+  {
+    "name": "Joseph Y. Halpern",
+    "primary_field": "ai",
+    "fields": [
+      "ai",
+      "kr",
+      "tcs"
+    ],
+    "topics": [
+      "知識の論理",
+      "不確実性下の推論",
+      "因果",
+      "マルチエージェント"
+    ],
+    "affiliation": "Cornell University",
+    "country": "USA",
+    "origin": "Canada",
+    "venues": [
+      "IJCAI",
+      "AAAI",
+      "JACM",
+      "Artificial Intelligence"
+    ],
+    "key_contributions": "知識についての推論(Reasoning About Knowledge, Faginらと共著)、実際的因果性(Actual Causality)、不確実性の表現の理論を確立。",
+    "awards": [
+      "ACM Fellow",
+      "AAAI Fellow",
+      "IJCAI Award for Research Excellence",
+      "Gödel Prize"
+    ],
+    "metrics": {
+      "citations": "概算 60,000+"
+    },
+    "inclusion_reason": "知識表現・推論と因果の巨人でGödel賞受賞。共著者Faginは収録済みだがHalpernは未収録。",
+    "homepage": "https://www.cs.cornell.edu/home/halpern/",
+    "scholar": "https://scholar.google.com/citations?user=YgVihMQAAAAJ",
+    "dblp": "https://dblp.org/pid/h/JosephYHalpern.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Joseph_Halpern",
+      "https://www.cs.cornell.edu/people/joseph-halpern"
+    ]
+  },
+  {
+    "name": "Dana S. Nau",
+    "primary_field": "ai",
+    "fields": [
+      "ai",
+      "agents"
+    ],
+    "topics": [
+      "自動計画",
+      "階層的タスクネットワーク(HTN)",
+      "探索",
+      "ゲーム木探索"
+    ],
+    "affiliation": "University of Maryland",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "IJCAI",
+      "AAAI",
+      "ICAPS",
+      "Artificial Intelligence"
+    ],
+    "key_contributions": "階層的タスクネットワーク計画(SHOP/SHOP2)を主導し、計画アルゴリズム・探索理論に貢献。教科書『Automated Planning』共著。pathology in game tree searchの理論でも知られる。",
+    "awards": [
+      "AAAI Fellow",
+      "ICAPS Influential Paper Award"
+    ],
+    "metrics": {
+      "citations": "概算 30,000+"
+    },
+    "inclusion_reason": "自動計画の重鎮でHTNの中心人物、標準教科書の著者。未収録。",
+    "homepage": "https://www.cs.umd.edu/~nau/",
+    "scholar": "https://scholar.google.com/citations?user=znaJgF8AAAAJ",
+    "dblp": "https://dblp.org/pid/n/DanaSNau.html",
+    "sources": [
+      "https://www.cs.umd.edu/~nau/",
+      "https://www.amazon.com/Automated-Planning-Practice-Artificial-Intelligence/dp/1558608567"
+    ]
+  },
+  {
+    "name": "Malik Ghallab",
+    "primary_field": "ai",
+    "fields": [
+      "ai",
+      "robotics",
+      "agents"
+    ],
+    "topics": [
+      "自動計画と行為",
+      "プランニング",
+      "知能ロボット"
+    ],
+    "affiliation": "LAAS-CNRS",
+    "country": "France",
+    "origin": "France",
+    "venues": [
+      "IJCAI",
+      "AAAI",
+      "ICAPS",
+      "Artificial Intelligence"
+    ],
+    "key_contributions": "自動計画分野の重鎮で標準教科書『Automated Planning: Theory and Practice』および『Automated Planning and Acting』の主著者。欧州AIの代表的指導者。",
+    "awards": [
+      "EurAI Fellow",
+      "AAAI Fellow"
+    ],
+    "metrics": {
+      "citations": "概算 20,000+"
+    },
+    "inclusion_reason": "計画分野の標準教科書の主著者で欧州AIの代表。未収録。",
+    "homepage": "https://homepages.laas.fr/malik/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/g/MalikGhallab.html",
+    "sources": [
+      "https://dblp.org/pid/g/MalikGhallab.html",
+      "https://www.cambridge.org/core/books/automated-planning-and-acting/E6DE5715A2190651352DFB0869916BC3"
+    ]
+  },
+  {
+    "name": "Dan Ellis",
+    "primary_field": "speech",
+    "fields": [
+      "speech",
+      "ir",
+      "ml"
+    ],
+    "topics": [
+      "音響イベント検出",
+      "音楽情報検索",
+      "計算的聴覚情景分析",
+      "AudioSet"
+    ],
+    "affiliation": "Google DeepMind",
+    "country": "USA",
+    "origin": "UK",
+    "venues": [
+      "ICASSP",
+      "ISMIR",
+      "Interspeech"
+    ],
+    "key_contributions": "計算的聴覚情景分析、環境音認識、音楽情報検索の先駆。AudioSetデータセットを主導し、汎用音響イベント認識の基盤を築いた。",
+    "awards": [
+      "ISCA Fellow",
+      "IEEE Fellow"
+    ],
+    "metrics": {
+      "citations": "概算 60,000+"
+    },
+    "inclusion_reason": "音響・音楽情報検索の重鎮でAudioSet等の主要リソースを主導。未収録。",
+    "homepage": "https://www.ee.columbia.edu/~dpwe/",
+    "scholar": "https://scholar.google.com/citations?user=1H4HuCkAAAAJ",
+    "dblp": "https://dblp.org/pid/87/3268.html",
+    "sources": [
+      "https://www.ee.columbia.edu/~dpwe/",
+      "https://research.google/people/danellis/"
+    ]
+  },
+  {
+    "name": "Douglas Eck",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "speech"
+    ],
+    "topics": [
+      "音楽生成",
+      "Magenta",
+      "生成メディア",
+      "音楽情報検索"
+    ],
+    "affiliation": "Google DeepMind",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "ISMIR",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "Google Magentaプロジェクトを創始し、AIによる音楽・芸術生成を牽引。DeepMindで画像・動画・音楽・音声の生成メディア研究を統括。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 20,000+"
+    },
+    "inclusion_reason": "音楽生成と生成メディアの代表的研究者でMagenta創始者。未収録。",
+    "homepage": "https://research.google/people/author39086/",
+    "scholar": "https://scholar.google.com/citations?user=Km5jP3QAAAAJ",
+    "dblp": "https://dblp.org/pid/53/6938.html",
+    "sources": [
+      "https://research.google/people/author39086/",
+      "https://www.ycombinator.com/blog/making-music-and-art-through-machine-learning-doug-eck-of-magenta/"
+    ]
+  },
+  {
+    "name": "Michael J. Franklin",
+    "primary_field": "db",
+    "fields": [
+      "db",
+      "ml"
+    ],
+    "topics": [
+      "分散・ストリーミングDB",
+      "ビッグデータ",
+      "Apache Spark/AMPLab",
+      "データ管理"
+    ],
+    "affiliation": "University of Chicago",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "SIGMOD",
+      "VLDB",
+      "ICDE"
+    ],
+    "key_contributions": "UC Berkeley AMPLab共同創設者でApache Sparkを生んだ研究環境を主導。分散・ストリーミングデータベースとビッグデータ解析の重鎮。",
+    "awards": [
+      "ACM Fellow",
+      "SIGMOD Edgar F. Codd Innovations Award候補級",
+      "IEEE Fellow"
+    ],
+    "metrics": {
+      "citations": "概算 60,000+"
+    },
+    "inclusion_reason": "データベース分野で最も高被引用の一人でAMPLab/Sparkの中心。未収録。",
+    "homepage": "https://cs.uchicago.edu/people/michael-franklin/",
+    "scholar": "https://scholar.google.com/citations?user=p0sQC6sAAAAJ",
+    "dblp": "https://dblp.org/pid/f/MichaelJFranklin.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_J._Franklin",
+      "https://news.uchicago.edu/profile/michael-franklin"
+    ]
+  },
+  {
+    "name": "Pushmeet Kohli",
+    "primary_field": "cv",
+    "fields": [
+      "cv",
+      "ml",
+      "ai"
+    ],
+    "topics": [
+      "AI for Science",
+      "確率的推論",
+      "コンピュータビジョン",
+      "プログラム合成"
+    ],
+    "affiliation": "Google DeepMind (VP Research)",
+    "country": "UK",
+    "origin": "India",
+    "venues": [
+      "CVPR",
+      "ICCV",
+      "NeurIPS",
+      "Nature"
+    ],
+    "key_contributions": "DeepMind研究担当VP。AI for Science(AlphaFold、材料・数学・気象)を統括。マルコフ確率場の効率的推論やコンピュータビジョンで多大な貢献。",
+    "awards": [
+      "IEEE Marr Prize (Honorable Mention)",
+      "ACM/IEEE Fellow級の影響"
+    ],
+    "metrics": {
+      "citations": "概算 60,000+"
+    },
+    "inclusion_reason": "DeepMindのシニア研究指導者でCV・AI for Scienceの重鎮。未収録。",
+    "homepage": "https://sites.google.com/site/pushmeet/",
+    "scholar": "https://scholar.google.com/citations?user=Aqsk2x4AAAAJ",
+    "dblp": "https://dblp.org/pid/47/2492.html",
+    "sources": [
+      "https://research.google/people/105667/",
+      "https://en.wikipedia.org/wiki/Pushmeet_Kohli"
+    ]
+  },
+  {
+    "name": "Aditya Ramesh",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "cv",
+      "nlp"
+    ],
+    "topics": [
+      "テキスト画像生成",
+      "DALL-E",
+      "拡散モデル"
+    ],
+    "affiliation": "独立研究 / Thinking Machines Lab (元OpenAI)",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "ICML",
+      "NeurIPS",
+      "arXiv"
+    ],
+    "key_contributions": "DALL-EおよびDALL-E 2(unCLIP)の筆頭著者で、テキストからの画像生成を主導。大規模マルチモーダル生成の中心人物。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 25,000+"
+    },
+    "inclusion_reason": "DALL-Eという主要システムの筆頭著者でテキスト画像生成の代表。未収録。",
+    "homepage": "https://adityaramesh.com/",
+    "scholar": "https://scholar.google.com/citations?user=AB2ssVoAAAAJ",
+    "dblp": "https://dblp.org/pid/239/8651.html",
+    "sources": [
+      "https://adityaramesh.com/",
+      "https://arxiv.org/abs/2204.06125"
+    ]
+  },
+  {
+    "name": "Prafulla Dhariwal",
+    "primary_field": "ml",
+    "fields": [
+      "ml",
+      "cv"
+    ],
+    "topics": [
+      "拡散モデル",
+      "生成モデル",
+      "Glow",
+      "Jukebox"
+    ],
+    "affiliation": "OpenAI",
+    "country": "USA",
+    "origin": "India",
+    "venues": [
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "「Diffusion Models Beat GANs」やGuided/Classifier-free guidance、Glow(可逆生成)、Jukebox(音楽生成)など生成モデルの主要研究を主導。",
+    "awards": [],
+    "metrics": {
+      "citations": "概算 30,000+"
+    },
+    "inclusion_reason": "拡散モデルをGAN超えに導いた中心研究者で多くの主要生成モデルの著者。未収録。",
+    "homepage": "https://prafulladhariwal.com/",
+    "scholar": "https://scholar.google.com/citations?user=k0eEDWAAAAAJ",
+    "dblp": "https://dblp.org/pid/223/4707.html",
+    "sources": [
+      "https://prafulladhariwal.com/",
+      "https://arxiv.org/abs/2105.05233"
+    ]
+  },
+  {
+    "name": "Marc Raibert",
+    "primary_field": "robotics",
+    "fields": [
+      "robotics"
+    ],
+    "topics": [
+      "脚式ロボット",
+      "動的バランス",
+      "ロコモーション制御"
+    ],
+    "affiliation": "Boston Dynamics / The AI Institute",
+    "country": "USA",
+    "origin": "USA",
+    "venues": [
+      "ICRA",
+      "IROS",
+      "IJRR"
+    ],
+    "key_contributions": "CMU/MIT Leg Laboratory創設者で動的に安定な脚式ロボット(片脚ホッパー、BigDog、Atlas、Spot)を開拓。Boston Dynamics創業者。",
+    "awards": [
+      "IEEE Fellow",
+      "Engelberger Robotics Award"
+    ],
+    "metrics": {
+      "citations": "概算 20,000+"
+    },
+    "inclusion_reason": "動的脚式ロボティクスのパイオニアでBoston Dynamics創業者。未収録。",
+    "homepage": "https://theaiinstitute.com/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/89/3669.html",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marc_Raibert",
+      "https://ethw.org/Marc_Raibert"
+    ]
+  },
+  {
+    "name": "Wolfgang Maass",
+    "primary_field": "nn",
+    "fields": [
+      "nn"
+    ],
+    "topics": [
+      "スパイキングニューラルネット",
+      "液体状態機械(LSM)",
+      "計算論的神経科学",
+      "リザバー計算"
+    ],
+    "affiliation": "Graz University of Technology",
+    "country": "Austria",
+    "origin": "Germany",
+    "venues": [
+      "NeurIPS",
+      "Nature Communications",
+      "Neural Computation",
+      "PNAS"
+    ],
+    "key_contributions": "スパイキングニューラルネットの計算能力理論を確立し、液体状態機械(Liquid State Machine)を提唱。第3世代ニューラルネットの理論的基礎を築いた。",
+    "awards": [],
+    "metrics": {
+      "citations": "約60,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "SNN理論の創始者の一人であり、ニューロモーフィック計算の理論的基盤を与えた。nn分野の理論側を補強。",
+    "homepage": "https://igi-web.tugraz.at/people/maass/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/m/WolfgangMaass.html",
+    "sources": [
+      "https://www.nature.com/articles/d42473-025-00015-y"
+    ]
+  },
+  {
+    "name": "Giacomo Indiveri",
+    "primary_field": "nn",
+    "fields": [
+      "nn"
+    ],
+    "topics": [
+      "ニューロモーフィック工学",
+      "スパイキングニューラルネット",
+      "アナログVLSI",
+      "脳型ハードウェア"
+    ],
+    "affiliation": "Institute of Neuroinformatics, University of Zurich and ETH Zurich",
+    "country": "Switzerland",
+    "origin": "Italy",
+    "venues": [
+      "Nature Electronics",
+      "Proceedings of the IEEE",
+      "Frontiers in Neuroscience",
+      "Nature Communications"
+    ],
+    "key_contributions": "ニューロモーフィックハードウェアの第一人者。スパイキングニューロンのアナログVLSI実装と脳型プロセッサの設計をリード。",
+    "awards": [
+      "ERC Consolidator Grant"
+    ],
+    "metrics": {
+      "citations": "約30,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "ニューロモーフィック工学のハードウェア側を代表する研究者。SNNの実装研究を補強。",
+    "homepage": "https://www.ini.uzh.ch/en/institute/people?uname=giacomo",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/i/GiacomoIndiveri.html",
+    "sources": [
+      "https://www.nature.com/articles/d42473-025-00015-y"
+    ]
+  },
+  {
+    "name": "Emre Neftci",
+    "primary_field": "nn",
+    "fields": [
+      "nn"
+    ],
+    "topics": [
+      "代理勾配学習",
+      "スパイキングニューラルネット",
+      "ニューロモーフィック学習",
+      "エッジAI"
+    ],
+    "affiliation": "Forschungszentrum Jülich / RWTH Aachen University",
+    "country": "Germany",
+    "origin": "Switzerland",
+    "venues": [
+      "IEEE Signal Processing Magazine",
+      "Nature Machine Intelligence",
+      "NeurIPS",
+      "Frontiers in Neuroscience"
+    ],
+    "key_contributions": "SNN学習における代理勾配(surrogate gradient)法を体系化し、勾配ベース最適化をスパイキングネットに導入。",
+    "awards": [],
+    "metrics": {
+      "citations": "約14,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "SNNの学習アルゴリズム研究の中心人物。nn分野の学習手法を補強。",
+    "homepage": "https://www.neftci.net/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/00/8228.html",
+    "sources": [
+      "https://dl.acm.org/doi/10.5555/3600270.3602483"
+    ]
+  },
+  {
+    "name": "Sander M. Bohte",
+    "primary_field": "nn",
+    "fields": [
+      "nn"
+    ],
+    "topics": [
+      "スパイキングニューラルネット",
+      "SpikeProp",
+      "エネルギー効率学習",
+      "計算論的神経科学"
+    ],
+    "affiliation": "Centrum Wiskunde & Informatica (CWI) / University of Amsterdam",
+    "country": "Netherlands",
+    "origin": "Netherlands",
+    "venues": [
+      "Neurocomputing",
+      "Nature Machine Intelligence",
+      "NeurIPS",
+      "Neural Computation"
+    ],
+    "key_contributions": "SNNの誤差逆伝播法SpikePropを提案し、スパイキングネットの教師あり学習の道を拓いた。オンライン学習FPTTも提案。",
+    "awards": [],
+    "metrics": {
+      "citations": "約12,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "SNN学習の先駆者。SpikePropは被引用多数。nn分野を補強。",
+    "homepage": "https://homepages.cwi.nl/~sbohte/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/64/3046.html",
+    "sources": [
+      "https://www.nature.com/articles/s42256-023-00650-4"
+    ]
+  },
+  {
+    "name": "Dmitry Krotov",
+    "primary_field": "nn",
+    "fields": [
+      "nn"
+    ],
+    "topics": [
+      "現代ホップフィールドネット",
+      "Dense Associative Memory",
+      "連想記憶",
+      "エネルギーベースモデル"
+    ],
+    "affiliation": "MIT-IBM Watson AI Lab, IBM Research",
+    "country": "United States",
+    "origin": "Russia",
+    "venues": [
+      "NeurIPS",
+      "Nature Reviews Physics",
+      "PNAS",
+      "ICLR"
+    ],
+    "key_contributions": "Hopfieldと共にDense Associative Memory(現代ホップフィールドネット)を提唱。連想記憶とTransformer注意機構の理論的橋渡し。",
+    "awards": [],
+    "metrics": {
+      "citations": "約10,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "Hopfield系連想記憶の現代的復興をリード。nn理論分野を補強。",
+    "homepage": "https://mitibmwatsonailab.mit.edu/people/dmitry-krotov/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/203/8362.html",
+    "sources": [
+      "https://research.ibm.com/blog/dmitri-krotov-hopfield-networks-ai",
+      "https://arxiv.org/abs/2008.06996"
+    ]
+  },
+  {
+    "name": "George Em Karniadakis",
+    "primary_field": "nn",
+    "fields": [
+      "nn"
+    ],
+    "topics": [
+      "物理情報ニューラルネット(PINN)",
+      "科学的機械学習",
+      "DeepONet",
+      "演算子学習"
+    ],
+    "affiliation": "Brown University",
+    "country": "United States",
+    "origin": "Greece",
+    "venues": [
+      "Journal of Computational Physics",
+      "Nature Reviews Physics",
+      "Nature Machine Intelligence",
+      "SIAM Review"
+    ],
+    "key_contributions": "PINN(物理情報ニューラルネット)の共同提唱者。DeepONetなど演算子学習も先導し、科学的機械学習分野を創出。",
+    "awards": [
+      "SIAM/ACM Prize in CSE",
+      "AAAS Fellow",
+      "SIAM Fellow"
+    ],
+    "metrics": {
+      "citations": "約120,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "PINNと科学的機械学習の創始者。極めて高被引用。nn分野の物理情報NNを補強。",
+    "homepage": "https://www.brown.edu/research/projects/crunch/george-karniadakis",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/30/3779.html",
+    "sources": [
+      "https://faculty.sites.iastate.edu/hliu/files/inline-files/PINN_RPK_2019_1.pdf",
+      "https://arxiv.org/abs/2408.16806"
+    ]
+  },
+  {
+    "name": "Paris Perdikaris",
+    "primary_field": "nn",
+    "fields": [
+      "nn"
+    ],
+    "topics": [
+      "物理情報ニューラルネット(PINN)",
+      "科学的機械学習",
+      "ガウス過程",
+      "不確実性定量化"
+    ],
+    "affiliation": "University of Pennsylvania",
+    "country": "United States",
+    "origin": "Greece",
+    "venues": [
+      "Journal of Computational Physics",
+      "Nature Machine Intelligence",
+      "Science Advances",
+      "Computer Methods in Applied Mechanics"
+    ],
+    "key_contributions": "PINNの共同提唱者(Raissi, Karniadakisと共著)。物理制約を組み込んだ深層学習の理論と応用を確立。",
+    "awards": [
+      "DARPA Young Faculty Award",
+      "U.S. DOE Early Career Award"
+    ],
+    "metrics": {
+      "citations": "約50,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "PINNの中核共同提唱者。nn分野の物理情報NNを補強。",
+    "homepage": "https://directory.seas.upenn.edu/paris-perdikaris/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/176/4569.html",
+    "sources": [
+      "https://github.com/maziarraissi/PINNs",
+      "https://arxiv.org/abs/1711.10561"
+    ]
+  },
+  {
+    "name": "Karl Tuyls",
+    "primary_field": "agents",
+    "fields": [
+      "agents"
+    ],
+    "topics": [
+      "マルチエージェント強化学習",
+      "進化ゲーム理論",
+      "メタゲーム解析",
+      "群ロボティクス"
+    ],
+    "affiliation": "University of Liverpool / Google DeepMind",
+    "country": "United Kingdom",
+    "origin": "Belgium",
+    "venues": [
+      "AAMAS",
+      "JAIR",
+      "NeurIPS",
+      "Artificial Intelligence"
+    ],
+    "key_contributions": "マルチエージェント学習と進化ゲーム理論の橋渡しを確立。α-Rankなどメタゲーム評価手法を提案。",
+    "awards": [
+      "AAMAS influential paper",
+      "IFAAMAS Fellow"
+    ],
+    "metrics": {
+      "citations": "約20,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "マルチエージェント学習の理論的基礎を築いた中心人物。agents分野を補強。",
+    "homepage": "https://www.csc.liv.ac.uk/~tuyls/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/47/3273.html",
+    "sources": [
+      "https://dl.acm.org/doi/10.5555/3294996.3295174"
+    ]
+  },
+  {
+    "name": "Stefano V. Albrecht",
+    "primary_field": "agents",
+    "fields": [
+      "agents"
+    ],
+    "topics": [
+      "マルチエージェント強化学習",
+      "エージェントモデリング",
+      "自律システム",
+      "アドホックチームワーク"
+    ],
+    "affiliation": "University of Edinburgh",
+    "country": "United Kingdom",
+    "origin": "Germany",
+    "venues": [
+      "AAMAS",
+      "Artificial Intelligence",
+      "NeurIPS",
+      "ICML"
+    ],
+    "key_contributions": "エージェントモデリングとマルチエージェントRLの体系化。MARLの標準教科書を共著(Marl-book)。",
+    "awards": [],
+    "metrics": {
+      "citations": "約8,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "MARL教科書の主著者でありエージェントモデリング研究を主導。agents分野を補強。",
+    "homepage": "https://agents-lab.org/stefano-albrecht/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/22/10074.html",
+    "sources": [
+      "https://www.marl-book.com/"
+    ]
+  },
+  {
+    "name": "Nisarg Shah",
+    "primary_field": "agents",
+    "fields": [
+      "agents"
+    ],
+    "topics": [
+      "計算社会選択",
+      "公平分割",
+      "メカニズムデザイン",
+      "集合的意思決定"
+    ],
+    "affiliation": "University of Toronto",
+    "country": "Canada",
+    "origin": "India",
+    "venues": [
+      "AAMAS",
+      "EC",
+      "AAAI",
+      "JACM"
+    ],
+    "key_contributions": "公平分割と計算社会選択の理論を発展。Spliddit等の公平分割システムや投票理論の研究で知られる。",
+    "awards": [
+      "NSF/IJCAI-JAIR Best Paper",
+      "Ontario Early Researcher Award"
+    ],
+    "metrics": {
+      "citations": "約9,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "計算社会選択・公平分割の若手リーダー。agents分野の社会選択を補強。",
+    "homepage": "https://www.cs.toronto.edu/~nisarg/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/77/8002.html",
+    "sources": [
+      "https://www.cs.toronto.edu/~nisarg/teaching/2556s20/"
+    ]
+  },
+  {
+    "name": "Felix Brandt",
+    "primary_field": "agents",
+    "fields": [
+      "agents"
+    ],
+    "topics": [
+      "計算社会選択",
+      "投票理論",
+      "メカニズムデザイン",
+      "計算機支援証明"
+    ],
+    "affiliation": "Technical University of Munich",
+    "country": "Germany",
+    "origin": "Germany",
+    "venues": [
+      "AAMAS",
+      "EC",
+      "JACM",
+      "Games and Economic Behavior"
+    ],
+    "key_contributions": "計算社会選択ハンドブックの編者。投票理論へのSATソルバを用いた計算機支援証明を先駆。",
+    "awards": [
+      "IFAAMAS Influential Paper Award"
+    ],
+    "metrics": {
+      "citations": "約11,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "計算社会選択分野の指導的研究者でハンドブック編者。agents分野を補強。",
+    "homepage": "https://dss.in.tum.de/staff/brandt.html",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/b/FelixBrandt.html",
+    "sources": [
+      "https://www.amazon.com/Handbook-Computational-Social-Choice-Brandt/dp/1107060435"
+    ]
+  },
+  {
+    "name": "Hervé Moulin",
+    "primary_field": "agents",
+    "fields": [
+      "agents"
+    ],
+    "topics": [
+      "メカニズムデザイン",
+      "公平分割",
+      "協力ゲーム理論",
+      "社会選択"
+    ],
+    "affiliation": "University of Glasgow",
+    "country": "United Kingdom",
+    "origin": "France",
+    "venues": [
+      "EC",
+      "Econometrica",
+      "Games and Economic Behavior",
+      "Social Choice and Welfare"
+    ],
+    "key_contributions": "公平分割とメカニズムデザインの理論を構築。協力ゲーム理論とコスト分担の基礎研究。",
+    "awards": [
+      "Fellow of the Econometric Society",
+      "Fellow of the British Academy"
+    ],
+    "metrics": {
+      "citations": "約30,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "メカニズムデザイン・公平分割理論の大家。agents分野の経済学的基礎を補強。",
+    "homepage": "https://www.gla.ac.uk/schools/business/staff/hervemoulin/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/74/5666.html",
+    "sources": [
+      "https://procaccia.info/wp-content/uploads/2020/03/comsoc.pdf"
+    ]
+  },
+  {
+    "name": "Luc De Raedt",
+    "primary_field": "kr",
+    "fields": [
+      "kr"
+    ],
+    "topics": [
+      "確率論理プログラミング",
+      "ニューロシンボリックAI",
+      "統計的関係学習",
+      "帰納論理プログラミング"
+    ],
+    "affiliation": "KU Leuven",
+    "country": "Belgium",
+    "origin": "Belgium",
+    "venues": [
+      "KR",
+      "IJCAI",
+      "NeurIPS",
+      "Artificial Intelligence"
+    ],
+    "key_contributions": "ProbLog等の確率論理プログラミングとDeepProbLog等のニューロシンボリックAIを先導。学習と推論の統合を追求。",
+    "awards": [
+      "EurAI Fellow",
+      "AAAI Fellow"
+    ],
+    "metrics": {
+      "citations": "約40,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "確率論理とニューロシンボリックAIの第一人者。kr分野を補強。",
+    "homepage": "https://wms.cs.kuleuven.be/people/lucderaedt",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/r/LucDeRaedt.html",
+    "sources": [
+      "https://aihub.org/2025/09/23/interview-with-luc-de-raedt-talking-probabilistic-logic-neurosymbolic-ai-and-explainability/"
+    ]
+  },
+  {
+    "name": "Artur d'Avila Garcez",
+    "primary_field": "kr",
+    "fields": [
+      "kr"
+    ],
+    "topics": [
+      "ニューラルシンボリック計算",
+      "神経記号統合",
+      "知識抽出",
+      "説明可能AI"
+    ],
+    "affiliation": "City, University of London",
+    "country": "United Kingdom",
+    "origin": "Brazil",
+    "venues": [
+      "KR",
+      "IJCAI",
+      "NeSy",
+      "Machine Learning"
+    ],
+    "key_contributions": "ニューラルシンボリック計算分野の創設者の一人。神経ネットと記号論理の原理的統合手法を確立。",
+    "awards": [],
+    "metrics": {
+      "citations": "約13,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "ニューロシンボリックAIの長年の旗手。kr分野を補強し南米出身として多様性に寄与。",
+    "homepage": "https://www.city.ac.uk/about/people/academics/artur-garcez",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/77/2774.html",
+    "sources": [
+      "https://arxiv.org/pdf/2507.11127"
+    ]
+  },
+  {
+    "name": "Guy Van den Broeck",
+    "primary_field": "kr",
+    "fields": [
+      "kr"
+    ],
+    "topics": [
+      "確率的回路",
+      "知識コンパイル",
+      "ニューロシンボリック学習",
+      "扱いやすい確率推論"
+    ],
+    "affiliation": "University of California, Los Angeles",
+    "country": "United States",
+    "origin": "Belgium",
+    "venues": [
+      "KR",
+      "NeurIPS",
+      "IJCAI",
+      "AAAI"
+    ],
+    "key_contributions": "確率的回路と知識コンパイルによる扱いやすい確率推論を確立。ニューロシンボリック学習の理論を発展。",
+    "awards": [
+      "NSF CAREER Award",
+      "Sloan Research Fellowship"
+    ],
+    "metrics": {
+      "citations": "約15,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "扱いやすい確率推論とニューロシンボリック学習の中心人物。kr分野を補強。",
+    "homepage": "http://web.cs.ucla.edu/~guyvdb/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/96/8474.html",
+    "sources": [
+      "https://arxiv.org/pdf/2507.11127"
+    ]
+  },
+  {
+    "name": "Carsten Lutz",
+    "primary_field": "kr",
+    "fields": [
+      "kr"
+    ],
+    "topics": [
+      "記述論理",
+      "オントロジーベースデータアクセス",
+      "問合せ応答",
+      "計算複雑性"
+    ],
+    "affiliation": "Leipzig University",
+    "country": "Germany",
+    "origin": "Germany",
+    "venues": [
+      "KR",
+      "IJCAI",
+      "AAAI",
+      "Artificial Intelligence"
+    ],
+    "key_contributions": "記述論理の計算複雑性とオントロジーベースデータアクセスの問合せ応答理論を体系化。",
+    "awards": [
+      "EurAI Fellow"
+    ],
+    "metrics": {
+      "citations": "約14,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "記述論理と問合せ応答理論の指導的研究者。kr分野の論理側を補強。",
+    "homepage": "https://www.informatik.uni-leipzig.de/~clu/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/l/CarstenLutz.html",
+    "sources": [
+      "https://ceur-ws.org/Vol-846/"
+    ]
+  },
+  {
+    "name": "Boris Motik",
+    "primary_field": "kr",
+    "fields": [
+      "kr"
+    ],
+    "topics": [
+      "記述論理推論",
+      "OWL 2",
+      "知識グラフ推論",
+      "規則ベースシステム"
+    ],
+    "affiliation": "University of Oxford",
+    "country": "United Kingdom",
+    "origin": "Croatia",
+    "venues": [
+      "KR",
+      "ISWC",
+      "IJCAI",
+      "Journal of Web Semantics"
+    ],
+    "key_contributions": "OWL 2標準とHermiT推論器の中心開発者。記述論理推論と知識グラフの大規模推論を主導。",
+    "awards": [
+      "SWSA Ten-Year Award"
+    ],
+    "metrics": {
+      "citations": "約25,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "OWL 2と記述論理推論器の主要開発者。kr分野とセマンティックWebを補強。",
+    "homepage": "https://www.cs.ox.ac.uk/people/boris.motik/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/96/3550.html",
+    "sources": [
+      "https://www.cs.ox.ac.uk/DL2009/proceedings.html"
+    ]
+  },
+  {
+    "name": "Antoine Bordes",
+    "primary_field": "kr",
+    "fields": [
+      "kr"
+    ],
+    "topics": [
+      "知識グラフ埋め込み",
+      "TransE",
+      "多関係データ",
+      "表現学習"
+    ],
+    "affiliation": "Meta AI (FAIR)",
+    "country": "France",
+    "origin": "France",
+    "venues": [
+      "AAAI",
+      "NeurIPS",
+      "ICLR",
+      "Machine Learning"
+    ],
+    "key_contributions": "TransE(知識グラフ埋め込み)を提案し、多関係データの表現学習分野を切り拓いた。",
+    "awards": [],
+    "metrics": {
+      "citations": "約40,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "TransEは知識グラフ埋め込みの基礎で極めて高被引用。kr分野を補強。",
+    "homepage": "https://www.antoinebordes.com/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/95/8800.html",
+    "sources": [
+      "https://shaoxiongji.github.io/knowledge-graphs/papers/KG-embedding.html"
+    ]
+  },
+  {
+    "name": "Jean-Baptiste Mouret",
+    "primary_field": "ec",
+    "fields": [
+      "ec",
+      "robotics"
+    ],
+    "topics": [
+      "品質多様性最適化",
+      "MAP-Elites",
+      "進化ロボティクス",
+      "ニューロエボリューション"
+    ],
+    "affiliation": "Inria",
+    "country": "France",
+    "origin": "France",
+    "venues": [
+      "GECCO",
+      "Nature",
+      "Evolutionary Computation",
+      "IEEE TEC"
+    ],
+    "key_contributions": "MAP-Elitesと品質多様性最適化を提唱。損傷後に適応する『動物のように適応するロボット』をNatureに発表。",
+    "awards": [
+      "ERC Starting Grant",
+      "GECCO Best Paper"
+    ],
+    "metrics": {
+      "citations": "約20,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "品質多様性(QD)最適化の創始者。ec分野の新潮流を補強。",
+    "homepage": "https://members.loria.fr/jbmouret/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/47/4185.html",
+    "sources": [
+      "https://members.loria.fr/jbmouret/qd.html"
+    ]
+  },
+  {
+    "name": "Antoine Cully",
+    "primary_field": "ec",
+    "fields": [
+      "ec",
+      "robotics"
+    ],
+    "topics": [
+      "品質多様性最適化",
+      "MAP-Elites",
+      "進化ロボティクス",
+      "ロボット学習"
+    ],
+    "affiliation": "Imperial College London",
+    "country": "United Kingdom",
+    "origin": "France",
+    "venues": [
+      "GECCO",
+      "Nature",
+      "IEEE TEC",
+      "Evolutionary Computation"
+    ],
+    "key_contributions": "品質多様性アルゴリズムの理論と応用を発展。適応ロボットのNature論文の筆頭著者。QDsuite等を開発。",
+    "awards": [
+      "GECCO Best Paper",
+      "IEEE TEC Outstanding Paper"
+    ],
+    "metrics": {
+      "citations": "約9,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "QD最適化の中心研究者。ec分野とロボット学習を補強。",
+    "homepage": "https://www.imperial.ac.uk/people/a.cully",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/146/0915.html",
+    "sources": [
+      "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2016.00040/full"
+    ]
+  },
+  {
+    "name": "Frank Neumann",
+    "primary_field": "ec",
+    "fields": [
+      "ec"
+    ],
+    "topics": [
+      "進化計算理論",
+      "実行時解析",
+      "多目的最適化",
+      "組合せ最適化"
+    ],
+    "affiliation": "University of Adelaide",
+    "country": "Australia",
+    "origin": "Germany",
+    "venues": [
+      "GECCO",
+      "Evolutionary Computation",
+      "Algorithmica",
+      "IEEE TEC"
+    ],
+    "key_contributions": "進化アルゴリズムの厳密な実行時解析(runtime analysis)を体系化。組合せ最適化・多目的最適化の理論的保証を確立。",
+    "awards": [
+      "GECCO Best Paper",
+      "ACM SIGEVO Impact Award"
+    ],
+    "metrics": {
+      "citations": "約14,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "進化計算の理論解析の指導的研究者。ec分野の理論側を補強。",
+    "homepage": "https://cs.adelaide.edu.au/~frank/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/n/FrankNeumann.html",
+    "sources": [
+      "https://arxiv.org/pdf/2306.03409"
+    ]
+  },
+  {
+    "name": "Qingfu Zhang",
+    "primary_field": "ec",
+    "fields": [
+      "ec"
+    ],
+    "topics": [
+      "多目的最適化",
+      "MOEA/D",
+      "分解ベース進化計算",
+      "進化的多目的最適化"
+    ],
+    "affiliation": "City University of Hong Kong",
+    "country": "China",
+    "origin": "China",
+    "venues": [
+      "CEC",
+      "GECCO",
+      "IEEE TEC",
+      "IEEE TCYB"
+    ],
+    "key_contributions": "分解に基づく多目的進化アルゴリズムMOEA/Dを提案。多目的最適化分野の標準手法を確立。",
+    "awards": [
+      "IEEE Fellow",
+      "IEEE TEC Outstanding Paper Award"
+    ],
+    "metrics": {
+      "citations": "約60,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "MOEA/Dは多目的最適化の代表的手法で極めて高被引用。ec分野を補強。",
+    "homepage": "https://www.cs.cityu.edu.hk/~qzhang/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/98/1240.html",
+    "sources": [
+      "https://dl.acm.org/doi/10.1145/3376916"
+    ]
+  },
+  {
+    "name": "Kaisa Miettinen",
+    "primary_field": "ec",
+    "fields": [
+      "ec"
+    ],
+    "topics": [
+      "多目的最適化",
+      "対話型意思決定支援",
+      "非線形最適化",
+      "選好情報"
+    ],
+    "affiliation": "University of Jyväskylä",
+    "country": "Finland",
+    "origin": "Finland",
+    "venues": [
+      "CEC",
+      "GECCO",
+      "European Journal of Operational Research",
+      "IEEE TEC"
+    ],
+    "key_contributions": "非線形多目的最適化と対話型意思決定法を体系化。標準的教科書『Nonlinear Multiobjective Optimization』を著した。",
+    "awards": [
+      "INFORMS MCDM Edgeworth-Pareto Award"
+    ],
+    "metrics": {
+      "citations": "約25,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "多目的最適化と意思決定支援の世界的権威。ec分野を補強し女性研究者の多様性に寄与。",
+    "homepage": "https://www.mit.jyu.fi/optgroup/miettinen.html",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/47/3661.html",
+    "sources": [
+      "https://arxiv.org/pdf/2305.10259"
+    ]
+  },
+  {
+    "name": "Albert-László Barabási",
+    "primary_field": "web",
+    "fields": [
+      "web"
+    ],
+    "topics": [
+      "ネットワーク科学",
+      "スケールフリーネットワーク",
+      "複雑系",
+      "ネットワーク医学"
+    ],
+    "affiliation": "Northeastern University",
+    "country": "United States",
+    "origin": "Romania (Hungarian)",
+    "venues": [
+      "WWW",
+      "Science",
+      "Nature",
+      "Reviews of Modern Physics"
+    ],
+    "key_contributions": "スケールフリーネットワークとBarabási-Albertモデルを提唱。ネットワーク科学分野を創出した。",
+    "awards": [
+      "EuroPhysics Prize",
+      "NAS member",
+      "Lagrange Prize"
+    ],
+    "metrics": {
+      "citations": "約350,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "ネットワーク科学の創始者で極めて高被引用。web分野のネットワーク科学を強力に補強。",
+    "homepage": "https://barabasi.com/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/72/4019.html",
+    "sources": [
+      "https://www.researchgate.net/publication/328202213_Network_Science_Albert-Laszlo_Barabasi"
+    ]
+  },
+  {
+    "name": "Santo Fortunato",
+    "primary_field": "web",
+    "fields": [
+      "web"
+    ],
+    "topics": [
+      "コミュニティ検出",
+      "ネットワーク科学",
+      "計量書誌学",
+      "計算社会科学"
+    ],
+    "affiliation": "Indiana University Bloomington",
+    "country": "United States",
+    "origin": "Italy",
+    "venues": [
+      "WWW",
+      "Physics Reports",
+      "Nature Physics",
+      "PNAS"
+    ],
+    "key_contributions": "ネットワークのコミュニティ検出の包括的サーベイ(Physics Reports)で標準を確立。科学の科学(SciSci)も先導。",
+    "awards": [
+      "Erdős–Rényi Prize"
+    ],
+    "metrics": {
+      "citations": "約60,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "コミュニティ検出研究の中心人物。web分野のネットワーク解析を補強。",
+    "homepage": "https://www.santofortunato.net/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/87/3577.html",
+    "sources": [
+      "https://www.nature.com/articles/s41567-022-01716-7"
+    ]
+  },
+  {
+    "name": "Aaron Clauset",
+    "primary_field": "web",
+    "fields": [
+      "web"
+    ],
+    "topics": [
+      "ネットワーク科学",
+      "べき乗則統計",
+      "コミュニティ検出",
+      "計算社会科学"
+    ],
+    "affiliation": "University of Colorado Boulder / Santa Fe Institute",
+    "country": "United States",
+    "origin": "United States",
+    "venues": [
+      "WWW",
+      "Nature",
+      "Science Advances",
+      "SIAM Review"
+    ],
+    "key_contributions": "べき乗則分布の統計的検定法を確立し、ネットワーク科学の方法論を厳密化。階層的コミュニティ検出を提案。",
+    "awards": [
+      "Erdős–Rényi Prize"
+    ],
+    "metrics": {
+      "citations": "約60,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "ネットワーク統計の方法論で高被引用。web分野のネットワーク科学を補強。",
+    "homepage": "https://aaronclauset.github.io/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/53/6896.html",
+    "sources": [
+      "https://www.nature.com/articles/s41567-022-01716-7"
+    ]
+  },
+  {
+    "name": "Emilio Ferrara",
+    "primary_field": "web",
+    "fields": [
+      "web"
+    ],
+    "topics": [
+      "計算社会科学",
+      "誤情報・ボット検出",
+      "ソーシャルネットワーク分析",
+      "Webマイニング"
+    ],
+    "affiliation": "University of Southern California",
+    "country": "United States",
+    "origin": "Italy",
+    "venues": [
+      "WWW",
+      "ICWSM",
+      "Nature Communications",
+      "Communications of the ACM"
+    ],
+    "key_contributions": "ソーシャルメディアにおけるボット・誤情報拡散の計算的解析を先導。Botometer等の検出手法を開発。",
+    "awards": [
+      "DARPA Young Faculty Award"
+    ],
+    "metrics": {
+      "citations": "約35,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "誤情報・ソーシャルボット研究の中心人物。web分野の計算社会科学を補強。",
+    "homepage": "https://www.emilio.ferrara.name/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/96/9456.html",
+    "sources": [
+      "https://link.springer.com/article/10.1007/s42001-020-00094-5"
+    ]
+  },
+  {
+    "name": "Kristina Lerman",
+    "primary_field": "web",
+    "fields": [
+      "web"
+    ],
+    "topics": [
+      "計算社会科学",
+      "ソーシャルネットワーク分析",
+      "情報拡散",
+      "認知バイアス"
+    ],
+    "affiliation": "USC Information Sciences Institute",
+    "country": "United States",
+    "origin": "Ukraine",
+    "venues": [
+      "WWW",
+      "ICWSM",
+      "PNAS",
+      "EPJ Data Science"
+    ],
+    "key_contributions": "ソーシャルメディアにおける情報拡散と集団的注意のモデル化、認知バイアスの計算的研究を先導。",
+    "awards": [
+      "AAAI Senior Member"
+    ],
+    "metrics": {
+      "citations": "約20,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "計算社会科学・情報拡散の主要研究者。web分野を補強し女性・東欧出身として多様性に寄与。",
+    "homepage": "https://www.isi.edu/~lerman/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/73/6097.html",
+    "sources": [
+      "https://www.isi.edu/news/28953/usc-researchers-release-public-coronavirus-twitter-set-for-academics/"
+    ]
+  },
+  {
+    "name": "David Lazer",
+    "primary_field": "web",
+    "fields": [
+      "web"
+    ],
+    "topics": [
+      "計算社会科学",
+      "誤情報",
+      "政治コミュニケーション",
+      "ソーシャルネットワーク"
+    ],
+    "affiliation": "Northeastern University",
+    "country": "United States",
+    "origin": "United States",
+    "venues": [
+      "WWW",
+      "ICWSM",
+      "Science",
+      "PNAS"
+    ],
+    "key_contributions": "計算社会科学という分野名を提唱した2009年Science論文の主導者。誤情報拡散の大規模実証研究を展開。",
+    "awards": [
+      "AAAS Fellow"
+    ],
+    "metrics": {
+      "citations": "約45,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "計算社会科学分野の命名・確立を主導。web分野を補強。",
+    "homepage": "https://www.davidlazer.com/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/73/8260.html",
+    "sources": [
+      "https://www.davidlazer.com/publication/computational-social-science"
+    ]
+  },
+  {
+    "name": "Magdalena Balazinska",
+    "primary_field": "db",
+    "fields": [
+      "db"
+    ],
+    "topics": [
+      "ストリーム処理",
+      "ビッグデータ管理",
+      "科学データ管理",
+      "近似クエリ処理"
+    ],
+    "affiliation": "University of Washington",
+    "country": "United States",
+    "origin": "Poland",
+    "venues": [
+      "SIGMOD",
+      "VLDB",
+      "ICDE",
+      "CIDR"
+    ],
+    "key_contributions": "分散ストリーム処理とビッグデータ管理システムを先導。科学データ管理(SciDB, Myria)の研究をリード。",
+    "awards": [
+      "ACM Fellow",
+      "VLDB Women in DB",
+      "NSF CAREER"
+    ],
+    "metrics": {
+      "citations": "約16,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "ストリーム処理・ビッグデータ管理の主要研究者。db分野を補強し女性研究者の多様性に寄与。",
+    "homepage": "https://www.cs.washington.edu/people/faculty/magda/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/b/MagdalenaBalazinska.html",
+    "sources": [
+      "https://homes.cs.washington.edu/~magda/publications.html"
+    ]
+  },
+  {
+    "name": "Jignesh M. Patel",
+    "primary_field": "db",
+    "fields": [
+      "db"
+    ],
+    "topics": [
+      "データベースシステム",
+      "クエリ処理",
+      "ハードウェア最適化DB",
+      "空間データベース"
+    ],
+    "affiliation": "Carnegie Mellon University",
+    "country": "United States",
+    "origin": "India",
+    "venues": [
+      "SIGMOD",
+      "VLDB",
+      "ICDE",
+      "CIDR"
+    ],
+    "key_contributions": "高性能クエリ処理とハードウェアを意識したデータベースシステムを研究。Quickstepなどのシステムを構築。",
+    "awards": [
+      "ACM Fellow",
+      "IEEE Fellow"
+    ],
+    "metrics": {
+      "citations": "約20,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "高性能DBシステムの主要研究者。db分野を補強。",
+    "homepage": "https://jigneshpatel.org/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/p/JMPatel.html",
+    "sources": [
+      "https://dblp.org/pid/p/JMPatel.html"
+    ]
+  },
+  {
+    "name": "Boris Glavic",
+    "primary_field": "db",
+    "fields": [
+      "db"
+    ],
+    "topics": [
+      "データ来歴(provenance)",
+      "説明可能データ管理",
+      "不確実データ",
+      "クエリ来歴"
+    ],
+    "affiliation": "University of Illinois Chicago",
+    "country": "United States",
+    "origin": "Germany",
+    "venues": [
+      "SIGMOD",
+      "VLDB",
+      "ICDE",
+      "TaPP"
+    ],
+    "key_contributions": "データベースのデータ来歴(provenance)管理を体系化。GProMなど来歴追跡システムを開発。",
+    "awards": [
+      "NSF CAREER Award"
+    ],
+    "metrics": {
+      "citations": "約6,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "データ来歴研究の中心人物。db分野のデータ来歴を補強。",
+    "homepage": "http://www.cs.iit.edu/~glavic/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/22/5310.html",
+    "sources": [
+      "https://dblp.org/rec/journals/corr/abs-2504-11259.html"
+    ]
+  },
+  {
+    "name": "Ken Goldberg",
+    "primary_field": "robotics",
+    "fields": [
+      "robotics"
+    ],
+    "topics": [
+      "ロボット操作",
+      "把持計画",
+      "クラウドロボティクス",
+      "模倣学習"
+    ],
+    "affiliation": "University of California, Berkeley",
+    "country": "United States",
+    "origin": "United States",
+    "venues": [
+      "ICRA",
+      "IROS",
+      "RSS",
+      "Science Robotics"
+    ],
+    "key_contributions": "ロボット把持・操作の第一人者。Dex-Netによる不確実性下の把持計画を確立。クラウドロボティクスを提唱。",
+    "awards": [
+      "IEEE Fellow",
+      "RAS Pioneer Award"
+    ],
+    "metrics": {
+      "citations": "約45,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "ロボット操作・把持研究の大家。robotics分野の操作を強力に補強。",
+    "homepage": "https://goldberg.berkeley.edu/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/g/KennethYGoldberg.html",
+    "sources": [
+      "https://ucsdarclab.com/autopublication/droid-a-large-scale-in-the-wild-robot-manipulation-dataset/"
+    ]
+  },
+  {
+    "name": "Shuran Song",
+    "primary_field": "robotics",
+    "fields": [
+      "robotics"
+    ],
+    "topics": [
+      "ロボット操作",
+      "拡散ポリシー",
+      "視覚-行動学習",
+      "器用な操作"
+    ],
+    "affiliation": "Stanford University",
+    "country": "United States",
+    "origin": "China",
+    "venues": [
+      "RSS",
+      "CoRL",
+      "ICRA",
+      "Science Robotics"
+    ],
+    "key_contributions": "Diffusion Policyを提案し模倣学習による器用な操作の転換点を作った。視覚に基づくロボット操作を先導。",
+    "awards": [
+      "RSS Best Paper",
+      "NSF CAREER",
+      "Sloan Fellowship"
+    ],
+    "metrics": {
+      "citations": "約25,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "拡散ポリシー等で操作学習を主導する若手リーダー。robotics分野を補強し女性研究者の多様性に寄与。",
+    "homepage": "https://shurans.github.io/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/120/2151.html",
+    "sources": [
+      "https://underactuated.mit.edu/imitation.html"
+    ]
+  },
+  {
+    "name": "Dorsa Sadigh",
+    "primary_field": "robotics",
+    "fields": [
+      "robotics"
+    ],
+    "topics": [
+      "人間-ロボット協調",
+      "対話的模倣学習",
+      "選好学習",
+      "ロボット学習"
+    ],
+    "affiliation": "Stanford University",
+    "country": "United States",
+    "origin": "Iran",
+    "venues": [
+      "RSS",
+      "CoRL",
+      "ICRA",
+      "NeurIPS"
+    ],
+    "key_contributions": "人間-ロボット相互作用と選好に基づく学習を体系化。安全な対話的ロボット学習の理論を確立。",
+    "awards": [
+      "NSF CAREER",
+      "Sloan Fellowship",
+      "MIT TR35"
+    ],
+    "metrics": {
+      "citations": "約15,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "人間-ロボット協調学習の若手リーダー。robotics分野を補強し女性・中東出身として多様性に寄与。",
+    "homepage": "https://dorsa.fyi/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/127/6217.html",
+    "sources": [
+      "https://ucsdarclab.com/autopublication/droid-a-large-scale-in-the-wild-robot-manipulation-dataset/"
+    ]
+  },
+  {
+    "name": "Cyrill Stachniss",
+    "primary_field": "robotics",
+    "fields": [
+      "robotics"
+    ],
+    "topics": [
+      "SLAM",
+      "LiDARオドメトリ",
+      "移動ロボットマッピング",
+      "農業ロボティクス"
+    ],
+    "affiliation": "University of Bonn",
+    "country": "Germany",
+    "origin": "Germany",
+    "venues": [
+      "ICRA",
+      "IROS",
+      "RSS",
+      "IEEE T-RO"
+    ],
+    "key_contributions": "SLAMとロボット地図構築の主要研究者。LiDARベースの自己位置推定・マッピング(SuMa, KISS-ICP)を先導。",
+    "awards": [
+      "IEEE Fellow"
+    ],
+    "metrics": {
+      "citations": "約46,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "SLAM・移動ロボットマッピングの中心人物で高被引用。robotics分野のSLAMを補強。",
+    "homepage": "https://www.ipb.uni-bonn.de/people/cyrill-stachniss/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/35/3683.html",
+    "sources": [
+      "https://scholar.google.com/citations?user=8vib2lAAAAAJ"
+    ]
+  },
+  {
+    "name": "Lydia E. Kavraki",
+    "primary_field": "robotics",
+    "fields": [
+      "robotics"
+    ],
+    "topics": [
+      "運動計画",
+      "サンプリングベース計画",
+      "確率的ロードマップ(PRM)",
+      "計算ロボティクス"
+    ],
+    "affiliation": "Rice University",
+    "country": "United States",
+    "origin": "Greece",
+    "venues": [
+      "ICRA",
+      "IROS",
+      "RSS",
+      "IEEE T-RO"
+    ],
+    "key_contributions": "確率的ロードマップ法(PRM)を共同提案し、サンプリングベース運動計画分野を創出。OMPLライブラリを主導。",
+    "awards": [
+      "ACM Fellow",
+      "IEEE Fellow",
+      "AAAI Fellow",
+      "NAE member"
+    ],
+    "metrics": {
+      "citations": "約45,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "運動計画(PRM/サンプリング)の創始者の一人で極めて高被引用。robotics分野の運動計画を補強し女性研究者の多様性に寄与。",
+    "homepage": "https://www.kavrakilab.org/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/k/LydiaEKavraki.html",
+    "sources": [
+      "https://lavalle.pl/papers/KavLav08.pdf"
+    ]
+  },
+  {
+    "name": "Frank Dellaert",
+    "primary_field": "robotics",
+    "fields": [
+      "robotics"
+    ],
+    "topics": [
+      "SLAM",
+      "因子グラフ",
+      "視覚SLAM",
+      "状態推定"
+    ],
+    "affiliation": "Georgia Institute of Technology",
+    "country": "United States",
+    "origin": "Belgium",
+    "venues": [
+      "ICRA",
+      "IROS",
+      "RSS",
+      "IJCV"
+    ],
+    "key_contributions": "因子グラフによるSLAMの定式化を確立し、GTSAMライブラリを開発。視覚SLAMと状態推定の標準的枠組みを提供。",
+    "awards": [
+      "IEEE Fellow"
+    ],
+    "metrics": {
+      "citations": "約45,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "因子グラフSLAMとGTSAMの開発者で高被引用。robotics分野のSLAMを補強。",
+    "homepage": "https://dellaert.github.io/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/65/3661.html",
+    "sources": [
+      "https://github.com/SLAM-Handbook-contributors/slam-handbook-public-release"
+    ]
+  },
+  {
+    "name": "Radhika Nagpal",
+    "primary_field": "robotics",
+    "fields": [
+      "robotics",
+      "agents"
+    ],
+    "topics": [
+      "群ロボティクス",
+      "自己組織化システム",
+      "集団行動",
+      "生物模倣ロボット"
+    ],
+    "affiliation": "Princeton University",
+    "country": "United States",
+    "origin": "India",
+    "venues": [
+      "ICRA",
+      "Science",
+      "RSS",
+      "Nature"
+    ],
+    "key_contributions": "群ロボティクスと自己組織化システムを先導。Kilobot群やTermes建設ロボットで集団的自己組織化を実証。",
+    "awards": [
+      "Nature's 10",
+      "McDonnell Foundation Award",
+      "AAAI Fellow"
+    ],
+    "metrics": {
+      "citations": "約30,000",
+      "source": "Google Scholar概算"
+    },
+    "inclusion_reason": "群ロボティクス・自己組織化の世界的権威。robotics/agents分野を補強し女性・インド出身として多様性に寄与。",
+    "homepage": "https://www.radhikanagpal.org/",
+    "scholar": "",
+    "dblp": "https://dblp.org/pid/86/3221.html",
+    "sources": [
+      "https://wyss.harvard.edu/news/radhika-nagpal-expert-on-swarm-robotics-celebrated-among-natures-10/"
+    ]
   }
 ]
