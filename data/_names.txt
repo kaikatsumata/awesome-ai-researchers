@@ -1,28 +1,47 @@
 Aapo Hyvärinen
 Aaron Quigley
 Adnan Darwiche
+Adrien Bousseau
+Ahmed Elgammal
+Aidan Hogan
+Aja Huang
 Alan Bundy
 Aleksander Mądry
 Alexander A. Razborov
 Alexander Rakhlin
 Alexei A. Efros
+Alham Fikri Aji
 Ali Farhadi
+Alice Oh
 Alon Halevy
 Anastasia Ailamaki
 Anders Søgaard
+Anderson Rocha
+Andrea Vedaldi
 Andreas Geiger
 Andreas Krause
 Andrew Chi-Chih Yao
 Andrew Davison
+Andrew G. Barto
+Andrew Yates
 Andrew Zisserman
+Andries P. Engelbrecht
+Angela Dai
 Aniket (Niki) Kittur
 Aniket Kittur
 Ankur Moitra
 Anna R. Karlin
+Anton van den Hengel
 Antonio Torralba
 Aravind Joshi
+Ariel D. Procaccia
 Armin Biere
+Asunción Gómez-Pérez
 Avi Wigderson
+Aviral Kumar
+Axel Polleres
+Ayu Purwarianti
+Bamshad Mobasher
 Baoquan Chen
 Barbara Grosz
 Barbara Plank
@@ -30,37 +49,61 @@ Bart Selman
 Ben Mildenhall
 Ben Shneiderman
 Beng Chin Ooi
+Benjamin Recht
+Benjamin Rosman
+Bernard Ghanem
 Bernhard Kerbl
+Bernhard Pfahringer
 Bernhard Schölkopf
+Bernt Schiele
 Bhaskar Mitra
 Bhiksha Raj
 Bing Liu
+Björn Hartmann
 Björn Ommer
 Bo An
 Bo Han
+Bohyung Han
 Bolei Zhou
 Bonnie Webber
 Bracha Shapira
+Bui Hai Hung (Hung Bui)
 Byoung-Tak Zhang
+Bálint Gyires-Tóth
 C. Mohan
+C. V. Jawahar
 Carla Gomes
+Carles Sierra
 Carlo Zaniolo
 Carlos A. Coello Coello
+Carlos M. Fonseca
+Catholijn M. Jonker
 Ce Liu
+Cees Snoek
+Cewu Lu
+Changsheng Xu
 Charles L. A. Clarke
+Charles R. Qi
 Charu C. Aggarwal
 Chelsea Finn
 ChengXiang Zhai
 Chin-Hui Lee
 Cho-Jui Hsieh
+Chongjie Zhang
 Chris Dyer
+Chris Lintott
+Chris Wojtan
 Christopher Bishop
 Christopher D. Manning
 Christos Faloutsos
 Christos H. Papadimitriou
+Claudia d'Amato
 Colin Raffel
 Constantinos Daskalakis
 Cordelia Schmid
+Craig Boutilier
+Craig Macdonald
+Cristian Sminchisescu
 Csaba Szepesvári
 Cynthia Dwork
 Dacheng Tao
@@ -68,12 +111,20 @@ Dahua Lin
 Dan Jurafsky
 Dan Roth
 Dan Suciu
+Danai Koutra
 Daniel A. Spielman
+Daniel Cremers
 Daniel Povey
+Daniel Rueckert
 Daniel S. Weld
+Danijar Hafner
 Danqi Chen
 Daphne Koller
+Darrell Whitley
+David Abel
 David DeWitt
+David Ha
+David Ifeoluwa Adelani
 David M. Blei
 David Silver
 David Zuckerman
@@ -81,44 +132,71 @@ DeLiang Wang
 Deborah McGuinness
 Demetri Terzopoulos
 Desney Tan
+Diego Calvanese
 Dietmar Jannach
+Dimitris N. Metaxas
 Divesh Srivastava
+Dmitry Vetrov
 Doina Precup
 Dong Yu
+Doug L. James
 Duncan J. Watts
 Eamonn Keogh
+Eckart Zitzler
 Ed Huai-Hsin Chi
+Edith Elkind
 Edith Law
 Edmund H. Durfee
 Eduard Hovy
 Edward Feigenbaum
+Eibe Frank
+Eitan Grinspun
+Ekapol Chuangsuwanich
 Elad Hazan
 Elena L. Glassman
 Elena Simperl
 Emily M. Bender
 Emine Yilmaz
+Emma Brunskill
 Enhong Chen
 Enrico Motta
 Eric Horvitz
 Eshan Chattopadhyay
 Eugene Freuder
 Fei-Fei Li
+Fernando J. Von Zuben
 Filippo Menczer
 Francesca Rossi
 Francesco Ricci
 Francis Bach
+Frank Dignum
 Frank van Harmelen
 Franz Baader
+Furu Wei
+Gao Huang
 Geoffrey Hinton
+Georg Gottlob
 George Drettakis
 George Karypis
+George Tucker
+Gerard Pons-Moll
 Gerhard Weikum
+Gholamreza Haffari
+Gita Sukthankar
 Goetz Graefe
+Gordon Wetzstein
 Graham Neubig
+Gunhee Kim
+Hado van Hasselt
 Haizhou Li
+Hamed Zamani
 Hang Li
+Hang Su
+Hanghang Tong
 Hanna Hajishirzi
+Hans-Georg Beyer
 Hans-Peter Kriegel
+Hanwang Zhang
 Hao Li
 Hao-Chuan Wang
 Harry Heung-Yeung Shum
@@ -130,16 +208,21 @@ Heikki Mannila
 Heng Ji
 Hermann Ney
 Hervé Bourlard
+Hideki Nakayama
 Hiroaki Kitano
+Hiroshi Ishiguro
 Hiroshi Saruwatari
 Hisao Ishibuchi
+Hongsheng Li
 Hsin-Min Wang
 Huajun Chen
 Huan Liu
+Hugo Jair Escalante
 Hugues Hoppe
 Hui Xiong
 Hung-yi Lee
 Hwee Tou Ng
+Iadh Ounis
 Ian Goodfellow
 Ian Horrocks
 Ido Dagan
@@ -148,26 +231,39 @@ Ilya Sutskever
 In So Kweon
 Irit Dinur
 Iryna Gurevych
+Jaap Kamps
+Jacek Tabor
 Jacob Devlin
+Jaegul Choo
 Jaime Teevan
+Jakob Foerster
 James A. Landay
+James T. Kwok
 Jamie Callan
+Jan Peters
 Janet Pierrehumbert
 Jason Eisner
 Jason Weston
 Jeff Z. Pan
 Jeffrey D. Ullman
 Jeffrey P. Bigham
+Jeffrey S. Rosenschein
 Jelani Nelson
 Jennifer Widom
 Jennifer Wortman Vaughan
+Jens Lehmann
+Jiajun Zhang
 Jian Pei
 Jian Sun
 Jian Tang
 Jiawei Han
 Jie Tang
+Jiliang Tang
 Jim Gray
 Jimmy Lin
+Jingbo Shang
+Jingdong Wang
+Jinwoo Shin
 Jiri Matas
 Jitendra Malik
 Joakim Nivre
@@ -177,16 +273,25 @@ Johannes Gehrke
 John Duchi
 John Hopfield
 John R. Koza
+John Schulman
 John T. Riedl
 Jon Kleinberg
 Jonathan Ho
 Jonathan T. Barron
+Jong-Hwan Kim
 Joseph A. Konstan
 Joseph M. Hellerstein
 Juan Pablo Bello
 Juanzi Li
 Judea Pearl
+Juho Kim
+Julian McAuley
+Julian Schrittwieser
+Jun Rekimoto
+Jun Wang
+Jun Zhu
 Jun-Yan Zhu
+Junhyuk Oh
 Junichi Tsujii
 Jure Leskovec
 Jérôme Euzenat
@@ -194,7 +299,10 @@ Jürgen Schmidhuber
 Kai Yu
 Kaiming He
 Kalyanmoy Deb
+Karen Liu
+Karol Hausman
 Kathleen McKeown
+Katja Hofmann
 Katsumi Inoue
 Katsushi Ikeuchi
 Kazuo Iwama
@@ -202,12 +310,15 @@ Kee-Eung Kim
 Keiichi Tokuda
 Ken Perlin
 Kenneth A. De Jong
+Kenneth O. Stanley
 Kentaro Inui
 Kevin Knight
+Kevin Leyton-Brown
 Kira Radinsky
 Koji Yatani
 Krishna P. Gummadi
 Krzysztof Z. Gajos
+Kun Zhang
 Kun-Pyo Lee
 Kunihiko Fukushima
 Kyoung Mu Lee
@@ -215,13 +326,21 @@ Kyunghyun Cho
 Kyuseok Shim
 Lada A. Adamic
 Laura Haas
+Laura Leal-Taixé
+Lee Spector
 Lei Xie
+Lei Zhang
+Leman Akoglu
 Leonidas J. Guibas
 Leslie Pack Kaelbling
 Leslie Valiant
+Li Chen
+Limin Wang
 Lior Rokach
 Lise Getoor
 Lora Aroyo
+Lothar Thiele
+Luc Van Gool
 Luca Trevisan
 Luis von Ahn
 Luke Zettlemoyer
@@ -235,21 +354,32 @@ Manindra Agrawal
 Manuel Blum
 Manuela Veloso
 Maosong Sun
+Marc Deisenroth
+Marc G. Bellemare
 Marc Levoy
 Marc Najork
 Marco Dorigo
 Mari Ostendorf
+Maria Gini
+Marinka Zitnik
 Mark Braverman
 Mark Steedman
+Markus Krötzsch
 Markus Zanker
+Martha Larson
 Martha Palmer
 Marti A. Hearst
 Martin Kersten
+Martin Riedmiller
 Martin Wainwright
 Mary Czerwinski
 Masaru Kitsuregawa
 Masashi Sugiyama
+Mathieu Desbrun
 Matthew Lease
+Matthias Nießner
+Maurizio Lenzerini
+Mausam
 Max Welling
 Meinard Müller
 Mengjie Zhang
@@ -257,52 +387,75 @@ Meredith Ringel Morris
 Michael Gelfond
 Michael I. Jordan
 Michael J. Black
+Michael L. Littman
 Michael S. Bernstein
 Michael Stonebraker
 Michael Wooldridge
 Mike Lewis
 Milind Tambe
+Min Zhang
+Min-Ling Zhang
 Ming-Hsuan Yang
+Ming-Ming Cheng
+Minh-Triet Tran
 Minlie Huang
 Mirella Lapata
 Miroslaw Truszczynski
+Mohamed Elgharib
+Mohamed Elhoseiny
 Mohit Bansal
 Monojit Choudhury
 Moshe Tennenholtz
 Moshe Y. Vardi
 Munmun De Choudhury
 Najim Dehak
+Nando de Freitas
+Naoaki Okazaki
 Nathan Srebro
 Nicholas R. Jennings
 Nick Craswell
+Nikolaus Hansen
 Niloy J. Mitra
 Nils Nilsson
 Nisheeth K. Vishnoi
 Noah A. Smith
+Noah Snavely
 Noga Alon
 Noshir Contractor
 Oded Goldreich
 Ola Svensson
+Olga Sorkine-Hornung
 Omer Reingold
+Oriol Vinyals
 Osamu Watanabe
+Oscar Corcho
+Panagiotis G. Ipeirotis
 Paolo Cremonesi
+Partha Pratim Talukdar
 Pascal Hitzler
 Pat Hanrahan
+Pearl Pu
 Pedro Domingos
+Peng Cui
 Percy Liang
 Peter Bartlett
 Peter Boncz
+Peter Stone
 Peter W. Shor
 Philip A. Bernstein
 Philip S. Yu
 Philipp Koehn
 Phillip Isola
+Phuong Le-Hong
 Pieter Abbeel
 Pietro Perona
 Pinyan Lu
+Piotr Dollár
+Polina Golland
 Pradeep Ravikumar
 Preslav Nakov
 Pushpak Bhattacharyya
+Pınar Yanardağ
 Q. Vera Liao
 Qiang Yang
 Quanquan Gu
@@ -313,6 +466,7 @@ Rama Chellappa
 Ran Raz
 Ravi Ramamoorthi
 Raymond Reiter
+Razvan Pascanu
 Regina Barzilay
 Ricardo Baeza-Yates
 Riccardo Poli
@@ -320,53 +474,84 @@ Richard M. Karp
 Richard Newcombe
 Richard S. Sutton
 Rina Dechter
+Risto Miikkulainen
 Robert E. Tarjan
 Robert Kowalski
 Robert Schapire
+Roberto M. Cesar Jr.
 Robin Burke
 Robin Rombach
+Rodrigo Nogueira
 Ronald Fagin
 Ross Girshick
+Rui Yan
 Ryan Williams
+Rémi Munos
 Sadao Kurohashi
 Sadaoki Furui
 Saleema Amershi
 Sameer Singh
 Samuel Madden
+Sandip Sen
+Sandra Avila
 Sanja Fidler
 Sanjeev Arora
 Sanjeev Khudanpur
 Sanjoy Dasgupta
+Sarana Nutanong
+Sarit Kraus
+Satinder Singh
+Satoshi Nakamura
 Scott Aaronson
 Scott R. Klemmer
 Sebastian Riedel
 Sebastian Ruder
+Sebastian Rudolph
 Serge Abiteboul
 Sergey Levine
 Shafi Goldwasser
 Shai Ben-David
 Shai Shalev-Shwartz
 Sham Kakade
+Shie Mannor
+Shiguang Shan
+Shimon Whiteson
 Shinji Watanabe
+Shixiang Shane Gu
+Shlomo Berkovsky
+Shohreh Kasaei
+Shou-De Lin
 Shun-ichi Amari
 Silvio Micali
 Sinan Aral
+Sinno Jialin Pan
 Song Han
+Soumen Chakrabarti
+Stan Z. Li
+Stefan Decker
+Stefan Schaal
 Stefanie Jegelka
+Stefanos Zafeiriou
+Steffen Rendle
 Steffen Staab
+Stelian Coros
+Stephan Günnemann
 Stephen E. Robertson
+Stephen Gould
 Stephen Grossberg
 Stuart Russell
 Subbarao Kambhampati
 Subhash Khot
 Sung Hyon Myaeng
 Sung Ju Hwang
+Sungroh Yoon
 Surajit Chaudhuri
 Susan Dumais
 Susan T. Dumais
 Suvrit Sra
 Sven Koenig
 Sébastien Bubeck
+Takayuki Kanda
 Takeo Igarashi
 Takeo Kanade
 Takeshi Tokuyama
@@ -378,70 +563,113 @@ Tara N. Sainath
 Tat-Seng Chua
 Tatsunori Hashimoto
 Tatsuya Harada
+Tatsuya Kawahara
 Tengyu Ma
 Tetsuya Sakai
 Teuvo Kohonen
+Thomas Bäck
+Thomas Eiter
 Thomas Funkhouser
+Thomas Lukasiewicz
 Thorsten Joachims
 Tie-Yan Liu
 Tim Roughgarden
+Timothy Baldwin
 Ting Liu
 Tinne Tuytelaars
 Toby Walsh
 Tomas Mikolov
 Tomas Pajdla
+Tomasz Trzciński
 Tomoki Toda
 Tong Zhang
+Tor Lattimore
 Torsten Schaub
 Toshihiko Yamasaki
 Tova Milo
 Tovi Grossman
+Trevor Cohn
 Trevor Darrell
+Tsung-Yi Lin
 Tuomas Sandholm
 Tushar Khot
 Umesh Vazirani
 Una-May O'Reilly
+Valentina Presutti
 Venkatesan Guruswami
 Victor Lesser
 Vincent Conitzer
+Vincent Sitzmann
+Vineeth N. Balasubramanian
 Vipin Kumar
 Virginia Vassilevska Williams
 Vladimir Lifschitz
 Vladimir Vapnik
 Vladlen Koltun
+Volker Tresp
+Volodymyr Mnih
+Vukosi Marivate
 W. Bruce Croft
 Walter S. Lasecki
+Wangmeng Zuo
+Wanli Ouyang
+Wei Wang
 Wei-Ying Ma
+Weinan Zhang
 Wendy E. Mackay
 Wenfei Fan
+Wenping Wang
 Wenzel Jakob
 William T. Freeman
+Willie Brink
+Winston H. Hsu
 Wojciech Matusik
+Wojciech Zaremba
 Wolfgang Banzhaf
+Xavier Bresson
 Xiangnan He
 Xiaogang Wang
 Xiaojuan Ma
+Xiaoming Liu
 Xiaoou Tang
 Xiaotie Deng
 Xifeng Yan
+Xilin Chen
 Xin Yao
 Xindong Wu
+Xipeng Qiu
 Xuanjing Huang
+Xueqi Cheng
+Yan Duan
+Yan Liu
+Yang Liu
 Yann LeCun
 Yaser Sheikh
 Yee Whye Teh
+Yehuda Koren
 Yejin Choi
 Yew-Soon Ong
 Yi Mei
+Yi Yang
 Yiqun Liu
 Yizhou Sun
 Yoav Freund
 Yoav Shoham
 Yoichi Sato
 Yong-Yeol Ahn
+Yongfeng Zhang
 Yoshua Bengio
+Yu Qiao
+Yue Zhang
+Yuji Matsumoto
+Yuki Arase
+Yukie Nagai
+Yun-Nung Chen
 Yusuke Miyao
+Yusuke Sugano
+Yuxiao Dong
 Zhi-Hua Zhou
 Zhiyuan Liu
 Zoubin Ghahramani
+Álvaro Soto
 Éva Tardos

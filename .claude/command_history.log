@@ -246,3 +246,11 @@ print('field:',dict(Counter(r['primary_field'] for r in rs)))
 Working Directory: /Users/s25705/awesome-ai-researchers
 Exit Code: 0
 ---
+[2026-06-05 17:11:04] python3 -c "import json; d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave3/systems.json')); rs=d['researchers']; from collections import Counter; c=Counter(r['primary_field'] for r in rs); print('total:', len(rs)); print(dict(c)); names=set(r['name'] for r in rs); print('unique names:', len(names))"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 17:11:38] python3 -c "import json; d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave3/ml2.json')); print('valid JSON, count =', len(d['researchers']))"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
