@@ -1,0 +1,45 @@
+name: Build
+
+on:
+  push:
+    paths:
+      - "data/**"
+      - "README*.md"
+      - "docs/research-notes.md"
+  pull_request:
+    paths:
+      - "data/**"
+      - "README*.md"
+      - "docs/research-notes.md"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate docs from researchers.json
+        # 注: data/wave*/ はリポジトリに含めない(gitignore)ため CI では merge.py を実行しない。
+        # 単一の真実源 data/researchers.json から gen.py で再生成し整合性を検証する。
+        run: python3 data/gen.py
+
+      - name: Verify generated files are committed
+        shell: bash
+        run: |
+          shopt -s nullglob
+          files=(README*.md)
+          if [[ -f docs/research-notes.md ]]; then
+            files+=(docs/research-notes.md)
+          fi
+
+          if ! git diff --exit-code -- "${files[@]}"; then
+            echo "::error::Generated files are out of sync. Run python3 data/merge.py && python3 data/gen.py, then commit the result."
+            echo "gen.pyを再実行してコミットしてください。"
+            exit 1
+          fi
+
+          echo "生成物はdata/researchers.jsonと整合しています。"

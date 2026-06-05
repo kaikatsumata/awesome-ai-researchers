@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""researchers.json を単一の真実源として README.md と docs/research-notes.md を生成する。
+"""researchers.json を単一の真実源として多言語 README と docs/research-notes.md を生成する。
 
 使い方:
     python3 data/gen.py            # data/researchers.json から生成
@@ -9,37 +9,89 @@ import json
 import os
 import re
 from collections import Counter, defaultdict
+from urllib.parse import quote
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "researchers.json")
 README = os.path.join(ROOT, "README.md")
+I18N_DIR = os.path.join(ROOT, "data", "i18n")
 NOTES = os.path.join(ROOT, "docs", "research-notes.md")
 
-# 分野コード → (emoji, 見出し, 表示順)
+# (lang_code, output_file, autonym)
+LANGS = [
+    ("ja", "README.md", "日本語"),
+    ("en", "README.en.md", "English"),
+]
+
+# 分野コード → (emoji, 多言語見出し, 表示順)
 FIELDS = [
-    ("ml",        "🧠", "機械学習 (NeurIPS / ICML / ICLR / UAI / ACML)"),
-    ("theory-ml", "📐", "学習理論 (COLT / ALT / AISTATS)"),
-    ("tcs",       "🧮", "理論計算機科学 (FOCS / STOC / SODA / ICALP / STACS / ESA)"),
-    ("nn",        "🕸️", "ニューラルネットワーク (ICANN / IJCNN / ICONIP)"),
-    ("ai",        "🤖", "人工知能 (IJCAI / AAAI / ECAI / PRICAI / IAAI / KES / ILP)"),
-    ("dm",        "⛏️", "データマイニング (KDD / ICDM / WSDM / CIKM / PAKDD / SDM / ECMLPKDD)"),
-    ("db",        "🗄️", "データベース (SIGMOD / VLDB / ICDE / EDBT / PODS)"),
-    ("cv",        "👁️", "コンピュータビジョン (CVPR / ICCV / ECCV / BMVC / ICPR / ACCV)"),
-    ("cg",        "🎨", "コンピュータグラフィックス (SIGGRAPH / SIGGRAPH Asia)"),
-    ("nlp",       "💬", "自然言語処理 (ACL / EMNLP / NAACL / CoNLL / COLING / EACL)"),
-    ("speech",    "🔊", "音声信号処理 (InterSpeech / ICASSP)"),
-    ("ir",        "🔍", "情報検索 (SIGIR / TREC / ECIR / AIRS)"),
-    ("hci",       "🖥️", "ヒューマンコンピュータインタラクション (CHI / UIST / CSCW / IUI)"),
-    ("web",       "🌐", "World Wide Web (WWW / ICWSM / WI)"),
-    ("ec",        "🧬", "進化計算 (GECCO / CEC)"),
-    ("agents",    "🦾", "マルチエージェント (AAMAS / PRIMA)"),
-    ("kr",        "📚", "知識表現 / セマンティックWeb (ISWC / KR)"),
-    ("rs",        "🛒", "推薦システム / HCOMP (RecSys / HCOMP)"),
-    ("rl",        "🎮", "強化学習 (NeurIPS / ICML / ICLR)"),
-    ("robotics",  "🦿", "ロボティクス / Embodied AI (ICRA / IROS / RSS / CoRL)"),
+    ("ml",        "🧠", {"ja": "機械学習 (NeurIPS / ICML / ICLR / UAI / ACML)", "en": "Machine Learning (NeurIPS / ICML / ICLR / UAI / ACML)"}),
+    ("theory-ml", "📐", {"ja": "学習理論 (COLT / ALT / AISTATS)", "en": "Learning Theory (COLT / ALT / AISTATS)"}),
+    ("tcs",       "🧮", {"ja": "理論計算機科学 (FOCS / STOC / SODA / ICALP / STACS / ESA)", "en": "Theoretical Computer Science (FOCS / STOC / SODA / ICALP / STACS / ESA)"}),
+    ("nn",        "🕸️", {"ja": "ニューラルネットワーク (ICANN / IJCNN / ICONIP)", "en": "Neural Networks (ICANN / IJCNN / ICONIP)"}),
+    ("ai",        "🤖", {"ja": "人工知能 (IJCAI / AAAI / ECAI / PRICAI / IAAI / KES / ILP)", "en": "Artificial Intelligence (IJCAI / AAAI / ECAI / PRICAI / IAAI / KES / ILP)"}),
+    ("dm",        "⛏️", {"ja": "データマイニング (KDD / ICDM / WSDM / CIKM / PAKDD / SDM / ECMLPKDD)", "en": "Data Mining (KDD / ICDM / WSDM / CIKM / PAKDD / SDM / ECMLPKDD)"}),
+    ("db",        "🗄️", {"ja": "データベース (SIGMOD / VLDB / ICDE / EDBT / PODS)", "en": "Databases (SIGMOD / VLDB / ICDE / EDBT / PODS)"}),
+    ("cv",        "👁️", {"ja": "コンピュータビジョン (CVPR / ICCV / ECCV / BMVC / ICPR / ACCV)", "en": "Computer Vision (CVPR / ICCV / ECCV / BMVC / ICPR / ACCV)"}),
+    ("cg",        "🎨", {"ja": "コンピュータグラフィックス (SIGGRAPH / SIGGRAPH Asia)", "en": "Computer Graphics (SIGGRAPH / SIGGRAPH Asia)"}),
+    ("nlp",       "💬", {"ja": "自然言語処理 (ACL / EMNLP / NAACL / CoNLL / COLING / EACL)", "en": "Natural Language Processing (ACL / EMNLP / NAACL / CoNLL / COLING / EACL)"}),
+    ("speech",    "🔊", {"ja": "音声信号処理 (InterSpeech / ICASSP)", "en": "Speech Signal Processing (InterSpeech / ICASSP)"}),
+    ("ir",        "🔍", {"ja": "情報検索 (SIGIR / TREC / ECIR / AIRS)", "en": "Information Retrieval (SIGIR / TREC / ECIR / AIRS)"}),
+    ("hci",       "🖥️", {"ja": "ヒューマンコンピュータインタラクション (CHI / UIST / CSCW / IUI)", "en": "Human-Computer Interaction (CHI / UIST / CSCW / IUI)"}),
+    ("web",       "🌐", {"ja": "World Wide Web (WWW / ICWSM / WI)", "en": "World Wide Web (WWW / ICWSM / WI)"}),
+    ("ec",        "🧬", {"ja": "進化計算 (GECCO / CEC)", "en": "Evolutionary Computation (GECCO / CEC)"}),
+    ("agents",    "🦾", {"ja": "マルチエージェント (AAMAS / PRIMA)", "en": "Multi-Agent Systems (AAMAS / PRIMA)"}),
+    ("kr",        "📚", {"ja": "知識表現 / セマンティックWeb (ISWC / KR)", "en": "Knowledge Representation / Semantic Web (ISWC / KR)"}),
+    ("rs",        "🛒", {"ja": "推薦システム / HCOMP (RecSys / HCOMP)", "en": "Recommender Systems / HCOMP (RecSys / HCOMP)"}),
+    ("rl",        "🎮", {"ja": "強化学習 (NeurIPS / ICML / ICLR)", "en": "Reinforcement Learning (NeurIPS / ICML / ICLR)"}),
+    ("robotics",  "🦿", {"ja": "ロボティクス / Embodied AI (ICRA / IROS / RSS / CoRL)", "en": "Robotics / Embodied AI (ICRA / IROS / RSS / CoRL)"}),
 ]
 FIELD_ORDER = {code: i for i, (code, _, _) in enumerate(FIELDS)}
-FIELD_TITLE = {code: f"{emoji} {title}" for code, emoji, title in FIELDS}
+FIELD_I18N = {code: {lang: f"{emoji} {titles[lang]}" for lang in titles} for code, emoji, titles in FIELDS}
+FIELD_TITLE = {code: FIELD_I18N[code]["ja"] for code, _, _ in FIELDS}
+
+STR = {
+    "ja": {
+        "lang_label": "言語",
+        "tagline": "AI関連の各分野で**継続的に影響力ある仕事をしている研究者**を、研究サーベイの出発点として横断的にキュレーションしたリストです。所属・所在国・出身を幅広く調査し、アカデミアと産業界の双方、古典的巨匠から現役トップまでを対象としています。",
+        "counts": "**収録数: {count} 名** / {fields} 分野（最終更新: {as_of}）",
+        "legend_h": "凡例 / 収録基準",
+        "criteria_intro": "以下のいずれかを満たす研究者を収録（分野ごとに基準は調整、例外を許容）:",
+        "criteria": [
+            "トップカンファレンス/ジャーナルで**継続的に**影響力ある論文を出版",
+            "毎年複数本を主要会議に通している（prolific）/ 被引用数が非常に多い",
+            "分野の**基礎を成す重要な仕事**（古典・ブレイクスルー）をした",
+            "主要受賞（Turing / Gödel / Nevanlinna / Test-of-Time / 各学会 Fellow 等）",
+        ],
+        "legend_entry": "各エントリは `氏名 — 所属（所在国・出身） — 研究テーマ；代表的貢献 🏆受賞 📊指標` の形式。被引用数・h-indexは概算です。",
+        "notes": "> 詳細なメタデータ・全調査結果・分野別/地域別の統計は [docs/research-notes.md](docs/research-notes.md)、収集手法は [docs/best-practice.md](docs/best-practice.md) を参照。",
+        "toc_h": "目次",
+        "contrib_h": "貢献 / Contributing",
+        "contrib": "掲載基準を満たす研究者の追加・修正は歓迎します。`data/researchers.json` を編集し `python3 data/gen.py` を実行してください（README/notesは自動生成です。直接編集しないこと）。",
+        "license_h": "License",
+        "license": "[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](LICENSE) — CC0 1.0（パブリックドメイン）。",
+    },
+    "en": {
+        "lang_label": "Languages",
+        "tagline": "A cross-field curated list of **researchers whose work has had sustained impact across AI-related areas**, intended as a starting point for research surveys. It covers affiliations, current countries and origins broadly, spanning both academia and industry, from classic pioneers to active top researchers.",
+        "counts": "**Researchers: {count}** / {fields} fields (last updated: {as_of})",
+        "legend_h": "Legend / Inclusion Criteria",
+        "criteria_intro": "Researchers are included when they satisfy one or more of the following criteria (with field-specific adjustments and exceptions):",
+        "criteria": [
+            "They publish **sustained, influential work** in top conferences or journals.",
+            "They are prolific in major venues and/or have very high citation impact.",
+            "They made **foundational contributions** to the field, including classics or breakthroughs.",
+            "They received major awards such as Turing / Gödel / Nevanlinna / Test-of-Time awards or society fellowships.",
+        ],
+        "legend_entry": "Entries use the format `Name — affiliation (country; origin) — research topics; representative contributions 🏆 awards 📊 metrics`. Citation counts and h-index values are approximate.",
+        "notes": "> Detailed metadata, full research results and field/region statistics are in [docs/research-notes.md](docs/research-notes.md); the collection methodology is in [docs/best-practice.md](docs/best-practice.md) (Japanese).",
+        "toc_h": "Contents",
+        "contrib_h": "Contributing",
+        "contrib": "Additions and corrections are welcome for researchers who meet the inclusion criteria. Edit `data/researchers.json` and run `python3 data/gen.py` (README files and notes are generated; do not edit them directly).",
+        "license_h": "License",
+        "license": "[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](LICENSE) — CC0 1.0 (public domain).",
+    },
+}
 
 INDUSTRY_KEYS = [
     "Google", "DeepMind", "Meta", "FAIR", "Microsoft", "OpenAI", "Anthropic",
@@ -51,11 +103,14 @@ INDUSTRY_KEYS = [
 
 
 def s(v):
-    """list/None/str を表示用文字列に正規化。"""
+    """list/dict/None/str を表示用文字列に正規化。"""
     if v is None:
         return ""
     if isinstance(v, list):
-        return ", ".join(str(x) for x in v if x)
+        return ", ".join(s(x) for x in v if x)
+    if isinstance(v, dict):
+        # 例: {'citations': '約900,000(概算)', 'h_index': '180+'} → "約900,000(概算) / 180+"
+        return " / ".join(s(x) for x in v.values() if x)
     return str(v)
 
 
@@ -65,6 +120,20 @@ def slugify(title):
     t = title.lower()
     out = [ch for ch in t if ch.isalnum() or ch in (" ", "-")]
     return "".join(out).replace(" ", "-")
+
+
+def lang_badges(current):
+    out = []
+    for code, fname, autonym in LANGS:
+        color = "blue" if code == current else "lightgrey"
+        out.append(
+            f"[![{autonym}](https://img.shields.io/badge/lang-{quote(autonym)}-{color})]({fname})"
+        )
+    return " ".join(out)
+
+
+def field_title(code, lang):
+    return FIELD_I18N.get(code, {}).get(lang) or FIELD_I18N.get(code, {}).get("ja") or code
 
 
 COUNTRY_NORM = {
@@ -90,7 +159,14 @@ def is_industry(aff):
     return any(k.lower() in (aff or "").lower() for k in INDUSTRY_KEYS)
 
 
-def fmt_entry(r):
+def translated_value(r, key, lang, translations):
+    if lang == "ja":
+        return s(r.get(key)).strip()
+    return s(translations.get(r.get("name", ""), {}).get(key) or r.get(key)).strip()
+
+
+def fmt_entry(r, lang="ja", translations=None):
+    translations = translations or {}
     name = s(r.get("name", "?")).strip()
     hp = s(r.get("homepage")) or s(r.get("scholar")) or s(r.get("dblp")) or ""
     name_md = f"[{name}]({hp})" if hp else name
@@ -99,16 +175,22 @@ def fmt_entry(r):
     origin = s(r.get("origin")).strip()
     loc = country
     if origin and origin != country:
-        loc = f"{country}{'・' if country else ''}出身:{origin}".strip("・")
-    topics = s(r.get("topics")).strip()
-    contrib = s(r.get("key_contributions")).strip()
+        if lang == "ja":
+            loc = f"{country}{'・' if country else ''}出身:{origin}".strip("・")
+        else:
+            loc = f"{country}{'; ' if country else ''}origin: {origin}".strip("; ")
+    topics = translated_value(r, "topics", lang, translations)
+    contrib = translated_value(r, "key_contributions", lang, translations)
     awards = s(r.get("awards")).strip()
-    metrics = s(r.get("metrics")).strip()
+    metrics = translated_value(r, "metrics", lang, translations)
 
     parts = [f"**{name_md}**"]
     head = aff
     if loc:
-        head = f"{aff}（{loc}）" if aff else f"（{loc}）"
+        if lang == "ja":
+            head = f"{aff}（{loc}）" if aff else f"（{loc}）"
+        else:
+            head = f"{aff} ({loc})" if aff else f"({loc})"
     if head:
         parts.append(head)
     tail = []
@@ -116,7 +198,7 @@ def fmt_entry(r):
         tail.append(topics)
     if contrib:
         tail.append(contrib)
-    seg = "；".join(tail)
+    seg = ("；" if lang == "ja" else "; ").join(tail)
     line = " — ".join(parts)
     if seg:
         line += f" — {seg}"
@@ -143,7 +225,32 @@ def load():
     return data
 
 
-def gen_readme(rows, as_of):
+def load_i18n(lang):
+    if lang == "ja":
+        return {}
+    path = os.path.join(I18N_DIR, f"{lang}.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+
+
+def write_if_changed(path, content):
+    old = None
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            old = f.read()
+    if old == content:
+        return False
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(content)
+    return True
+
+
+def gen_readme(rows, as_of, lang="ja", translations=None):
+    translations = translations or {}
+    labels = STR[lang]
     by_field = defaultdict(list)
     for r in rows:
         by_field[r.get("primary_field", "ml")].append(r)
@@ -152,43 +259,43 @@ def gen_readme(rows, as_of):
     out = []
     out.append("# Awesome AI Researchers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](LICENSE)")
     out.append("")
-    out.append("> AI関連の各分野で**継続的に影響力ある仕事をしている研究者**を、研究サーベイの出発点として横断的にキュレーションしたリストです。所属・所在国・出身を幅広く調査し、アカデミアと産業界の双方、古典的巨匠から現役トップまでを対象としています。")
+    out.append(f"**{labels['lang_label']}:** {lang_badges(lang)}")
     out.append("")
-    out.append(f"**収録数: {len(rows)} 名** / {len(present)} 分野（最終更新: {as_of}）")
+    out.append(f"> {labels['tagline']}")
     out.append("")
-    out.append("## 凡例 / 収録基準")
+    out.append(labels["counts"].format(count=len(rows), fields=len(present), as_of=as_of))
     out.append("")
-    out.append("以下のいずれかを満たす研究者を収録（分野ごとに基準は調整、例外を許容）:")
+    out.append(f"## {labels['legend_h']}")
     out.append("")
-    out.append("- トップカンファレンス/ジャーナルで**継続的に**影響力ある論文を出版")
-    out.append("- 毎年複数本を主要会議に通している（prolific）/ 被引用数が非常に多い")
-    out.append("- 分野の**基礎を成す重要な仕事**（古典・ブレイクスルー）をした")
-    out.append("- 主要受賞（Turing / Gödel / Nevanlinna / Test-of-Time / 各学会 Fellow 等）")
+    out.append(labels["criteria_intro"])
     out.append("")
-    out.append("各エントリは `氏名 — 所属（所在国・出身） — 研究テーマ；代表的貢献 🏆受賞 📊指標` の形式。被引用数・h-indexは概算です。")
+    for item in labels["criteria"]:
+        out.append(f"- {item}")
     out.append("")
-    out.append("> 詳細なメタデータ・全調査結果・分野別/地域別の統計は [docs/research-notes.md](docs/research-notes.md)、収集手法は [docs/best-practice.md](docs/best-practice.md) を参照。")
+    out.append(labels["legend_entry"])
     out.append("")
-    out.append("## 目次")
+    out.append(labels["notes"])
+    out.append("")
+    out.append(f"## {labels['toc_h']}")
     out.append("")
     for c in present:
-        title = FIELD_TITLE[c]
+        title = field_title(c, lang)
         out.append(f"- [{title}](#{slugify(title)}) ({len(by_field[c])})")
     out.append("")
     for c in present:
-        title = FIELD_TITLE[c]
+        title = field_title(c, lang)
         out.append(f"## {title}")
         out.append("")
         for r in sorted(by_field[c], key=sort_key):
-            out.append(fmt_entry(r))
+            out.append(fmt_entry(r, lang, translations))
         out.append("")
-    out.append("## 貢献 / Contributing")
+    out.append(f"## {labels['contrib_h']}")
     out.append("")
-    out.append("掲載基準を満たす研究者の追加・修正は歓迎します。`data/researchers.json` を編集し `python3 data/gen.py` を実行してください（README/notesは自動生成です。直接編集しないこと）。")
+    out.append(labels["contrib"])
     out.append("")
-    out.append("## License")
+    out.append(f"## {labels['license_h']}")
     out.append("")
-    out.append("[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](LICENSE) — CC0 1.0（パブリックドメイン）。")
+    out.append(labels["license"])
     out.append("")
     return "\n".join(out)
 
@@ -283,11 +390,14 @@ def main():
             seen[key] = r
     rows = list(seen.values())
     as_of = os.environ.get("AS_OF", "2026-06-05")
-    with open(README, "w", encoding="utf-8") as f:
-        f.write(gen_readme(rows, as_of))
-    with open(NOTES, "w", encoding="utf-8") as f:
-        f.write(gen_notes(rows, as_of))
-    print(f"生成完了: {len(rows)} 名 → README.md, docs/research-notes.md")
+    outputs = []
+    for lang, fname, _ in LANGS:
+        out_path = os.path.join(ROOT, fname)
+        translations = load_i18n(lang)
+        write_if_changed(out_path, gen_readme(rows, as_of, lang, translations))
+        outputs.append(fname)
+    write_if_changed(NOTES, gen_notes(rows, as_of))
+    print(f"生成完了: {len(rows)} 名 → {', '.join(outputs)}, docs/research-notes.md")
 
 
 if __name__ == "__main__":
