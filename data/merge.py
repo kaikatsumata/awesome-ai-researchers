@@ -11,6 +11,21 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "researchers.json")
 
 
+FIELD_ALIAS = {
+    "ro": "robotics", "robo": "robotics", "robotics": "robotics",
+    "sp": "speech", "speech": "speech",
+    "theory": "theory-ml", "theoryml": "theory-ml", "theory-ml": "theory-ml",
+}
+
+
+def norm_field(f):
+    f = (f or "").strip()
+    low = f.lower()
+    if low in FIELD_ALIAS:
+        return FIELD_ALIAS[low]
+    return low  # 既定で小文字化（CV→cv 等）
+
+
 def norm_name(s):
     s = unicodedata.normalize("NFKD", s or "")
     s = "".join(c for c in s if not unicodedata.combining(c))
@@ -32,6 +47,9 @@ def main():
         if not isinstance(d, list):
             print(f"!! 形式不正 {fp}", file=sys.stderr)
             continue
+        for r in d:
+            if isinstance(r, dict) and r.get("primary_field"):
+                r["primary_field"] = norm_field(r["primary_field"])
         rows.extend(d)
         print(f"  + {os.path.relpath(fp, ROOT)}: {len(d)}")
 

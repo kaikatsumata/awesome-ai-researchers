@@ -194,3 +194,55 @@ print('asia/MEAA:',len(asia))
 Working Directory: /Users/s25705/awesome-ai-researchers
 Exit Code: 0
 ---
+[2026-06-05 16:52:44] python3 -c "
+import json
+data=json.load(open('data/wave2/rl-nn.json'))
+names=[r['name'] for r in data['researchers']]
+existing=set(l.strip() for l in open('data/_names.txt'))
+print('count:',len(names))
+dups=[n for n in names if n in existing]
+print('collisions with _names.txt:',dups)
+print('unique in file:',len(set(names))==len(names))
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:54:30] python3 -c "import json; d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave2/cv-dm-ir-cg.json')); rs=d['researchers']; from collections import Counter; print('total', len(rs)); print(Counter(r['primary_field'] for r in rs))"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:57:21] python3 -c "import json; d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave2/eastasia.json')); rs=d['researchers']; print('count:', len(rs)); from collections import Counter; print('country:', dict(Counter(r['country'] for r in rs))); print('field:', dict(Counter(r['primary_field'] for r in rs)))"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:57:33] python3 -c "
+import json
+exist=set()
+for l in open('/Users/s25705/awesome-ai-researchers/data/_names.txt'):
+    l=l.rstrip('\n')
+    if not l.strip(): continue
+    parts=l.split('\t')
+    exist.add(parts[-1].strip())
+d=json.load(open('/Users/s25705/awesome-ai-researchers/data/wave2/eastasia.json'))
+dups=[r['name'] for r in d['researchers'] if r['name'] in exist]
+print('dups:', dups)
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
+[2026-06-05 16:57:45] python3 -c "
+import json
+p='/Users/s25705/awesome-ai-researchers/data/wave2/eastasia.json'
+d=json.load(open(p))
+remove={'Lei Xie','Tong Xiao','Deyi Xiong','Mamoru Komachi','Yoichi Ochiai','Chang D. Yoo','Junmo Kim','Seon Joo Kim','Zhaochun Ren','Ivor W. Tsang','Hyun Oh Song','Jun Xu','Fuzhen Zhuang','Honglak Lee','Yutaka Matsuo','Tat-Jen Cham'}
+d['researchers']=[r for r in d['researchers'] if r['name'] not in remove]
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=2)
+rs=d['researchers']
+from collections import Counter
+print('count:',len(rs))
+print('country:',dict(Counter(r['country'] for r in rs)))
+print('field:',dict(Counter(r['primary_field'] for r in rs)))
+"
+Working Directory: /Users/s25705/awesome-ai-researchers
+Exit Code: 0
+---
