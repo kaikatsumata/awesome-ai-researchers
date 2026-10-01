@@ -1,11 +1,11 @@
 # Link Check Report
 
-- チェック日(UTC): 2026-09-01T03:55:57+00:00
+- チェック日(UTC): 2026-10-01T04:30:41+00:00
 - 研究者数: 1029
 - 総URL数: 2704
-- 自動チェック成功数: 842
-- 壊れている可能性が高いリンク数 (HTTP 404/410・DNS解決失敗): 64
-- 要手動確認/スキップ数 (403/429/5xx・タイムアウト・SSL・接続リセット・Google Scholar等): 1798
+- 自動チェック成功数: 850
+- 壊れている可能性が高いリンク数 (HTTP 404/410・DNS解決失敗): 60
+- 要手動確認/スキップ数 (403/429/5xx・タイムアウト・SSL・接続リセット・Google Scholar等): 1794
 
 > 注: 403/429/タイムアウト/SSL/接続リセットは、サイト側のbot対策・一時的な障害・チェッカー環境(証明書/レート制限)に起因することが多く、リンク切れとは限りません。**恒久的に壊れていると判断できる 404/410 と DNS解決失敗のみ**を「壊れている可能性が高い」に分類しています。
 
@@ -23,6 +23,7 @@
 | Deborah McGuinness | homepage | <https://www.cs.rpi.edu/~mcguinness/> | HTTP 404 |
 | Dmitry Krotov | homepage | <https://mitibmwatsonailab.mit.edu/people/dmitry-krotov/> | HTTP 404 |
 | Edward Feigenbaum | homepage | <https://profiles.stanford.edu/edward-feigenbaum> | HTTP 404 |
+| Emilia Gómez | homepage | <https://www.upf.edu/web/emilia-gomez> | HTTP 404 |
 | Emre Neftci | homepage | <https://www.neftci.net/> | DNS解決失敗: [Errno -2] Name or service not known |
 | Fernando C. N. Pereira | homepage | <https://research.google/people/fernandopereira/> | HTTP 404 |
 | Francesco Ricci | homepage | <https://www.inf.unibz.it/~fricci/> | HTTP 404 |
@@ -32,7 +33,6 @@
 | Huajun Chen | homepage | <https://person.zju.edu.cn/en/huajunchen> | HTTP 404 |
 | Ilias Diakonikolas | homepage | <https://homepages.cs.wisc.edu/~ilias/> | DNS解決失敗: [Errno -2] Name or service not known |
 | Jaap Kamps | homepage | <https://kamps.science.uva.nl/> | DNS解決失敗: [Errno -2] Name or service not known |
-| James Allan | dblp | <https://dblp.org/pid/a/JamesAllan.html> | HTTP 404 |
 | Jeff Dean | homepage | <https://research.google/people/jeff/> | HTTP 404 |
 | Jian Pei | homepage | <https://cs.duke.edu/people/jian-pei> | HTTP 404 |
 | Jonathan Ho | homepage | <https://hojonathanho.github.io/> | HTTP 404 |
@@ -47,29 +47,25 @@
 | Marco Tulio Ribeiro | homepage | <https://marcotcr.github.io/> | HTTP 404 |
 | Markus Zanker | homepage | <https://www.unibz.it/en/faculties/engineering/academic-staff/person/41080-markus-zanker> | HTTP 404 |
 | Martha Palmer | homepage | <https://www.colorado.edu/faculty/martha-palmer/> | HTTP 404 |
-| Marzieh Fadaee | homepage | <https://marziehf.github.io/> | HTTP 404 |
 | Max Welling | homepage | <https://staff.fnwi.uva.nl/m.welling/> | HTTP 404 |
 | Michael Gelfond | homepage | <https://www.depts.ttu.edu/cs/faculty/mgelfond/> | HTTP 404 |
 | Min Zhang | homepage | <https://www.thuir.cn/group/~mzhang/> | HTTP 404 |
-| Minlie Huang | dblp | <https://dblp.org/pid/14/6133.html> | HTTP 404 |
 | Minlie Huang | homepage | <https://www.tsinghua.edu.cn/info/1781/41937.htm> | HTTP 404 |
 | Monika Henzinger | homepage | <https://pub.ista.ac.at/~mh/> | HTTP 404 |
 | Noshir Contractor | homepage | <https://www.nico.northwestern.edu/people/contractor.html> | HTTP 404 |
 | Oriol Vinyals | homepage | <https://research.google/people/oriolvinyals/> | HTTP 404 |
-| Pinyan Lu | homepage | <http://itcs.sufe.edu.cn/~lupinyan/> | DNS解決失敗: [Errno -3] Temporary failure in name resolution |
+| Pinyan Lu | homepage | <http://itcs.sufe.edu.cn/~lupinyan/> | HTTP 410 |
 | Qingfu Zhang | homepage | <https://www.cs.cityu.edu.hk/~qzhang/> | HTTP 404 |
 | Quoc V. Le | homepage | <https://research.google/people/quocle/> | HTTP 404 |
 | Ran Raz | homepage | <https://www.cs.princeton.edu/~ranr/> | HTTP 404 |
-| Razvan Pascanu | scholar | <https://scholar.google.ca/citations?user=6nKHDKYAAAAJ> | HTTP 404 |
 | Riccardo Poli | homepage | <https://www.essex.ac.uk/people/polir99404/riccardo-poli> | HTTP 404 |
 | Robert Schapire | homepage | <https://www.cs.princeton.edu/~schapire/> | HTTP 404 |
 | Shimon Whiteson | homepage | <https://whirl.cs.ox.ac.uk/member/shimon-whiteson/> | HTTP 404 |
 | Shun-ichi Amari | homepage | <https://www.brain.riken.jp/en/faculty/details/49> | DNS解決失敗: [Errno -2] Name or service not known |
 | Sihem Amer-Yahia | homepage | <https://lig-membres.imag.fr/amer-yahia/> | HTTP 404 |
 | Stephan Günnemann | homepage | <https://www.cs.cit.tum.de/daml/team/stephan-guennemann/> | HTTP 404 |
+| Sungroh Yoon | homepage | <https://datamining.snu.ac.kr/> | DNS解決失敗: [Errno -2] Name or service not known |
 | Takeo Kanade | homepage | <https://www.ri.cmu.edu/personal_page/takeo-kanade/> | HTTP 404 |
-| Tao Yu | dblp | <https://dblp.org/pid/30/1822-7.html> | HTTP 404 |
-| Ting Liu | homepage | <http://ir.hit.edu.cn/~liuting/> | DNS解決失敗: [Errno -3] Temporary failure in name resolution |
 | Victor Lesser | homepage | <https://mas.cs.umass.edu/~lesser/> | HTTP 404 |
 | Wei Lu | homepage | <https://istd.sutd.edu.sg/people/faculty/lu-wei> | DNS解決失敗: [Errno -5] No address associated with hostname |
 | Wenping Wang | homepage | <https://engineering.tamu.edu/cse/profiles/wang-wenping.html> | HTTP 404 |
@@ -82,9 +78,9 @@
 
 | 理由 | 件数 |
 |:--|--:|
+| 接続不可/SSL証明書 (一時的・チェッカー環境の可能性) | 794 |
 | Google Scholar (bot対策が強いため自動判定対象外) | 753 |
-| 接続不可/SSL証明書 (一時的・チェッカー環境の可能性) | 579 |
-| その他の接続エラー | 439 |
-| http-error | 26 |
-| タイムアウト (一時的・低速サーバの可能性) | 1 |
+| その他の接続エラー | 207 |
+| http-error | 38 |
+| タイムアウト (一時的・低速サーバの可能性) | 2 |
 
